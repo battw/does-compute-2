@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Arrow.gd" type="Script" id=1]
+
+[node name="Arrow" type="Node2D"]
+position = Vector2( 41.5485, 25.2016 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+color = Color( 0.843137, 0.843137, 0.843137, 1 )
+polygon = PoolVector2Array( -10, 10, -10, -10, 20, 0 )
+
+[node name="ColorTimer" type="Timer" parent="."]
+autostart = true
