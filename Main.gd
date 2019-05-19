@@ -6,6 +6,7 @@ var current_arrow
 func _ready():
 	VisualServer.set_default_clear_color(Color(0, 0, 0))
 
+
 func _input(event: InputEvent):
 	if event is InputEventKey:
 		if event.get_scancode() == KEY_ESCAPE:

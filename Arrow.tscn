@@ -1,13 +1,13 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Arrow.gd" type="Script" id=1]
+[ext_resource path="res://Area2D.gd" type="Script" id=2]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
 
 [node name="Arrow" type="Node2D"]
-position = Vector2( 41.5485, 25.2016 )
+position = Vector2( 36.0995, 29.6289 )
 script = ExtResource( 1 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Polygon2D" type="Polygon2D" parent="."]
 color = Color( 0.843137, 0.843137, 0.843137, 1 )
@@ -15,3 +15,12 @@ polygon = PoolVector2Array( -10, 10, -10, -10, 20, 0 )
 
 [node name="ColorTimer" type="Timer" parent="."]
 autostart = true
+
+[node name="Area2D" type="Area2D" parent="."]
+gravity = 0.0
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+rotation = 1.56514
+scale = Vector2( 0.920001, 1.63863 )
+shape = SubResource( 1 )
