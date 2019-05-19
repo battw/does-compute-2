@@ -14,3 +14,7 @@ func _process(delta):
 	if position == null:
 		return
 	position += direction * speed * delta
+	
+
+
+

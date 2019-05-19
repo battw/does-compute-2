@@ -13,6 +13,7 @@ func hit(area2d):
 	var d = area2d.find_parent("*Dot*")
 	if d != null and d.arrow != self:
 		hit = true
+		d.queue_free()
 
 func tick():
 	if (hit and !inv) or (inv and !hit):
@@ -25,3 +26,4 @@ func emit():
 	d.position = self.position
 	d.arrow = self
 	get_tree().get_root().add_child(d) 
+	

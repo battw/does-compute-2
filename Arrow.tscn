@@ -1,7 +1,6 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Arrow.gd" type="Script" id=1]
-[ext_resource path="res://Area2D.gd" type="Script" id=2]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 
@@ -18,9 +17,10 @@ autostart = true
 
 [node name="Area2D" type="Area2D" parent="."]
 gravity = 0.0
-script = ExtResource( 2 )
+collision_layer = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 rotation = 1.56514
 scale = Vector2( 0.920001, 1.63863 )
 shape = SubResource( 1 )
+[connection signal="area_entered" from="Area2D" to="." method="hit"]
