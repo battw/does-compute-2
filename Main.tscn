@@ -5,7 +5,7 @@
 [ext_resource path="res://PlayArea.gd" type="Script" id=3]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 191.924, 134.617 )
+extents = Vector2( 808.667, 134.617 )
 
 [node name="Main" type="Node"]
 script = ExtResource( 1 )

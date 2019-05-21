@@ -18,9 +18,17 @@ autostart = true
 [node name="Area2D" type="Area2D" parent="."]
 gravity = 0.0
 collision_layer = 2
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true
+}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-rotation = 1.56514
-scale = Vector2( 0.920001, 1.63863 )
+rotation = 1.5708
+scale = Vector2( 1.155, 2 )
 shape = SubResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
 [connection signal="area_entered" from="Area2D" to="." method="hit"]
+[connection signal="input_event" from="Area2D" to="." method="_on_Area2D_input_event"]
