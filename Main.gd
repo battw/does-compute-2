@@ -7,8 +7,8 @@ enum { ADD, INVERT, DELETE }
 var mode_names = ["ADD", "INVERT", "DELETE"]
 var input_mode = ADD
 
-func _ready():
-	VisualServer.set_default_clear_color(Color(0, 0, 0))
+#func _ready():
+#	VisualServer.set_default_clear_color(Color(0, 0, 0))
 
 
 func _input(event: InputEvent):

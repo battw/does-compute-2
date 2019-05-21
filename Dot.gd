@@ -2,7 +2,7 @@ extends Node2D
 
 export var speed = 10.0
 var direction
-var arrow # the arrow which spawned this dot
+var from_arrows # an array containing the group of arrows which spawned this dot
 
 
 func _ready():
@@ -15,6 +15,3 @@ func _process(delta):
 		return
 	position += direction * speed * delta
 	
-
-
-
