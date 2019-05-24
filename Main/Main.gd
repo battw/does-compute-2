@@ -1,6 +1,6 @@
 extends Node
 
-onready var arrow = preload("res://Arrow.tscn")
+var arrow = preload("res://Arrow/Arrow.tscn") 
 var current_arrow
 
 enum { ADD, INVERT, DELETE }
@@ -15,6 +15,12 @@ func _input(event: InputEvent):
 	if event is InputEventKey:
 		if event.get_scancode() == KEY_ESCAPE:
 			get_tree().quit()
+	
+	if event.is_action_pressed("save"):
+		on_save()
+	
+	if event.is_action_pressed("load"):
+		on_load()
 	
 	if event.is_action_pressed("change_mode"):
 		input_mode = (input_mode + 1) % 3
@@ -38,7 +44,8 @@ func add_arrow(pos):
 	""" Places an arrow at the given position and returns it """
 	var a = arrow.instance()
 	a.position = pos
-	add_child(a)
+	var arrows = find_node("Arrows")
+	arrows.add_child(a)
 	return a
 	
 func on_arrow_clicked(arrow):
@@ -49,6 +56,13 @@ func on_arrow_clicked(arrow):
 			arrow.queue_free()
 
 
+func on_save():
+	var saver = find_node("Saver")
+	saver.save("sav")
+
+func on_load():
+	var saver = find_node("Saver")
+	saver.load("sav") 
 
 
 

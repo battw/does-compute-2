@@ -1,6 +1,6 @@
 extends Node2D
 
-onready var dot = preload("res://Dot.tscn")
+onready var dot = preload("res://Dot/Dot.tscn")
 var inv = false setget set_inv, get_inv
 var hit = false # the Arrow has been hit by a Dot since the last tick
 var other_color = Color(30,30,30) # swaps between this and the main color when arrows are inverted.
@@ -18,6 +18,7 @@ func set_inv(abool):
 func _ready():
 	add_to_group("Arrows")
 	add_to_group("Tickers")
+	add_to_group("Savable")
 	
 	
 func _enter_tree():
@@ -69,3 +70,18 @@ func _on_Area2D_input_event(viewport, event, shape_idx):
 
 func invert():
 	self.inv = !inv
+	
+func save():
+	var data = {}
+	data["name"] = self.name
+	data["inv"] = self.inv
+	data["hit"] = self.hit
+	data["transform"] = self.transform
+	return data
+	
+func load(data):
+	self.name = data["name"]
+	self.inv = data["inv"]
+	self.hit = data["hit"]
+	self.transform = data["transform"]
+	

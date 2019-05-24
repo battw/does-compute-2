@@ -1,0 +1,39 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Saver/SaveData.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+data = {
+"Arrows": [ {
+"hit": false,
+"inv": false,
+"name": "Arrow",
+"transform": Transform2D( 1, 0, 0, 1, 300, 453 )
+}, {
+"hit": false,
+"inv": false,
+"name": "@Arrow@2",
+"transform": Transform2D( 0.698933, 0.715187, -0.715187, 0.698933, 350, 461 )
+}, {
+"hit": false,
+"inv": false,
+"name": "@Arrow@3",
+"transform": Transform2D( 0.707107, 0.707107, -0.707107, 0.707107, 488, 619 )
+}, {
+"hit": false,
+"inv": false,
+"name": "@Arrow@4",
+"transform": Transform2D( 0.832048, 0.554703, -0.554703, 0.832048, 520, 338 )
+}, {
+"hit": false,
+"inv": false,
+"name": "@Arrow@5",
+"transform": Transform2D( 0.640184, 0.768221, -0.768221, 0.640184, 529, 345 )
+}, {
+"hit": false,
+"inv": false,
+"name": "@Arrow@6",
+"transform": Transform2D( -4.37114e-08, 1, -1, -4.37114e-08, 725, 596 )
+} ]
+}
