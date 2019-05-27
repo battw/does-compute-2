@@ -9,21 +9,62 @@ data = {
 "hit": false,
 "inv": true,
 "name": "Arrow",
-"transform": Transform2D( 1, -1.58325e-08, 1.58325e-08, 1, 119, 74 )
+"transform": Transform2D( 0.0655522, 0.997849, -0.997849, 0.0655522, 281, 285 ),
+"type": "Arrow"
+} ],
+"Dots": [ {
+"direction": Vector2( 0.0655522, 0.997849 ),
+"from_arrows": [ "Arrow" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 353.654, 1390.98 ),
+"type": "Dot"
 }, {
-"hit": false,
-"inv": true,
-"name": "@Arrow@2",
-"transform": Transform2D( -0.026539, 0.999648, -0.999648, -0.026539, 932, 56 )
+"direction": Vector2( 0.0655522, 0.997849 ),
+"from_arrows": [ "Arrow" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 331.039, 1046.72 ),
+"type": "Dot"
 }, {
-"hit": false,
-"inv": true,
-"name": "@Arrow@249",
-"transform": Transform2D( -0.0719777, -0.997406, 0.997406, -0.0719777, 153, 561 )
+"direction": Vector2( 0.0655522, 0.997849 ),
+"from_arrows": [ "Arrow" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 324.484, 946.934 ),
+"type": "Dot"
 }, {
-"hit": false,
-"inv": true,
-"name": "@Arrow@406",
-"transform": Transform2D( -0.999993, -0.00385101, 0.00385101, -0.999993, 933, 557 )
+"direction": Vector2( 0.0655522, 0.997849 ),
+"from_arrows": [ "Arrow" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 315.633, 812.198 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.0655522, 0.997849 ),
+"from_arrows": [ "Arrow" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 309.078, 712.413 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.0655522, 0.997849 ),
+"from_arrows": [ "Arrow" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 302.523, 612.628 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.0655522, 0.997849 ),
+"from_arrows": [ "Arrow" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 294.766, 494.549 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.0655522, 0.997849 ),
+"from_arrows": [ "Arrow" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 288.211, 394.764 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.0655522, 0.997849 ),
+"from_arrows": [ "Arrow" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 281.656, 294.979 ),
+"type": "Dot"
 } ]
 }

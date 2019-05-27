@@ -14,4 +14,18 @@ func _process(delta):
 	if position == null:
 		return
 	position += direction * speed * delta
-	
+
+func save():
+	var data = {}
+	data["type"] = "Dot"
+	data["speed"] = self.speed
+	data["direction"] = self.direction
+	data["from_arrows"] = self.from_arrows
+	data["transform"] = self.transform
+	return data
+
+func load(data):
+	self.speed = data["speed"] 
+	self.direction = data["direction"]
+	self.from_arrows = data["from_arrows"]
+	self.transform = data["transform"]

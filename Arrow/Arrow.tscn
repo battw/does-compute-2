@@ -18,9 +18,6 @@ polygon = PoolVector2Array( -10, 10, -10, -10, 20, 0 )
 script = ExtResource( 2 )
 other_color = Color( 0.196078, 0.196078, 0.196078, 1 )
 
-[node name="ColorTimer" type="Timer" parent="."]
-autostart = true
-
 [node name="Area2D" type="Area2D" parent="."]
 gravity = 0.0
 collision_layer = 2

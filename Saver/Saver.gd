@@ -3,7 +3,7 @@ extends Node
 const SAVE_PATH = "res://saves"
 const save_resource = preload("res://Saver/SaveData.gd")
 const Arrow = preload("res://Arrow/Arrow.tscn")
-
+const Dot = preload("res://Dot/Dot.tscn")
 
 
 func save(name):
@@ -16,27 +16,26 @@ func save(name):
 			return
 	
 	# collect save data
-	var save_data = save_resource.new()
-	save_data.data["Arrows"] = []
-	var arrows = get_tree().root.find_node("Arrows", true, false)
-	if !arrows:
-		print("failed to save. can't find arrows node to fetch arrows from")
-		return
-		
-	for a in arrows.get_children():
-		save_data.data["Arrows"].append(a.save())
+	var save = save_resource.new()
+	for saver in get_tree().get_nodes_in_group("Savers"):	
+		save.data[saver.name] = []
+		print("Saving " + saver.name)
+		for a in saver.get_children():
+			save.data[saver.name].append(a.save())
 	
 	# save data to file
 	var file_path = SAVE_PATH.plus_file(name + ".tres")
-	var error = ResourceSaver.save(file_path, save_data)
+	var error = ResourceSaver.save(file_path, save)
 	if error != OK:
 		print("failed to save to path " + file_path + " (error code: " + str(error) + ")")
 		return
 	
 	print("Game saved at " + file_path)
 	
+	
+	
 func load(name):
-	print("loading " + name)
+	print("loading save: " + name)
 #	
 	# load resource
 	var dir = Directory.new()
@@ -45,27 +44,32 @@ func load(name):
 		return
 		
 	var file_path = SAVE_PATH.plus_file(name + ".tres")
-	var save_data = ResourceLoader.load(file_path)
-	if !save_data:
+	var save = ResourceLoader.load(file_path)
+	if !save:
 		print("failed to load " + file_path)
 		return
 	
-	var arrows = get_tree().root.find_node("Arrows", true, false)
-	if !arrows:
-		print("failed to load save. arrows node not in tree.")
-		return
-	
-	var parent = arrows.get_parent()
-	parent.remove_child(arrows)
-	arrows = Node.new()
-	arrows.name = "Arrows"
-	print("parent = " + parent.name)
-	parent.add_child(arrows)
-	print("child = " + arrows.name)
-	
-	for arrow_data in save_data.data["Arrows"]:
-		var a = Arrow.instance()
-		a.load(arrow_data)
-		arrows.add_child(a)
+	for saver in get_tree().get_nodes_in_group("Savers"):
+		for child in saver.get_children():
+			saver.remove_child(child)
 		
-	
+		if !save.data.has(saver.name):
+			print("save.data has no key: " + saver.name)
+			return
+			
+		print("loading " + saver.name)
+		
+		for data in save.data[saver.name]:
+			var type = data.get("type")
+			if !type:
+				print("load data does not contain an instance type")
+				return
+			var a = get(type)
+			if !a:
+				print("unable to load object of type: " + type)
+				print("type not recognised by Saver.gd")
+				return
+			a = a.instance()
+			a.load(data)
+			saver.add_child(a)
+			

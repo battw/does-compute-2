@@ -30,7 +30,11 @@ shape = SubResource( 1 )
 
 [node name="Saver" parent="." instance=ExtResource( 4 )]
 
-[node name="Arrows" type="Node" parent="."]
+[node name="Arrows" type="Node" parent="." groups=[
+"Savers",
+]]
 
-[node name="Dots" type="Node" parent="."]
+[node name="Dots" type="Node" parent="." groups=[
+"Savers",
+]]
 [connection signal="area_exited" from="PlayArea" to="PlayArea" method="exited"]
