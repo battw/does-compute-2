@@ -7,33 +7,23 @@ script = ExtResource( 1 )
 data = {
 "Arrows": [ {
 "hit": false,
-"inv": false,
+"inv": true,
 "name": "Arrow",
-"transform": Transform2D( 1, 0, 0, 1, 300, 453 )
+"transform": Transform2D( 1, -1.58325e-08, 1.58325e-08, 1, 119, 74 )
 }, {
 "hit": false,
-"inv": false,
+"inv": true,
 "name": "@Arrow@2",
-"transform": Transform2D( 0.698933, 0.715187, -0.715187, 0.698933, 350, 461 )
+"transform": Transform2D( -0.026539, 0.999648, -0.999648, -0.026539, 932, 56 )
 }, {
 "hit": false,
-"inv": false,
-"name": "@Arrow@3",
-"transform": Transform2D( 0.707107, 0.707107, -0.707107, 0.707107, 488, 619 )
+"inv": true,
+"name": "@Arrow@249",
+"transform": Transform2D( -0.0719777, -0.997406, 0.997406, -0.0719777, 153, 561 )
 }, {
 "hit": false,
-"inv": false,
-"name": "@Arrow@4",
-"transform": Transform2D( 0.832048, 0.554703, -0.554703, 0.832048, 520, 338 )
-}, {
-"hit": false,
-"inv": false,
-"name": "@Arrow@5",
-"transform": Transform2D( 0.640184, 0.768221, -0.768221, 0.640184, 529, 345 )
-}, {
-"hit": false,
-"inv": false,
-"name": "@Arrow@6",
-"transform": Transform2D( -4.37114e-08, 1, -1, -4.37114e-08, 725, 596 )
+"inv": true,
+"name": "@Arrow@406",
+"transform": Transform2D( -0.999993, -0.00385101, 0.00385101, -0.999993, 933, 557 )
 } ]
 }

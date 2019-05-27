@@ -44,8 +44,11 @@ func add_arrow(pos):
 	""" Places an arrow at the given position and returns it """
 	var a = arrow.instance()
 	a.position = pos
-	var arrows = find_node("Arrows")
-	arrows.add_child(a)
+	var arrows = find_node("Arrows", true, false)
+	if !arrows:
+		print("Could not find Arrows node to add an Arrow to.")
+	else:
+		arrows.add_child(a)
 	return a
 	
 func on_arrow_clicked(arrow):

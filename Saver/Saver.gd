@@ -37,8 +37,7 @@ func save(name):
 	
 func load(name):
 	print("loading " + name)
-	var new_arrows = Node.new()
-	new_arrows.name = "Arrows"
+#	
 	# load resource
 	var dir = Directory.new()
 	if !dir.dir_exists(SAVE_PATH):
@@ -50,20 +49,23 @@ func load(name):
 	if !save_data:
 		print("failed to load " + file_path)
 		return
-		
-	for arrow_data in save_data.data["Arrows"]:
-		print(arrow_data)
-		var a = Arrow.instance()
-		a.load(arrow_data)
-		new_arrows.add_child(a)
-		
-	var current_arrows = get_tree().root.find_node("Arrows", true, false)
-	if !current_arrows:
+	
+	var arrows = get_tree().root.find_node("Arrows", true, false)
+	if !arrows:
 		print("failed to load save. arrows node not in tree.")
 		return
 	
-	for child in current_arrows.get_children():
-		current_arrows.remove_child(child)
-	current_arrows.replace_by(new_arrows)
+	var parent = arrows.get_parent()
+	parent.remove_child(arrows)
+	arrows = Node.new()
+	arrows.name = "Arrows"
+	print("parent = " + parent.name)
+	parent.add_child(arrows)
+	print("child = " + arrows.name)
+	
+	for arrow_data in save_data.data["Arrows"]:
+		var a = Arrow.instance()
+		a.load(arrow_data)
+		arrows.add_child(a)
 		
 	
