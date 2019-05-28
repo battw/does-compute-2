@@ -16,17 +16,25 @@ autostart = true
 script = ExtResource( 2 )
 
 [node name="PlayArea" type="Area2D" parent="."]
-editor/display_folded = true
 position = Vector2( 516.757, 304.754 )
 scale = Vector2( 0.199999, 1 )
 collision_layer = 0
 script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="PlayArea"]
 show_behind_parent = true
 position = Vector2( 0, 2.65002 )
 scale = Vector2( 5.64, 5.8 )
 shape = SubResource( 1 )
+
+[node name="BackgroundGrid" type="GridContainer" parent="PlayArea"]
+margin_left = -4568.0
+margin_top = -775.0
+margin_right = 4572.0
+margin_bottom = 785.0
 
 [node name="Saver" parent="." instance=ExtResource( 4 )]
 

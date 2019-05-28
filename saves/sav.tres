@@ -7,64 +7,16 @@ script = ExtResource( 1 )
 data = {
 "Arrows": [ {
 "hit": false,
-"inv": true,
+"inv": false,
 "name": "Arrow",
-"transform": Transform2D( 0.0655522, 0.997849, -0.997849, 0.0655522, 281, 285 ),
+"transform": Transform2D( 0.999392, 0.0348626, -0.0348626, 0.999392, 281, 484 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow2",
+"transform": Transform2D( -0.995548, 0.0942531, -0.0942531, -0.995548, 506, 479 ),
 "type": "Arrow"
 } ],
-"Dots": [ {
-"direction": Vector2( 0.0655522, 0.997849 ),
-"from_arrows": [ "Arrow" ],
-"speed": 100.0,
-"transform": Transform2D( 1, 0, 0, 1, 353.654, 1390.98 ),
-"type": "Dot"
-}, {
-"direction": Vector2( 0.0655522, 0.997849 ),
-"from_arrows": [ "Arrow" ],
-"speed": 100.0,
-"transform": Transform2D( 1, 0, 0, 1, 331.039, 1046.72 ),
-"type": "Dot"
-}, {
-"direction": Vector2( 0.0655522, 0.997849 ),
-"from_arrows": [ "Arrow" ],
-"speed": 100.0,
-"transform": Transform2D( 1, 0, 0, 1, 324.484, 946.934 ),
-"type": "Dot"
-}, {
-"direction": Vector2( 0.0655522, 0.997849 ),
-"from_arrows": [ "Arrow" ],
-"speed": 100.0,
-"transform": Transform2D( 1, 0, 0, 1, 315.633, 812.198 ),
-"type": "Dot"
-}, {
-"direction": Vector2( 0.0655522, 0.997849 ),
-"from_arrows": [ "Arrow" ],
-"speed": 100.0,
-"transform": Transform2D( 1, 0, 0, 1, 309.078, 712.413 ),
-"type": "Dot"
-}, {
-"direction": Vector2( 0.0655522, 0.997849 ),
-"from_arrows": [ "Arrow" ],
-"speed": 100.0,
-"transform": Transform2D( 1, 0, 0, 1, 302.523, 612.628 ),
-"type": "Dot"
-}, {
-"direction": Vector2( 0.0655522, 0.997849 ),
-"from_arrows": [ "Arrow" ],
-"speed": 100.0,
-"transform": Transform2D( 1, 0, 0, 1, 294.766, 494.549 ),
-"type": "Dot"
-}, {
-"direction": Vector2( 0.0655522, 0.997849 ),
-"from_arrows": [ "Arrow" ],
-"speed": 100.0,
-"transform": Transform2D( 1, 0, 0, 1, 288.211, 394.764 ),
-"type": "Dot"
-}, {
-"direction": Vector2( 0.0655522, 0.997849 ),
-"from_arrows": [ "Arrow" ],
-"speed": 100.0,
-"transform": Transform2D( 1, 0, 0, 1, 281.656, 294.979 ),
-"type": "Dot"
-} ]
+"Dots": [  ]
 }
