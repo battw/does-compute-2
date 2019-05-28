@@ -13,10 +13,10 @@ __meta__ = {
 }
 
 [node name="Polygon2D" type="Polygon2D" parent="."]
-color = Color( 0.784314, 0.784314, 0.784314, 1 )
+color = Color( 0.921569, 0.858824, 0.698039, 1 )
 polygon = PoolVector2Array( -10, 10, -10, -10, 20, 0 )
 script = ExtResource( 2 )
-other_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+other_color = Color( 0.4, 0.360784, 0.329412, 1 )
 
 [node name="Area2D" type="Area2D" parent="."]
 gravity = 0.0

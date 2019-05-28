@@ -3,7 +3,7 @@ extends Node2D
 onready var dot = preload("res://Dot/Dot.tscn")
 var inv = false setget set_inv, get_inv
 var hit = false # the Arrow has been hit by a Dot since the last tick
-var other_color = Color(30,30,30) # swaps between this and the main color when arrows are inverted.
+var other_color = Color(0,0,0) # swaps between this and the main color when arrows are inverted.
 signal arrow_clicked(arrow)
 
 func get_inv():

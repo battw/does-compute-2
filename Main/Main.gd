@@ -2,6 +2,7 @@ extends Node
 
 export var move_speed = 200
 export var snap_grid_size = 50
+export var background_color = Color(100,30,30)
 
 var arrow = preload("res://Arrow/Arrow.tscn") 
 var current_arrow
@@ -14,8 +15,8 @@ var move = Vector2.ZERO # Viewport movement direction
 
 
 var viewport_offset setget , get_viewport_offset
-#func _ready():
-#	VisualServer.set_default_clear_color(Color(0, 0, 0))
+func _ready():
+	VisualServer.set_default_clear_color(background_color)
 
 func get_viewport_offset():
 	return get_viewport().canvas_transform.get_origin()
@@ -44,9 +45,14 @@ func _input(event: InputEvent):
 		move += Vector2.RIGHT
 	if event.is_action_pressed("right"):
 		move += Vector2.LEFT
-	if event.is_action_released("up") or event.is_action_released("down") \
-		or event.is_action_released("left") or event.is_action_released("right"):
-		move = Vector2.ZERO
+	if event.is_action_released("up"):
+		move -= Vector2.DOWN
+	if event.is_action_released("down"):
+		move -= Vector2.UP
+	if event.is_action_released("left"):
+		move -= Vector2.RIGHT
+	if event.is_action_released("right"):
+		move -= Vector2.LEFT
 			
 	match input_mode:
 		ADD:			

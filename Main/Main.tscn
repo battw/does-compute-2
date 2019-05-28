@@ -6,35 +6,24 @@
 [ext_resource path="res://Saver/Saver.tscn" type="PackedScene" id=4]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 808.667, 134.617 )
+extents = Vector2( 1000, 1000 )
 
 [node name="Main" type="Node"]
 script = ExtResource( 1 )
+background_color = Color( 0.156863, 0.156863, 0.156863, 1 )
 
 [node name="Tick" type="Timer" parent="."]
 autostart = true
 script = ExtResource( 2 )
 
 [node name="PlayArea" type="Area2D" parent="."]
-position = Vector2( 516.757, 304.754 )
-scale = Vector2( 0.199999, 1 )
 collision_layer = 0
 script = ExtResource( 3 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="PlayArea"]
 show_behind_parent = true
-position = Vector2( 0, 2.65002 )
-scale = Vector2( 5.64, 5.8 )
+position = Vector2( 1000, 1000 )
 shape = SubResource( 1 )
-
-[node name="BackgroundGrid" type="GridContainer" parent="PlayArea"]
-margin_left = -4568.0
-margin_top = -775.0
-margin_right = 4572.0
-margin_bottom = 785.0
 
 [node name="Saver" parent="." instance=ExtResource( 4 )]
 

@@ -14,7 +14,7 @@ __meta__ = {
 speed = 100.0
 
 [node name="Circle" type="Polygon2D" parent="."]
-color = Color( 0.878431, 0.247059, 0.247059, 1 )
+color = Color( 0.984314, 0.286275, 0.203922, 1 )
 script = ExtResource( 2 )
 radius = 7
 
