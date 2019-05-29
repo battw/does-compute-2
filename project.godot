@@ -23,6 +23,10 @@ _global_script_class_icons={
 config/name="does-compute-2"
 run/main_scene="res://Main/Main.tscn"
 
+[display]
+
+window/size/fullscreen=true
+
 [input]
 
 ui_accept={
@@ -126,6 +130,7 @@ right={
 
 [rendering]
 
-quality/intended_usage/framebuffer_allocation=0
-quality/intended_usage/framebuffer_allocation.mobile=0
+quality/intended_usage/framebuffer_allocation=1
+quality/intended_usage/framebuffer_allocation.mobile=1
+quality/shadows/filter_mode=0
 environment/default_clear_color=Color( 0.588235, 0.588235, 0.588235, 1 )

@@ -17,6 +17,7 @@ var move = Vector2.ZERO # Viewport movement direction
 var viewport_offset setget , get_viewport_offset
 func _ready():
 	VisualServer.set_default_clear_color(background_color)
+	Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN)
 
 func get_viewport_offset():
 	return get_viewport().canvas_transform.get_origin()
@@ -35,6 +36,8 @@ func _input(event: InputEvent):
 	
 	if event.is_action_pressed("change_mode"):
 		input_mode = (input_mode + 1) % 3
+		if $Cursor:
+			$Cursor.set_mode(input_mode)
 		print("input mode: " + mode_names[input_mode])
 		
 	if event.is_action_pressed("up"):
@@ -63,7 +66,7 @@ func _input(event: InputEvent):
 			elif event.is_action_released("click"):
 				current_arrow = null
 				
-			elif event is InputEventMouseMotion and current_arrow:
+			if current_arrow:
 				var mpos = get_viewport().get_mouse_position() - self.viewport_offset
 				current_arrow.look_at(mpos)
 
