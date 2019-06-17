@@ -23,7 +23,8 @@ func get_viewport_offset():
 	return get_viewport().canvas_transform.get_origin()
 
 func _input(event: InputEvent):	
-	
+	if $UI.has_mouse:
+		return
 	if event is InputEventKey:
 		if event.get_scancode() == KEY_ESCAPE:
 			get_tree().quit()

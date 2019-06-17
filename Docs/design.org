@@ -1,0 +1,5 @@
+* Design Notes for Does Compute
+** TODO In Arrow, remove the need for all arrow to have the same parent.
+** Bugs
+*** Keyboard input sometimes doesn't register till after a mouse click
+_input function in Main is not called by the engine.

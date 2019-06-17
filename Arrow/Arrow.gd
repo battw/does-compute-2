@@ -37,6 +37,7 @@ func hit(area2d):
 			node.hit = true
 		d.queue_free()
 
+# TODO: return nodes instead of names so we don't need to rely on all arrows sharing the same parent
 func get_contiguous_neighbours_names(visited=[self.name]):
 	""" returns an array of the names of all arrows which form a contiguous area which includes this arrow.
 	An argument shouldn't be given, it is used for recursive calls by this function. """

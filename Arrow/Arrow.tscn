@@ -6,7 +6,6 @@
 [sub_resource type="ConvexPolygonShape2D" id=1]
 
 [node name="Arrow" type="Node2D"]
-editor/display_folded = true
 position = Vector2( 36.0995, 29.6289 )
 script = ExtResource( 1 )
 __meta__ = {
