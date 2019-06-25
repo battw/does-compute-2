@@ -6,9 +6,6 @@ func _ready():
 	VisualServer.set_default_clear_color(background_color)
 	Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN)
 
-func _input(event: InputEvent):	
-	if $UI.has_mouse:
-		return
 
 func add_arrow(pos):
 	return $PlayArea.add_arrow(pos)
