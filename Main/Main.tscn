@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Main/Main.gd" type="Script" id=1]
 [ext_resource path="res://Main/Tick.gd" type="Script" id=2]
 [ext_resource path="res://Main/PlayArea.gd" type="Script" id=3]
-[ext_resource path="res://Cursor.tscn" type="PackedScene" id=4]
-[ext_resource path="res://UI/UI.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Main/Arrows.gd" type="Script" id=4]
+[ext_resource path="res://Cursor/Cursor.tscn" type="PackedScene" id=5]
+[ext_resource path="res://UI/UI.tscn" type="PackedScene" id=6]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 1000, 1000 )
@@ -26,16 +27,16 @@ show_behind_parent = true
 position = Vector2( 1000, 1000 )
 shape = SubResource( 1 )
 
-[node name="Arrows" type="Node" parent="." groups=[
+[node name="Arrows" type="Node" parent="PlayArea" groups=[
+"Savers",
+]]
+script = ExtResource( 4 )
+
+[node name="Dots" type="Node" parent="PlayArea" groups=[
 "Savers",
 ]]
 
-[node name="Dots" type="Node" parent="." groups=[
-"Savers",
-]]
+[node name="Cursor" parent="." instance=ExtResource( 5 )]
 
-[node name="Cursor" parent="." instance=ExtResource( 4 )]
-
-[node name="UI" parent="." instance=ExtResource( 5 )]
-margin_top = 0.0
+[node name="UI" parent="." instance=ExtResource( 6 )]
 [connection signal="area_exited" from="PlayArea" to="PlayArea" method="exited"]

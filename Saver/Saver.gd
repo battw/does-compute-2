@@ -40,7 +40,7 @@ func load(name):
 	# load resource
 	var dir = Directory.new()
 	if !dir.dir_exists(SAVE_PATH):
-		print(SAVE_PATH + " does not exist. Failed to load file.")
+		print(SAVE_PATH + " (savepath) does not exist. Failed to load file.")
 		return
 		
 	var file_path = SAVE_PATH.plus_file(name + ".tres")
@@ -73,3 +73,17 @@ func load(name):
 			a.load(data)
 			saver.add_child(a)
 			
+func get_save_names():
+	var file_names = []
+	var dir = Directory.new()
+	if dir.open(SAVE_PATH) != OK:
+		print("unable to access " + SAVE_PATH + " (savepath)")
+	else:
+		dir.list_dir_begin()
+		var file_name = dir.get_next()
+		while file_name != "":
+			if file_name != "." and file_name != "..":
+				var basename = file_name.get_basename()
+				file_names.append(basename)
+			file_name = dir.get_next()
+	return file_names 
