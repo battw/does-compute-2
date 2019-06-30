@@ -27,6 +27,7 @@ run/main_scene="res://Main/Main.tscn"
 
 window/size/width=1796
 window/size/height=1034
+window/vsync/use_vsync=false
 
 [input]
 
@@ -131,8 +132,10 @@ right={
 
 [rendering]
 
-quality/intended_usage/framebuffer_allocation=1
-quality/intended_usage/framebuffer_allocation.mobile=1
+quality/2d/gles2_use_nvidia_rect_flicker_workaround=true
+quality/intended_usage/framebuffer_allocation=0
+quality/intended_usage/framebuffer_allocation.mobile=0
+quality/filters/anisotropic_filter_level=1
 quality/shadows/filter_mode=0
 quality/reflections/texture_array_reflections=false
 quality/reflections/high_quality_ggx=false

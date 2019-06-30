@@ -1,11 +1,10 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Main/Main.gd" type="Script" id=1]
 [ext_resource path="res://Main/Tick.gd" type="Script" id=2]
 [ext_resource path="res://Main/PlayArea.gd" type="Script" id=3]
 [ext_resource path="res://Main/Arrows.gd" type="Script" id=4]
-[ext_resource path="res://Cursor/Cursor.tscn" type="PackedScene" id=5]
-[ext_resource path="res://UI/UI.tscn" type="PackedScene" id=6]
+[ext_resource path="res://UI/UI.tscn" type="PackedScene" id=5]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 1000, 1000 )
@@ -36,7 +35,5 @@ script = ExtResource( 4 )
 "Savers",
 ]]
 
-[node name="Cursor" parent="." instance=ExtResource( 5 )]
-
-[node name="UI" parent="." instance=ExtResource( 6 )]
+[node name="UI" parent="." instance=ExtResource( 5 )]
 [connection signal="area_exited" from="PlayArea" to="PlayArea" method="exited"]

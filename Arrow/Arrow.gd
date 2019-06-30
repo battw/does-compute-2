@@ -4,7 +4,7 @@ onready var dot = preload("res://Dot/Dot.tscn")
 var inv = false setget set_inv, get_inv
 var hit = false # the Arrow has been hit by a Dot since the last tick
 var other_color = Color(0,0,0) # swaps between this and the main color when arrows are inverted.
-signal arrow_clicked(arrow)
+
 
 func get_inv():
 	return inv
@@ -22,9 +22,7 @@ func _ready():
 	
 	
 func _enter_tree():
-	var main = find_parent("Main")
-	if main != null:
-		connect("arrow_clicked", main, "on_arrow_clicked")
+	pass
 	
 	
 func hit(area2d):
@@ -69,14 +67,13 @@ func emit():
 		return
 	dots.add_child(d)
 	
-	
-
-func _on_Area2D_input_event(viewport, event, shape_idx):
-	if event.is_action_pressed("click"):
-		emit_signal("arrow_clicked", self)
 
 func invert():
 	self.inv = !inv
+	
+func delete():
+	self.get_parent().remove_child(self)
+	self.queue_free()
 	
 func save():
 	var data = {}

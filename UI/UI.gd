@@ -15,7 +15,7 @@ var move = Vector2.ZERO # Viewport movement direction
 
 func _process(delta):
 	get_viewport().canvas_transform = \
-	get_viewport().canvas_transform.translated(self.move * delta * self.move_speed)
+	get_viewport().canvas_transform.translated(self.move  *  self.move_speed * delta)
 	self.rect_position = -get_viewport().canvas_transform.get_origin()
 
 func _enter_tree():
@@ -32,8 +32,6 @@ func _on_gui_input(event):
 		if $Cursor:
 			$Cursor.set_mode(input_mode)
 		print("input mode: " + mode_names[input_mode])
-	
-	
 		
 	match input_mode:
 		ADD:			
@@ -47,7 +45,15 @@ func _on_gui_input(event):
 			if current_arrow:
 				var mpos = get_viewport().get_mouse_position() - get_viewport().canvas_transform.get_origin()
 				current_arrow.look_at(mpos)
-
+		INVERT:
+			if event.is_action_pressed("click"):
+				for arrow in $Cursor.get_arrows():
+					arrow.invert()
+		DELETE:
+			if event.is_action_pressed("click"):
+				for arrow in $Cursor.get_arrows():
+					arrow.delete()
+					
 func _unhandled_input(event):
 	if event.is_action_type():
 		if event.is_action_pressed("up"):

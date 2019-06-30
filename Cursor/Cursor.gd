@@ -3,13 +3,9 @@ extends Node2D
 enum { ADD, INVERT, DELETE }
 	
 func _process(delta):
-	self.position = get_viewport().get_mouse_position() - get_viewport().canvas_transform.get_origin()
-
-func set_mode(mode):
-	if !$Add or !$Invert or !$Delete:
-		print("Cursor missing children")
-		return
-		
+	self.position = get_parent().get_local_mouse_position()
+	
+func set_mode(mode):	
 	$Add.visible = false
 	$Delete.visible = false
 	$Invert.visible = false
@@ -20,4 +16,11 @@ func set_mode(mode):
 			$Invert.visible = true
 		DELETE:
 			$Delete.visible = true
-			
+
+func get_arrows():
+	var arrows = []
+	for area in $Area2D.get_overlapping_areas():
+		var arrow = area.find_parent("*Arrow*")
+		if arrow:
+			arrows.append(arrow)
+	return arrows
