@@ -7,6 +7,7 @@
 
 [node name="Arrow" type="Node2D"]
 position = Vector2( 36.0995, 29.6289 )
+z_index = 10
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true

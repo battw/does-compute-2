@@ -1,6 +1,7 @@
 extends Control
 
 export var move_speed = 200
+export var zoom_factor = 0.2
 
 var delay = Timer.new()
 
@@ -16,10 +17,14 @@ var move = Vector2.ZERO # Viewport movement direction
 func _process(delta):
 	get_viewport().canvas_transform = \
 	get_viewport().canvas_transform.translated(self.move  *  self.move_speed * delta)
+	
 	self.rect_position = -get_viewport().canvas_transform.get_origin()
-
+	
+	
+	
 func _enter_tree():
 	self.main = self.find_parent("Main")
+	self.rect_size = get_viewport_rect().size
 
 func _exit_tree():
 	self.main = null
@@ -33,17 +38,26 @@ func _on_gui_input(event):
 			$Cursor.set_mode(input_mode)
 		print("input mode: " + mode_names[input_mode])
 		
+	if event.is_action("zoom_out"):
+		main.zoom(1 - self.zoom_factor)
+		#get_viewport().size *= 1 + self.zoom_factor
+			
+	if event.is_action("zoom_in"):
+		main.zoom(1 + self.zoom_factor)
+		#get_viewport().size *= 1 - self.zoom_factor
+		
 	match input_mode:
 		ADD:			
 			if event.is_action_pressed("click"):
-				var pos = get_viewport().get_mouse_position() - get_viewport().canvas_transform.get_origin()
+				#var pos = get_viewport().get_mouse_position() - get_viewport().canvas_transform.get_origin()
+				var pos = self.get_global_mouse_position()
 				current_arrow = self.main.add_arrow(pos)
 				
 			elif event.is_action_released("click"):
 				current_arrow = null
 				
 			if current_arrow:
-				var mpos = get_viewport().get_mouse_position() - get_viewport().canvas_transform.get_origin()
+				var mpos = get_global_mouse_position()
 				current_arrow.look_at(mpos)
 		INVERT:
 			if event.is_action_pressed("click"):

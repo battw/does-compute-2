@@ -12,6 +12,7 @@ func add_arrow(pos):
 	return $PlayArea.add_arrow(pos)
 
 
-
+func zoom(ratio):
+	$PlayArea.apply_scale(ratio * Vector2.ONE)
 
 

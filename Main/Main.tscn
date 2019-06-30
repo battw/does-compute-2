@@ -9,7 +9,7 @@
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 1000, 1000 )
 
-[node name="Main" type="Node"]
+[node name="Main" type="Node2D"]
 script = ExtResource( 1 )
 background_color = Color( 0.156863, 0.156863, 0.156863, 1 )
 
@@ -26,12 +26,12 @@ show_behind_parent = true
 position = Vector2( 1000, 1000 )
 shape = SubResource( 1 )
 
-[node name="Arrows" type="Node" parent="PlayArea" groups=[
+[node name="Arrows" type="Node2D" parent="PlayArea" groups=[
 "Savers",
 ]]
 script = ExtResource( 4 )
 
-[node name="Dots" type="Node" parent="PlayArea" groups=[
+[node name="Dots" type="Node2D" parent="PlayArea" groups=[
 "Savers",
 ]]
 
