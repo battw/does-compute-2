@@ -2,6 +2,8 @@ extends Area2D
 
 export var snap_grid_size = 50
 export var cross_scale = 1
+export var background_color = Color(.16, .16, .16)
+export var marker_color = Color(.5, .5, .5)
 
 var Cross = preload("res://Cross.tscn")
 
@@ -10,8 +12,10 @@ func exited(area2d):
 	if d != null:
 		d.queue_free()
 	
+	
 func _ready():
-	_add_crosses()
+#	_add_crosses()
+	_create_background()
 	
 func _add_crosses():
 	if self.snap_grid_size <= 0:
@@ -27,6 +31,27 @@ func _add_crosses():
 			cross.scale = Vector2.ONE * cross_scale
 			cross.position = Vector2(c * self.snap_grid_size, r * self.snap_grid_size)
 			self.add_child(cross)	
+			
+
+func _create_background():
+	var image = Image.new()
+	image.create(self.snap_grid_size, self.snap_grid_size, false, Image.FORMAT_RGB8)
+	image.fill(self.background_color)
+	image.lock()
+	
+	image.set_pixel(0, 0, Color(1, 1, 1))
+	image.set_pixel(0, self.snap_grid_size - 1 , Color(1, 1, 1))
+	image.set_pixel(self.snap_grid_size - 1, 0, Color(1, 1, 1))
+	image.set_pixel(self.snap_grid_size - 1, self.snap_grid_size - 1 , Color(1, 1, 1))
+#		image.set_pixel(12, i , Color(1, 1, 1))
+
+	#image.fill(Color(1,1,1))
+	var texture = ImageTexture.new()
+	texture.create_from_image(image)
+	$Background.texture = texture
+	$Background.region_rect.size = $CollisionShape2D.shape.extents * 2
+	
+	
 
 func _out_of_bounds(local_pos):
 	var half_grid = self.snap_grid_size / 2

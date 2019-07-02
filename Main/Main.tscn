@@ -35,5 +35,12 @@ script = ExtResource( 4 )
 "Savers",
 ]]
 
+[node name="Background" type="Sprite" parent="PlayArea"]
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 0, 1000, 1000 )
+
 [node name="UI" parent="." instance=ExtResource( 5 )]
+margin_right = 1796.0
+margin_bottom = 1035.0
 [connection signal="area_exited" from="PlayArea" to="PlayArea" method="exited"]
