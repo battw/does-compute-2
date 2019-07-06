@@ -29,6 +29,12 @@ scale = Vector2( 2.5, 2.5 )
 default_color = Color( 0.8, 0.141176, 0.113725, 1 )
 texture_mode = 24
 
+[node name="Select" parent="." instance=ExtResource( 2 )]
+visible = false
+scale = Vector2( 0.6, 0.6 )
+default_color = Color( 0.721569, 0.733333, 0.14902, 1 )
+texture_mode = 0
+
 [node name="Area2D" type="Area2D" parent="."]
 input_pickable = false
 gravity = 0.0

@@ -5,12 +5,13 @@ export var zoom_factor = 0.2
 
 var delay = Timer.new()
 
-enum { ADD, INVERT, DELETE }
-var mode_names = ["ADD", "INVERT", "DELETE"]
+enum { ADD, INVERT, DELETE, SELECT }
+var mode_names = ["ADD", "INVERT", "DELETE", "SELECT"]
 var input_mode = ADD
-
 var main
 var current_arrow
+var DragBox = preload("res://DragBox/DragBox.tscn")
+var dragbox
 
 var move = Vector2.ZERO # Viewport movement direction
 
@@ -33,7 +34,7 @@ func _exit_tree():
 	
 func _on_gui_input(event):
 	if event.is_action_pressed("change_mode"):
-		input_mode = (input_mode + 1) % 3
+		input_mode = (input_mode + 1) % 4
 		if $Cursor:
 			$Cursor.set_mode(input_mode)
 		print("input mode: " + mode_names[input_mode])
@@ -67,6 +68,16 @@ func _on_gui_input(event):
 			if event.is_action_pressed("click"):
 				for arrow in $Cursor.get_arrows():
 					arrow.delete()
+		SELECT:
+			if event.is_action_pressed("click"):
+				self.dragbox = DragBox.instance()
+				main.add_child(self.dragbox)
+				self.dragbox.drag_on()
+			elif event.is_action_released("click"):
+				self.dragbox.drag_off()
+				self.dragbox = null
+			elif self.dragbox:
+				self.dragbox.drag()
 					
 func _unhandled_input(event):
 	if event.is_action_type():

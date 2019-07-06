@@ -1,6 +1,6 @@
 extends Node2D
 
-enum { ADD, INVERT, DELETE }
+enum { ADD, INVERT, DELETE, SELECT }
 	
 func _process(delta):
 	self.position = get_parent().get_local_mouse_position()
@@ -9,6 +9,7 @@ func set_mode(mode):
 	$Add.visible = false
 	$Delete.visible = false
 	$Invert.visible = false
+	$Select.visible = false
 	match mode:
 		ADD:
 			$Add.visible = true
@@ -16,6 +17,8 @@ func set_mode(mode):
 			$Invert.visible = true
 		DELETE:
 			$Delete.visible = true
+		SELECT:
+			$Select.visible = true
 
 func get_arrows():
 	var arrows = []
