@@ -1,5 +1,6 @@
 * Design Notes for Does Compute
-** TODO In Arrow, remove the need for all arrow to have the same parent.
+** TODO In Arrow, remove the need for all arrows to have the same parent.
+** TODO Zoom to the centre of the screen rather than the origin 
 ** TODO Replace background crosses with a material (they slow everything down)
 ** Bugs
 *** Keyboard input sometimes doesn't register till after a mouse click

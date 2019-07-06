@@ -1,5 +1,6 @@
 extends Area2D
 
+export var size = Vector2(3000, 3000)
 export var snap_grid_size = 50
 export var cross_scale = 1
 export var background_color = Color(.16, .16, .16)
@@ -15,16 +16,19 @@ func exited(area2d):
 	
 func _ready():
 #	_add_crosses()
+	$CollisionShape2D.shape = RectangleShape2D.new()
+	$CollisionShape2D.shape.extents = self.size / 2
+	$CollisionShape2D.position = self.size / 2
 	_create_background()
 	
 func _add_crosses():
 	if self.snap_grid_size <= 0:
 		return
 		
-	var extents = $CollisionShape2D.shape.extents
 	
-	var rows = int(2 * extents.y / self.snap_grid_size) + 1
-	var cols = int(2 * extents.x / self.snap_grid_size) + 1
+	
+	var rows = int(self.size.y / self.snap_grid_size) + 1
+	var cols = int(self.size.x / self.snap_grid_size) + 1
 	for r in range(rows):
 		for c in range(cols):
 			var cross = Cross.instance()
@@ -49,14 +53,13 @@ func _create_background():
 	var texture = ImageTexture.new()
 	texture.create_from_image(image)
 	$Background.texture = texture
-	$Background.region_rect.size = $CollisionShape2D.shape.extents * 2
+	$Background.region_rect.size = self.size
 	
 	
 
 func _out_of_bounds(local_pos):
 	var half_grid = self.snap_grid_size / 2
-	var play_size = 2 * $CollisionShape2D.shape.extents
-	return local_pos.x > play_size.x + half_grid or local_pos.y > play_size.y + half_grid or \
+	return local_pos.x > self.size.x + half_grid or local_pos.y > self.size.y + half_grid or \
 		local_pos.x < -half_grid or local_pos.y < -half_grid
 	
 
