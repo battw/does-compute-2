@@ -20,25 +20,25 @@ func _process(delta):
 	get_viewport().canvas_transform.translated(self.move  *  self.move_speed * delta)
 	
 	self.rect_position = -get_viewport().canvas_transform.get_origin()
-	
-	
-	
+
+
 func _enter_tree():
 	self.main = self.find_parent("Main")
 	self.rect_size = get_viewport_rect().size
 
+
 func _exit_tree():
 	self.main = null
-	
 
-	
+
 func _on_gui_input(event):
+	
 	if event.is_action_pressed("change_mode"):
 		input_mode = (input_mode + 1) % 4
 		if $Cursor:
 			$Cursor.set_mode(input_mode)
 		print("input mode: " + mode_names[input_mode])
-		
+
 	if event.is_action("zoom_out"):
 		main.zoom(1 - self.zoom_factor)
 		#get_viewport().size *= 1 + self.zoom_factor
@@ -50,7 +50,6 @@ func _on_gui_input(event):
 	match input_mode:
 		ADD:			
 			if event.is_action_pressed("click"):
-				#var pos = get_viewport().get_mouse_position() - get_viewport().canvas_transform.get_origin()
 				var pos = self.get_global_mouse_position()
 				current_arrow = self.main.add_arrow(pos)
 				
@@ -73,12 +72,16 @@ func _on_gui_input(event):
 				self.dragbox = DragBox.instance()
 				main.add_child(self.dragbox)
 				self.dragbox.drag_on()
+				
 			elif event.is_action_released("click"):
-				self.dragbox.drag_off()
+				var res = self.dragbox.drag_off()
 				self.dragbox = null
+				
 			elif self.dragbox:
 				self.dragbox.drag()
-					
+
+
+
 func _unhandled_input(event):
 	if event.is_action_type():
 		if event.is_action_pressed("up"):

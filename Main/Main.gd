@@ -17,7 +17,18 @@ func zoom(ratio):
 
 
 func snap_to_grid(position):
-	var x = round(position[0] / grid_size) * int(grid_size)
-	var y = round(position[1] / grid_size) * int(grid_size)
+	var scaled_grid = grid_size  * $PlayArea.global_scale
+	var x = round(position[0] / scaled_grid[0]) * scaled_grid[0]
+	var y = round(position[1] / scaled_grid[1]) * scaled_grid[1]
+	var maxX = $PlayArea.size.x
+	var maxY = $PlayArea.size.y
+	if x < 0:
+		x = 0
+	if x > maxX:
+		x = maxX
+	if y < 0:
+		y = 0
+	if y > maxY:
+		y = maxY
 	return Vector2(x, y)
 	
