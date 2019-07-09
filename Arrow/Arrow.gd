@@ -59,7 +59,7 @@ func tick():
 func emit():
 	var d = dot.instance()
 	d.direction = Vector2.RIGHT.rotated(transform.get_rotation())
-	d.position = position
+	d.position = global_position
 	d.from_arrows = get_contiguous_neighbours_names()
 	var dots = get_tree().get_root().find_node("Dots", true, false)
 	if !dots:

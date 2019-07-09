@@ -4,6 +4,7 @@ enum { ADD, INVERT, DELETE, SELECT }
 	
 func _process(delta):
 	self.position = get_parent().get_local_mouse_position()
+	self.scale = Vector2.ONE / get_viewport_transform().get_scale()
 	
 func set_mode(mode):	
 	$Add.visible = false

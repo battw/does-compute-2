@@ -70,4 +70,3 @@ func add_arrow(pos):
 		return
 	return $Arrows.add_arrow(local_pos)
 	
-	

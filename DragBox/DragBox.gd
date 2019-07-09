@@ -42,7 +42,13 @@ func update_size(drag_position):
 	
 
 func drag_off():	
-	var arrows = $Area2D.get_overlapping_areas()
+	var arrows = []
+	for area in $Area2D.get_overlapping_areas():
+		var arrow = area.find_parent("*Arrow*")
+		if !arrow or arrow.name == "Arrows":
+			print("Bad arrow in DragBox.drag_off: " + str(arrow))
+		else:
+			arrows.append(arrow)
 	
 	get_parent().remove_child(self)
 	queue_free()

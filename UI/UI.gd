@@ -42,14 +42,10 @@ func _on_gui_input(event):
 		# print("input mode: " + mode_names[input_mode])
 
 	if event.is_action("zoom_out"):
-		#main.zoom(1 - self.zoom_factor)
-		#get_viewport().size *= 1 + self.zoom_factor
 		get_viewport().canvas_transform = \
 			get_viewport().canvas_transform.scaled(Vector2.ONE - Vector2.ONE * self.zoom_factor)
 			
 	if event.is_action("zoom_in"):
-		#main.zoom(1 + self.zoom_factor)
-		#get_viewport().size *= 1 - self.zoom_factor
 		get_viewport().canvas_transform = \
 			get_viewport().canvas_transform.scaled(Vector2.ONE + Vector2.ONE * self.zoom_factor)
 			
@@ -82,6 +78,9 @@ func _on_gui_input(event):
 			elif event.is_action_released("click"):
 				var res = self.dragbox.drag_off()
 				self.dragbox = null
+				var arrows = main.find_node("Arrows")
+				if arrows:
+					arrows.create_component(res["position"], res["size"], res["arrows"])
 				
 			elif self.dragbox:
 				self.dragbox.drag()
