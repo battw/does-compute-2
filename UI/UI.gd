@@ -9,6 +9,7 @@ enum { ADD, INVERT, DELETE, SELECT }
 var mode_names = ["ADD", "INVERT", "DELETE", "SELECT"]
 var input_mode = ADD
 var main
+var cursor
 var current_arrow
 var DragBox = preload("res://DragBox/DragBox.tscn")
 var dragbox
@@ -17,55 +18,60 @@ var move = Vector2.ZERO # Viewport movement direction
 
 func _process(delta):
 	get_viewport().canvas_transform = \
-	get_viewport().canvas_transform.translated(self.move  *  self.move_speed * delta)
-	
-	self.rect_position = -get_viewport().canvas_transform.get_origin()
+		get_viewport().canvas_transform.translated(self.move  *  self.move_speed * delta)
 
 
 func _enter_tree():
 	self.main = self.find_parent("Main")
 	self.rect_size = get_viewport_rect().size
+	self.cursor = main.find_node("Cursor")
 
 
 func _exit_tree():
 	self.main = null
 
+func _get_model_mouse_position():
+	return get_viewport().canvas_transform.affine_inverse() * get_viewport().get_mouse_position()
 
 func _on_gui_input(event):
-	
+
 	if event.is_action_pressed("change_mode"):
 		input_mode = (input_mode + 1) % 4
-		if $Cursor:
-			$Cursor.set_mode(input_mode)
-		print("input mode: " + mode_names[input_mode])
+		if cursor:
+			cursor.set_mode(input_mode)
+		# print("input mode: " + mode_names[input_mode])
 
 	if event.is_action("zoom_out"):
-		main.zoom(1 - self.zoom_factor)
+		#main.zoom(1 - self.zoom_factor)
 		#get_viewport().size *= 1 + self.zoom_factor
+		get_viewport().canvas_transform = \
+			get_viewport().canvas_transform.scaled(Vector2.ONE - Vector2.ONE * self.zoom_factor)
 			
 	if event.is_action("zoom_in"):
-		main.zoom(1 + self.zoom_factor)
+		#main.zoom(1 + self.zoom_factor)
 		#get_viewport().size *= 1 - self.zoom_factor
-		
+		get_viewport().canvas_transform = \
+			get_viewport().canvas_transform.scaled(Vector2.ONE + Vector2.ONE * self.zoom_factor)
+			
 	match input_mode:
 		ADD:			
 			if event.is_action_pressed("click"):
-				var pos = self.get_global_mouse_position()
+				var pos = _get_model_mouse_position()
 				current_arrow = self.main.add_arrow(pos)
 				
 			elif event.is_action_released("click"):
 				current_arrow = null
 				
 			if current_arrow:
-				var mpos = get_global_mouse_position()
+				var mpos = _get_model_mouse_position()
 				current_arrow.look_at(mpos)
 		INVERT:
 			if event.is_action_pressed("click"):
-				for arrow in $Cursor.get_arrows():
+				for arrow in cursor.get_arrows():
 					arrow.invert()
 		DELETE:
 			if event.is_action_pressed("click"):
-				for arrow in $Cursor.get_arrows():
+				for arrow in cursor.get_arrows():
 					arrow.delete()
 		SELECT:
 			if event.is_action_pressed("click"):
@@ -86,17 +92,17 @@ func _unhandled_input(event):
 	if event.is_action_type():
 		if event.is_action_pressed("up"):
 			move += Vector2.DOWN
-		if event.is_action_pressed("down"):
+		elif event.is_action_pressed("down"):
 			move += Vector2.UP
-		if event.is_action_pressed("left"):
+		elif event.is_action_pressed("left"):
 			move += Vector2.RIGHT
-		if event.is_action_pressed("right"):
+		elif event.is_action_pressed("right"):
 			move += Vector2.LEFT
-		if event.is_action_released("up"):
+		elif event.is_action_released("up"):
 			move -= Vector2.DOWN
-		if event.is_action_released("down"):
+		elif event.is_action_released("down"):
 			move -= Vector2.UP
-		if event.is_action_released("left"):
+		elif event.is_action_released("left"):
 			move -= Vector2.RIGHT
-		if event.is_action_released("right"):
+		elif event.is_action_released("right"):
 			move -= Vector2.LEFT

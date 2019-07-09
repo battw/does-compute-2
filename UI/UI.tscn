@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://theme.tres" type="Theme" id=1]
 [ext_resource path="res://UI/UI.gd" type="Script" id=2]
@@ -7,9 +7,10 @@
 [ext_resource path="res://UI/SaveMenu.gd" type="Script" id=5]
 [ext_resource path="res://Saver/Saver.tscn" type="PackedScene" id=6]
 [ext_resource path="res://UI/LoadMenu.gd" type="Script" id=7]
-[ext_resource path="res://Cursor/Cursor.tscn" type="PackedScene" id=8]
 
-[node name="UI" type="Control"]
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="UI" type="Control" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_bottom = -3.0
@@ -17,7 +18,7 @@ mouse_filter = 1
 theme = ExtResource( 1 )
 script = ExtResource( 2 )
 
-[node name="Button" type="Button" parent="."]
+[node name="Button" type="Button" parent="UI"]
 anchor_left = 1.0
 anchor_right = 1.0
 margin_left = -50.0
@@ -28,21 +29,21 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 script = ExtResource( 3 )
 
-[node name="MenuPopup" type="PopupMenu" parent="Button"]
+[node name="MenuPopup" type="PopupMenu" parent="UI/Button"]
 margin_left = -884.0
 margin_top = 482.0
 margin_right = -758.0
 margin_bottom = 563.0
 script = ExtResource( 4 )
 
-[node name="SaveMenu" type="PopupMenu" parent="Button/MenuPopup"]
+[node name="SaveMenu" type="PopupMenu" parent="UI/Button/MenuPopup"]
 margin_left = -564.831
 margin_top = 172.698
 margin_right = -308.831
 margin_bottom = 383.698
 script = ExtResource( 5 )
 
-[node name="LineEdit" type="LineEdit" parent="Button/MenuPopup/SaveMenu"]
+[node name="LineEdit" type="LineEdit" parent="UI/Button/MenuPopup/SaveMenu"]
 margin_left = 28.0
 margin_top = 170.0
 margin_right = 153.0
@@ -50,31 +51,29 @@ margin_bottom = 194.0
 caret_blink = true
 caret_blink_speed = 0.5
 
-[node name="SaveButton" type="Button" parent="Button/MenuPopup/SaveMenu"]
+[node name="SaveButton" type="Button" parent="UI/Button/MenuPopup/SaveMenu"]
 margin_left = 165.0
 margin_top = 170.0
 margin_right = 237.0
 margin_bottom = 194.0
 text = "SAVE"
 
-[node name="Saver" parent="Button/MenuPopup/SaveMenu" instance=ExtResource( 6 )]
+[node name="Saver" parent="UI/Button/MenuPopup/SaveMenu" instance=ExtResource( 6 )]
 
-[node name="LoadMenu" type="PopupMenu" parent="Button/MenuPopup"]
+[node name="LoadMenu" type="PopupMenu" parent="UI/Button/MenuPopup"]
 margin_right = 60.0
 margin_bottom = 60.0
 script = ExtResource( 7 )
 
-[node name="Saver" parent="Button/MenuPopup/LoadMenu" instance=ExtResource( 6 )]
-
-[node name="Cursor" parent="." instance=ExtResource( 8 )]
-[connection signal="gui_input" from="." to="." method="_on_gui_input"]
-[connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]
-[connection signal="index_pressed" from="Button/MenuPopup" to="Button/MenuPopup" method="_on_index_pressed"]
-[connection signal="about_to_show" from="Button/MenuPopup/SaveMenu" to="Button/MenuPopup/SaveMenu" method="_on_about_to_show"]
-[connection signal="index_pressed" from="Button/MenuPopup/SaveMenu" to="Button/MenuPopup/SaveMenu" method="_on_index_pressed"]
-[connection signal="mouse_entered" from="Button/MenuPopup/SaveMenu" to="." method="_on_mouse_entered"]
-[connection signal="mouse_exited" from="Button/MenuPopup/SaveMenu" to="." method="_on_mouse_exited"]
-[connection signal="button_down" from="Button/MenuPopup/SaveMenu/SaveButton" to="Button/MenuPopup/SaveMenu" method="_on_SaveButton_button_down"]
-[connection signal="button_up" from="Button/MenuPopup/SaveMenu/SaveButton" to="Button/MenuPopup/SaveMenu" method="_on_SaveButton_button_up"]
-[connection signal="about_to_show" from="Button/MenuPopup/LoadMenu" to="Button/MenuPopup/LoadMenu" method="_on_about_to_show"]
-[connection signal="index_pressed" from="Button/MenuPopup/LoadMenu" to="Button/MenuPopup/LoadMenu" method="_on_index_pressed"]
+[node name="Saver" parent="UI/Button/MenuPopup/LoadMenu" instance=ExtResource( 6 )]
+[connection signal="gui_input" from="UI" to="UI" method="_on_gui_input"]
+[connection signal="pressed" from="UI/Button" to="UI/Button" method="_on_Button_pressed"]
+[connection signal="index_pressed" from="UI/Button/MenuPopup" to="UI/Button/MenuPopup" method="_on_index_pressed"]
+[connection signal="about_to_show" from="UI/Button/MenuPopup/SaveMenu" to="UI/Button/MenuPopup/SaveMenu" method="_on_about_to_show"]
+[connection signal="index_pressed" from="UI/Button/MenuPopup/SaveMenu" to="UI/Button/MenuPopup/SaveMenu" method="_on_index_pressed"]
+[connection signal="mouse_entered" from="UI/Button/MenuPopup/SaveMenu" to="UI" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="UI/Button/MenuPopup/SaveMenu" to="UI" method="_on_mouse_exited"]
+[connection signal="button_down" from="UI/Button/MenuPopup/SaveMenu/SaveButton" to="UI/Button/MenuPopup/SaveMenu" method="_on_SaveButton_button_down"]
+[connection signal="button_up" from="UI/Button/MenuPopup/SaveMenu/SaveButton" to="UI/Button/MenuPopup/SaveMenu" method="_on_SaveButton_button_up"]
+[connection signal="about_to_show" from="UI/Button/MenuPopup/LoadMenu" to="UI/Button/MenuPopup/LoadMenu" method="_on_about_to_show"]
+[connection signal="index_pressed" from="UI/Button/MenuPopup/LoadMenu" to="UI/Button/MenuPopup/LoadMenu" method="_on_index_pressed"]
