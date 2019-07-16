@@ -1,6 +1,6 @@
 extends Control
 
-export var move_speed = 200
+export var move_speed = 100
 export var zoom_factor = 0.2
 
 #var delay = Timer.new()
@@ -13,12 +13,14 @@ var cursor
 var current_arrow
 var DragBox = preload("res://DragBox/DragBox.tscn")
 var dragbox
+var keys_disabled = false
 
 var move = Vector2.ZERO # Viewport movement direction
 
 func _process(delta):
+	var game_scale = get_viewport().canvas_transform.get_scale().x
 	get_viewport().canvas_transform = \
-		get_viewport().canvas_transform.translated(self.move  *  self.move_speed * delta)
+		get_viewport().canvas_transform.translated(self.move  *  self.move_speed * delta * (3 / game_scale))
 
 
 func _enter_tree():
@@ -55,10 +57,11 @@ func set_move_mode(event):
 
 func handle_mode_change(event):
 	if event.is_action_pressed("change_mode"):
+		var box_curs = get_viewport().find_node("BoxCursor", true, false)
+		if box_curs != null:
+			box_curs.kill_box()
+			
 		if self.input_mode == MOVE:
-			var box_curs = main.find_node("BoxCursor", true, false)
-			if box_curs != null:
-				box_curs.kill_box()
 			self.input_mode = 0
 		else:
 			self.input_mode = (self.input_mode + 1) % 4
@@ -67,6 +70,12 @@ func handle_mode_change(event):
 			
 			
 func handle_zoom(event):
+	if !event.is_action("zoom_out") and !event.is_action("zoom_in"):
+		return
+	
+	var mouse_position = get_global_mouse_position()
+	get_viewport().canvas_transform.origin -= mouse_position 
+	
 	if event.is_action("zoom_out"):
 		get_viewport().canvas_transform = \
 			get_viewport().canvas_transform.scaled(Vector2.ONE - Vector2.ONE * self.zoom_factor)
@@ -74,6 +83,8 @@ func handle_zoom(event):
 	if event.is_action("zoom_in"):
 		get_viewport().canvas_transform = \
 			get_viewport().canvas_transform.scaled(Vector2.ONE + Vector2.ONE * self.zoom_factor)
+	
+	get_viewport().canvas_transform.origin += mouse_position 
 
 
 func handle_add(event):
@@ -111,7 +122,7 @@ func handle_select(event):
 			return
 		var arrows = main.find_node("Arrows")
 		if arrows != null and res["size"]:
-			arrows.create_component(res["position"], res["size"], res["arrows"])
+			arrows.create_box(res["position"], res["size"], res["arrows"])
 		
 	elif self.dragbox:
 		self.dragbox.drag()
@@ -135,7 +146,7 @@ func handle_move(event):
 		box.paste()
 
 func _unhandled_input(event):
-	if event.is_action_type():
+	if !self.keys_disabled and event.is_action_type():
 		if event.is_action_pressed("up"):
 			move += Vector2.DOWN
 		elif event.is_action_pressed("down"):
@@ -152,3 +163,9 @@ func _unhandled_input(event):
 			move -= Vector2.RIGHT
 		elif event.is_action_released("right"):
 			move -= Vector2.LEFT
+
+func _disable_keys():
+	self.keys_disabled = true
+
+func _allow_keys():
+	self.keys_disabled = false

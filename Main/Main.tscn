@@ -17,6 +17,7 @@ autostart = true
 script = ExtResource( 2 )
 
 [node name="Cursor" parent="." instance=ExtResource( 3 )]
+z_as_relative = false
 
 [node name="UI" parent="." instance=ExtResource( 4 )]
 

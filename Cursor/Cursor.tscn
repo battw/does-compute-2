@@ -14,13 +14,11 @@ script = ExtResource( 1 )
 scale = Vector2( 2, 2 )
 width = 1.0
 default_color = Color( 0.980392, 0.741176, 0.184314, 1 )
-texture_mode = 172638656
 
 [node name="Invert" parent="." instance=ExtResource( 2 )]
 visible = false
 scale = Vector2( 3, 1 )
 default_color = Color( 0.270588, 0.521569, 0.533333, 1 )
-texture_mode = 172638656
 
 [node name="Delete" parent="." instance=ExtResource( 2 )]
 visible = false

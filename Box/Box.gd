@@ -3,13 +3,14 @@ extends Node2D
 export var size = Vector2.ZERO setget _set_size
 var button_visibility = false setget _set_button_visibility
 var is_moving_copy = false
+const Arrow = preload("res://Arrow/Arrow.tscn")
+var mouse_over_buttons = false
+var mouse_over_box = false
 
 
 func _enter_tree():
 	var buttons = find_node("Buttons").get_children()
-	
 	$Buttons.visible = false
-
 
 func _draw():
 	draw_rect(Rect2(Vector2.ZERO, self.size), Color(0, 0, 0, .3))
@@ -38,7 +39,6 @@ func _on_Copy_pressed():
 	cop.button_visibility = false
 	cop.is_moving_copy = true
 	cursor.add_child(cop)
-	
 	ui.set_move_mode(true)
 
 func _set_size(a_size):
@@ -50,14 +50,15 @@ func _set_size(a_size):
 	
 func copy():
 	var dup = duplicate()
+	dup.find_node("Area2D").get_child(0).shape = RectangleShape2D.new() # otherwise all the duplicates reference the same shape
 	dup.transform.origin = Vector2.ONE
-	#dup.size = Vector2(self.size.x, self.size.y)
+	dup.size = Vector2(self.size.x, self.size.y)
 	return dup
 	
 func kill():
 	# delete the component and all of the arrows it contains
-	get_parent().get_child(self.get_index())
-	self.queue_free()
+	get_parent().get_child(get_index())
+	queue_free()
 	
 func paste():
 	var arrows = get_viewport().find_node("Arrows", true, false)
@@ -79,15 +80,6 @@ func _set_button_visibility(value):
 	$Buttons.visible = value
 
 
-func _on_Area2D_area_entered(area):
-	if ! self.is_moving_copy:
-		self.button_visibility = true
-
-
-func _on_Area2D_area_exited(area):
-	self.button_visibility = false
-
-
 func rot():
 	$Contents.rotate(PI / 2)
 	self.size = Vector2(self.size.y, self.size.x)
@@ -104,3 +96,47 @@ func remove():
 			$Contents.remove_child(c)	
 			arrows.add_child(c)
 	kill()
+	
+func save():
+	var data = {}
+	data["type"] = "Box"
+	data["size"] = self.size
+	data["position"] = self.position
+	data["contents"] = {}
+	for item in $Contents.get_children():
+		if item.name.match("*Arrow*"):
+			data["contents"][item.name] = item.save()
+	return data
+
+func load(data):
+	self.size = data["size"]
+	self.position = data["position"]
+	for name in data["contents"]:
+		if name.match("*Arrow*"):
+			var a = Arrow.instance()
+			a.load(data["contents"][name])
+			$Contents.add_child(a)
+
+
+func _on_Buttons_mouse_entered():
+	self.mouse_over_buttons = true
+	_update_visibility()
+
+func _on_Buttons_mouse_exited():
+	self.mouse_over_buttons = false
+	_update_visibility()
+	
+func _on_Area2D_area_entered(area):
+	self.mouse_over_box = true
+	_update_visibility()
+
+func _on_Area2D_area_exited(area):
+	self.mouse_over_box = false
+	_update_visibility()
+	
+func _update_visibility():
+	self.button_visibility = ! self.is_moving_copy and (self.mouse_over_box or self.mouse_over_buttons)
+
+func mirror():
+	for arrow in $Contents.get_children():
+		arrow.position.x *= -1

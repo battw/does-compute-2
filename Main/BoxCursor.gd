@@ -12,8 +12,9 @@ func _process(delta):
 	else:
 		var global_mouse_snap = self.main.snap_to_grid(get_parent().get_global_mouse_position())
 		self.position = get_parent().to_local(global_mouse_snap)
-	
+
 
 func kill_box():
-	if $Box != null:
-		$Box.kill()
+	var box = find_node("*Box*", true, false)
+	if box != null:
+		box.kill()

@@ -74,6 +74,8 @@ script = ExtResource( 7 )
 [connection signal="index_pressed" from="UIControl/Button/MenuPopup/SaveMenu" to="UIControl/Button/MenuPopup/SaveMenu" method="_on_index_pressed"]
 [connection signal="mouse_entered" from="UIControl/Button/MenuPopup/SaveMenu" to="UIControl" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="UIControl/Button/MenuPopup/SaveMenu" to="UIControl" method="_on_mouse_exited"]
+[connection signal="focus_entered" from="UIControl/Button/MenuPopup/SaveMenu/LineEdit" to="UIControl" method="_disable_keys"]
+[connection signal="focus_exited" from="UIControl/Button/MenuPopup/SaveMenu/LineEdit" to="UIControl" method="_allow_keys"]
 [connection signal="button_down" from="UIControl/Button/MenuPopup/SaveMenu/SaveButton" to="UIControl/Button/MenuPopup/SaveMenu" method="_on_SaveButton_button_down"]
 [connection signal="button_up" from="UIControl/Button/MenuPopup/SaveMenu/SaveButton" to="UIControl/Button/MenuPopup/SaveMenu" method="_on_SaveButton_button_up"]
 [connection signal="about_to_show" from="UIControl/Button/MenuPopup/LoadMenu" to="UIControl/Button/MenuPopup/LoadMenu" method="_on_about_to_show"]

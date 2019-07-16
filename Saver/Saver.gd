@@ -4,6 +4,7 @@ const SAVE_PATH = "res://saves"
 const save_resource = preload("res://Saver/SaveData.gd")
 const Arrow = preload("res://Arrow/Arrow.tscn")
 const Dot = preload("res://Dot/Dot.tscn")
+const Box = preload("res://Box/Box.tscn")
 
 
 func save(name):
@@ -21,7 +22,8 @@ func save(name):
 		save.data[saver.name] = []
 		print("Saving " + saver.name)
 		for a in saver.get_children():
-			save.data[saver.name].append(a.save())
+			if a.has_method("save"):
+				save.data[saver.name].append(a.save())
 	
 	# save data to file
 	var file_path = SAVE_PATH.plus_file(name + ".tres")
@@ -51,7 +53,8 @@ func load(name):
 	
 	for saver in get_tree().get_nodes_in_group("Savers"):
 		for child in saver.get_children():
-			saver.remove_child(child)
+			if child.has_method("load"):
+				saver.remove_child(child)
 		
 		if !save.data.has(saver.name):
 			print("save.data has no key: " + saver.name)

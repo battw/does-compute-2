@@ -10,7 +10,7 @@ func add_arrow(pos):
 	self.add_child(a)
 	return a
 	
-func create_component(position, size, arrows):
+func create_box(position, size, arrows):
 	var b = Box.instance()
 	b.position = position
 	b.size = size
