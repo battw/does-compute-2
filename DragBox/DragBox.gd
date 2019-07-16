@@ -7,7 +7,7 @@ var main
 
 var click_position
 var top_left
-var size
+var size = Vector2.ZERO
 
 
 func _enter_tree():
@@ -41,7 +41,7 @@ func update_size(drag_position):
 	$Area2D/CollisionShape2D.shape.extents = size / 2
 	
 
-func drag_off():	
+func drag_off():
 	var arrows = []
 	for area in $Area2D.get_overlapping_areas():
 		var arrow = area.find_parent("*Arrow*")
@@ -53,5 +53,7 @@ func drag_off():
 	get_parent().remove_child(self)
 	queue_free()
 	
+	if size.x == 0 or size.y == 0:
+		return null
 	return {"position": top_left, "size": size, "arrows": arrows}
 	

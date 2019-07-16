@@ -1,7 +1,7 @@
 extends Node
 
 var Arrow = preload("res://Arrow/Arrow.tscn") 
-var Component = preload("res://Component/Component.tscn")
+var Box = preload("res://Box/Box.tscn")
 
 func add_arrow(pos):
 	""" Places an arrow at the given position and returns it """
@@ -11,12 +11,12 @@ func add_arrow(pos):
 	return a
 	
 func create_component(position, size, arrows):
-	var c = Component.instance()
-	c.position = position
-	c.size = size
+	var b = Box.instance()
+	b.position = position
+	b.size = size
 	for a in arrows:
 		if a in get_children():
 			remove_child(a)
-			a.transform = c.transform.affine_inverse() * a.transform
-			c.add_child(a)
-	self.add_child(c)
+			a.transform = b.transform.affine_inverse() * a.transform
+			b.add_child(a)
+	self.add_child(b)

@@ -7,13 +7,14 @@
 radius = 1.0
 
 [node name="Cursor" type="Node2D"]
-z_index = 100
+z_index = 500
 script = ExtResource( 1 )
 
 [node name="Add" parent="." instance=ExtResource( 2 )]
 scale = Vector2( 2, 2 )
 width = 1.0
 default_color = Color( 0.980392, 0.741176, 0.184314, 1 )
+texture_mode = 172638656
 
 [node name="Invert" parent="." instance=ExtResource( 2 )]
 visible = false

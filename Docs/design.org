@@ -3,5 +3,11 @@
 ** TODO Zoom to the centre of the screen rather than the origin 
 ** TODO Replace background crosses with a material (they slow everything down)
 ** Bugs
+*** Arrow area2D is call hit for clicks and overlaps of other arrows
+This should be limited to only dots. 
+**** Fix
+Add different collision shapes for different collision types or 
+add a script to the area2D which sorts the different types of collision
+and send the appropriate signal type. 
 *** Keyboard input sometimes doesn't register till after a mouse click
 _input function in Main is not called by the engine.

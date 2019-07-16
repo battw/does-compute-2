@@ -1,23 +1,27 @@
 extends Node2D
 
 onready var dot = preload("res://Dot/Dot.tscn")
-var inv = false setget set_inv, get_inv
+export var inv = false setget set_inv, get_inv
 var hit = false # the Arrow has been hit by a Dot since the last tick
-var other_color = Color(0,0,0) # swaps between this and the main color when arrows are inverted.
+export var color = Color(.92, .86, .7)
+export var inv_color = Color(.4, .36, .33)
 
 
 func get_inv():
 	return inv
 
 func set_inv(abool):
-	if abool != inv:
-		inv = abool
-		var poly = find_node("Polygon2D", true, false)
-		poly.invert_color()
+	inv = abool
+	if inv:
+		$Polygon2D.color = self.inv_color
+	else:
+		$Polygon2D.color = self.color
+
 
 func _ready():
 	add_to_group("Arrows")
 	add_to_group("Tickers")
+	self.name = "Arrow[" + str(get_instance_id()) + "]"
 	#add_to_group("Savers")
 	
 	
@@ -31,7 +35,10 @@ func hit(area2d):
 	if d != null and !d.from_arrows.has(self.name):
 		var names = get_contiguous_neighbours_names()
 		for name in names:
-			var node = get_parent().get_node(name)
+			var node = find_parent("Arrows").find_node(name, true, false)
+			if node == null:
+				print("Can't find arrow " + str(name) + " (Arrow.hit())")
+				continue
 			node.hit = true
 		d.queue_free()
 
