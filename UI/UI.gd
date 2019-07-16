@@ -122,7 +122,7 @@ func handle_move(event):
 		print("can't find box cursor (UI.handle_move()")
 		return
 		
-	var box = box_cursor.find_node("Box", true, false)
+	var box = box_cursor.find_node("*Box*", true, false)
 	if box == null:
 		print("can't find box (UI.handle_move())")
 		return

@@ -1,14 +1,17 @@
 extends Node2D
 
 onready var dot = preload("res://Dot/Dot.tscn")
-export var inv = false setget set_inv, get_inv
-var hit = false # the Arrow has been hit by a Dot since the last tick
+# All the variables are exported as that means self.duplicate() 
+# will maintain their current state.
+export var inv = false setget set_inv, get_inv 
+export var hit = false # the Arrow has been hit by a Dot since the last tick
 export var color = Color(.92, .86, .7)
 export var inv_color = Color(.4, .36, .33)
 
 
 func get_inv():
 	return inv
+
 
 func set_inv(abool):
 	inv = abool
@@ -42,6 +45,7 @@ func hit(area2d):
 			node.hit = true
 		d.queue_free()
 
+
 # TODO: return nodes instead of names so we don't need to rely on all arrows sharing the same parent
 func get_contiguous_neighbours_names(visited=[self.name]):
 	""" returns an array of the names of all arrows which form a contiguous area which includes this arrow.
@@ -65,23 +69,25 @@ func tick():
 
 func emit():
 	var d = dot.instance()
-	d.direction = Vector2.RIGHT.rotated(transform.get_rotation())
+	d.direction = Vector2.RIGHT.rotated(get_global_transform().get_rotation())
 	d.position = global_position
 	d.from_arrows = get_contiguous_neighbours_names()
 	var dots = get_tree().get_root().find_node("Dots", true, false)
 	if !dots:
-		print("there should be a node called Dots. unable to emit dot")
+		print("can't find Dots. Unable to emit dot (Arrow.emit())")
 		return
 	dots.add_child(d)
-	
+
 
 func invert():
 	self.inv = !inv
-	
+
+
 func delete():
 	self.get_parent().remove_child(self)
 	self.queue_free()
-	
+
+
 func save():
 	var data = {}
 	data["type"] = "Arrow"
@@ -90,7 +96,8 @@ func save():
 	data["hit"] = self.hit
 	data["transform"] = self.transform
 	return data
-	
+
+
 func load(data):
 	self.name = data["name"]
 	self.inv = data["inv"]

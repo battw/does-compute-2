@@ -25,6 +25,6 @@ func get_arrows():
 	var arrows = []
 	for area in $Area2D.get_overlapping_areas():
 		var arrow = area.find_parent("*Arrow*")
-		if arrow:
+		if arrow != null and arrow.name != "Arrows":
 			arrows.append(arrow)
 	return arrows

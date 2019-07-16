@@ -14,9 +14,10 @@ func create_component(position, size, arrows):
 	var b = Box.instance()
 	b.position = position
 	b.size = size
+	add_child(b)
 	for a in arrows:
 		if a in get_children():
+			a.transform = a.global_transform
 			remove_child(a)
-			a.transform = b.transform.affine_inverse() * a.transform
-			b.add_child(a)
-	self.add_child(b)
+			b.add_arrow(a)
+	
