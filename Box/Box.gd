@@ -145,7 +145,7 @@ func mirror():
 		arrow.position = Vector2.ZERO
 		var rot = arrow.rotation
 		arrow.rotation -= PI / 2
-		arrow.rotation = 2 * PI - arrow.rotation
+		arrow.rotation *= -1
 		arrow.rotation += PI / 2
 		arrow.position = pos
 	$Contents.rotation = 0
