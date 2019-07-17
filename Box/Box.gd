@@ -139,4 +139,13 @@ func _update_visibility():
 
 func mirror():
 	for arrow in $Contents.get_children():
+		arrow.transform = arrow.transform.rotated($Contents.rotation)
 		arrow.position.x *= -1
+		var pos = arrow.position
+		arrow.position = Vector2.ZERO
+		var rot = arrow.rotation
+		arrow.rotation -= PI / 2
+		arrow.rotation = 2 * PI - arrow.rotation
+		arrow.rotation += PI / 2
+		arrow.position = pos
+	$Contents.rotation = 0
