@@ -43,14 +43,31 @@ func _on_Copy_pressed():
 
 func _set_size(a_size):
 	size = a_size
-	$Area2D/CollisionShape2D.shape.extents = size / 2
-	$Area2D.position = size / 2
-	$Contents.position = size / 2
-	$Buttons.set_size(size.x)
+	if $Area2D == null:
+		print("$Area2D == null (Box._set_size())")
+	else:
+		$Area2D.position = size / 2
+		if $Area2D/CollisionShape2D == null:
+			print("$Area2D/CollisionShape2D == null (Box._set_size())")
+		else:
+			if $Area2D/CollisionShape2D.shape == null:
+				$Area2D/CollisionShape2D.shape = RectangleShape2D.new()
+			$Area2D/CollisionShape2D.shape.extents = size / 2
+			
+	
+	if $Contents == null:
+		print("$Contents == null (Box._set_size())")
+	else:
+		$Contents.position = size / 2
+		
+	if $Buttons == null:
+		print("$Buttons == null (Box._set_size())")
+	else:
+		$Buttons.set_size(size.x)
 	
 func copy():
 	var dup = duplicate()
-	dup.find_node("Area2D").get_child(0).shape = RectangleShape2D.new() # otherwise all the duplicates reference the same shape
+	dup.find_node("Area2D").get_child(0).shape = RectangleShape2D.new() # otherwise the duplicates reference the same shape
 	dup.transform.origin = Vector2.ONE
 	dup.size = Vector2(self.size.x, self.size.y)
 	return dup

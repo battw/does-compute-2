@@ -1,9 +1,9 @@
 * Design Notes for Does Compute
-** TODO In Arrow, remove the need for all arrows to have the same parent.
-** TODO Zoom to the centre of the screen rather than the origin 
-** TODO Replace background crosses with a material (they slow everything down)
+** Improvements 
+*** Nested Boxes
+*** Dots using a single image
 ** Bugs
-*** Arrow area2D is call hit for clicks and overlaps of other arrows
+*** Arrow area2D calls hit for clicks and overlaps of other arrows
 This should be limited to only dots. 
 **** Fix
 Add different collision shapes for different collision types or 
@@ -11,3 +11,15 @@ add a script to the area2D which sorts the different types of collision
 and send the appropriate signal type. 
 *** Keyboard input sometimes doesn't register till after a mouse click
 _input function in Main is not called by the engine.
+*** List of saves overlaps the line input for the name in save menu
+*** List of saves in load and save menus doesn't fit in the menu
+Try scrolling or growing the box or both
+*** Cursor not visible over GUI elements
+*** The user can attempt to overlap Boxes but this doesn't work properly
+*** Movement jerks at the point that the dots spawn
+**** Memory allocation?
+Can use dots from a preallocated pool.
+
+
+
+

@@ -1,0 +1,355 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Saver/SaveData.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+data = {
+"Arrows": [ {
+"contents": {
+"Arrow[4787]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[4787]",
+"transform": Transform2D( -0.0334958, -0.999439, 0.999439, -0.0334958, -125, 50 ),
+"type": "Arrow"
+},
+"Arrow[4791]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[4791]",
+"transform": Transform2D( 0.715918, -0.698185, 0.698185, 0.715918, -75, 50 ),
+"type": "Arrow"
+},
+"Arrow[4795]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[4795]",
+"transform": Transform2D( 0.905267, -0.424843, 0.424843, 0.905267, -25, 50 ),
+"type": "Arrow"
+},
+"Arrow[4799]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[4799]",
+"transform": Transform2D( 0.956754, -0.290898, 0.290898, 0.956754, 25, 50 ),
+"type": "Arrow"
+},
+"Arrow[4803]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[4803]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, -175, -50 ),
+"type": "Arrow"
+},
+"Arrow[4807]": {
+"hit": true,
+"inv": true,
+"name": "Arrow[4807]",
+"transform": Transform2D( -1, -0.000197021, 0.000197021, -1, -125, 0 ),
+"type": "Arrow"
+},
+"Arrow[4811]": {
+"hit": true,
+"inv": true,
+"name": "Arrow[4811]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, -75, 0 ),
+"type": "Arrow"
+},
+"Arrow[4815]": {
+"hit": true,
+"inv": false,
+"name": "Arrow[4815]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, -75, -50 ),
+"type": "Arrow"
+},
+"Arrow[4819]": {
+"hit": true,
+"inv": true,
+"name": "Arrow[4819]",
+"transform": Transform2D( -1, -0.000197085, 0.000197085, -1, -25, 0 ),
+"type": "Arrow"
+},
+"Arrow[4823]": {
+"hit": true,
+"inv": true,
+"name": "Arrow[4823]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, 25, 0 ),
+"type": "Arrow"
+},
+"Arrow[4827]": {
+"hit": true,
+"inv": false,
+"name": "Arrow[4827]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, 25, -50 ),
+"type": "Arrow"
+},
+"Arrow[4831]": {
+"hit": true,
+"inv": true,
+"name": "Arrow[4831]",
+"transform": Transform2D( -1, -0.000197085, 0.000197085, -1, 75, 0 ),
+"type": "Arrow"
+},
+"Arrow[4835]": {
+"hit": true,
+"inv": true,
+"name": "Arrow[4835]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, 125, 0 ),
+"type": "Arrow"
+},
+"Arrow[4839]": {
+"hit": true,
+"inv": false,
+"name": "Arrow[4839]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, 125, -50 ),
+"type": "Arrow"
+},
+"Arrow[4843]": {
+"hit": true,
+"inv": true,
+"name": "Arrow[4843]",
+"transform": Transform2D( -1, -0.000197085, 0.000197085, -1, 175, 0 ),
+"type": "Arrow"
+},
+"Arrow[4847]": {
+"hit": true,
+"inv": true,
+"name": "Arrow[4847]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, -175, 0 ),
+"type": "Arrow"
+},
+"Arrow[4851]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[4851]",
+"transform": Transform2D( -0.994516, -0.104585, 0.104585, -0.994516, 175, 50 ),
+"type": "Arrow"
+},
+"Arrow[4855]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[4855]",
+"transform": Transform2D( -0.989022, -0.147768, 0.147768, -0.989022, 175, 50 ),
+"type": "Arrow"
+},
+"Arrow[4859]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[4859]",
+"transform": Transform2D( -0.964511, -0.264044, 0.264044, -0.964511, 175, 50 ),
+"type": "Arrow"
+},
+"Arrow[4863]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[4863]",
+"transform": Transform2D( -0.763063, -0.646324, 0.646324, -0.763063, 175, 50 ),
+"type": "Arrow"
+}
+},
+"position": Vector2( 150, 200 ),
+"size": Vector2( 350, 100 ),
+"type": "Box"
+}, {
+"contents": {
+"Arrow[162703]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[162703]",
+"transform": Transform2D( -0.711292, -0.702897, 0.702897, -0.711292, 0, 50 ),
+"type": "Arrow"
+},
+"Arrow[162707]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[162707]",
+"transform": Transform2D( 0.00396664, -0.999992, 0.999992, 0.00396664, -50, 50 ),
+"type": "Arrow"
+},
+"Arrow[162711]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[162711]",
+"transform": Transform2D( 0.70842, -0.705791, 0.705791, 0.70842, -50, 0 ),
+"type": "Arrow"
+},
+"Arrow[162715]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[162715]",
+"transform": Transform2D( 0.711706, -0.702477, 0.702477, 0.711706, -50, 50 ),
+"type": "Arrow"
+},
+"Arrow[162719]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[162719]",
+"transform": Transform2D( 0.715067, -0.699056, 0.699056, 0.715067, 0, 50 ),
+"type": "Arrow"
+},
+"Arrow[162723]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[162723]",
+"transform": Transform2D( 0.763173, -0.646194, 0.646194, 0.763173, 0, 0 ),
+"type": "Arrow"
+},
+"Arrow[162727]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[162727]",
+"transform": Transform2D( -0.0190152, -0.999819, 0.999819, -0.0190152, 50, 0 ),
+"type": "Arrow"
+},
+"Arrow[162731]": {
+"hit": true,
+"inv": true,
+"name": "Arrow[162731]",
+"transform": Transform2D( -0.99929, -0.0376842, 0.0376842, -0.99929, 50, -50 ),
+"type": "Arrow"
+},
+"Arrow[162735]": {
+"hit": true,
+"inv": true,
+"name": "Arrow[162735]",
+"transform": Transform2D( 0.00555413, -0.999985, 0.999985, 0.00555413, 0, -50 ),
+"type": "Arrow"
+}
+},
+"position": Vector2( 600, 200 ),
+"size": Vector2( 100, 100 ),
+"type": "Box"
+}, {
+"contents": {
+"Arrow[168450]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[168450]",
+"transform": Transform2D( -0.711292, -0.702897, 0.702897, -0.711292, 50, 0 ),
+"type": "Arrow"
+},
+"Arrow[168454]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[168454]",
+"transform": Transform2D( 0.00396664, -0.999992, 0.999992, 0.00396664, 0, 0 ),
+"type": "Arrow"
+},
+"Arrow[168458]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[168458]",
+"transform": Transform2D( 0.70842, -0.705791, 0.705791, 0.70842, 0, -50 ),
+"type": "Arrow"
+},
+"Arrow[168462]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[168462]",
+"transform": Transform2D( 0.711706, -0.702477, 0.702477, 0.711706, 0, 0 ),
+"type": "Arrow"
+},
+"Arrow[168466]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[168466]",
+"transform": Transform2D( 0.715067, -0.699056, 0.699056, 0.715067, 50, 0 ),
+"type": "Arrow"
+},
+"Arrow[168470]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[168470]",
+"transform": Transform2D( 0.763173, -0.646194, 0.646194, 0.763173, 50, -50 ),
+"type": "Arrow"
+},
+"Arrow[168474]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[168474]",
+"transform": Transform2D( -0.0190152, -0.999819, 0.999819, -0.0190152, 100, -50 ),
+"type": "Arrow"
+},
+"Arrow[168478]": {
+"hit": true,
+"inv": true,
+"name": "Arrow[168478]",
+"transform": Transform2D( -0.99929, -0.0376842, 0.0376842, -0.99929, 100, -100 ),
+"type": "Arrow"
+},
+"Arrow[168482]": {
+"hit": true,
+"inv": true,
+"name": "Arrow[168482]",
+"transform": Transform2D( 0.00555413, -0.999985, 0.999985, 0.00555413, 50, -100 ),
+"type": "Arrow"
+},
+"Arrow[239093]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[239093]",
+"transform": Transform2D( 0.00365782, -0.999993, 0.999993, 0.00365782, -100, 0 ),
+"type": "Arrow"
+},
+"Arrow[239944]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[239944]",
+"transform": Transform2D( -0.999994, -0.00332442, 0.00332442, -0.999994, -100, -100 ),
+"type": "Arrow"
+},
+"Arrow[241221]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[241221]",
+"transform": Transform2D( -0.42015, -0.907455, 0.907455, -0.42015, -50, 0 ),
+"type": "Arrow"
+},
+"Arrow[256347]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[256347]",
+"transform": Transform2D( 0.00276048, -0.999996, 0.999996, 0.00276048, -100, 100 ),
+"type": "Arrow"
+},
+"Arrow[257666]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[257666]",
+"transform": Transform2D( 0.726232, -0.68745, 0.68745, 0.726232, -100, 100 ),
+"type": "Arrow"
+},
+"Arrow[259227]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[259227]",
+"transform": Transform2D( -0.841345, -0.540498, 0.540498, -0.841345, 100, 100 ),
+"type": "Arrow"
+},
+"Arrow[261590]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[261590]",
+"transform": Transform2D( -0.444921, -0.89557, 0.89557, -0.444921, 100, 100 ),
+"type": "Arrow"
+}
+},
+"position": Vector2( 1050, 900 ),
+"size": Vector2( 200, 200 ),
+"type": "Box"
+} ],
+"Dots": [ {
+"direction": Vector2( 0.00365777, -0.999993 ),
+"from_arrows": [ "Arrow[239093]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1050.38, 912.653 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.42015, -0.907455 ),
+"from_arrows": [ "Arrow[241221]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1063.3, 920.736 ),
+"type": "Dot"
+} ]
+}

@@ -1,10 +1,8 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Box/Box.gd" type="Script" id=1]
 [ext_resource path="res://BoxTheme.tres" type="Theme" id=2]
 [ext_resource path="res://Box/Buttons.gd" type="Script" id=3]
-
-[sub_resource type="RectangleShape2D" id=1]
 
 [node name="Box" type="Node2D"]
 z_index = 100
@@ -51,7 +49,6 @@ collision_layer = 0
 collision_mask = 8
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-shape = SubResource( 1 )
 
 [node name="Contents" type="Node2D" parent="."]
 [connection signal="mouse_entered" from="Buttons" to="." method="_on_Buttons_mouse_entered"]

@@ -95,7 +95,7 @@ func handle_add(event):
 	elif event.is_action_released("click"):
 		current_arrow = null
 		
-	if current_arrow:
+	if current_arrow != null:
 		var mpos = _get_model_mouse_position()
 		current_arrow.look_at(mpos)
 
