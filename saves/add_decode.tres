@@ -1,0 +1,6155 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Saver/SaveData.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+data = {
+"Arrows": [ {
+"contents": {
+"Arrow[11472]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11472]",
+"transform": Transform2D( -0.0334958, -0.999439, 0.999439, -0.0334958, -125, 50 ),
+"type": "Arrow"
+},
+"Arrow[11476]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11476]",
+"transform": Transform2D( 0.715918, -0.698185, 0.698185, 0.715918, -75, 50 ),
+"type": "Arrow"
+},
+"Arrow[11480]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11480]",
+"transform": Transform2D( 0.905267, -0.424843, 0.424843, 0.905267, -25, 50 ),
+"type": "Arrow"
+},
+"Arrow[11484]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11484]",
+"transform": Transform2D( 0.956754, -0.290898, 0.290898, 0.956754, 25, 50 ),
+"type": "Arrow"
+},
+"Arrow[11488]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11488]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, -175, -50 ),
+"type": "Arrow"
+},
+"Arrow[11492]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11492]",
+"transform": Transform2D( -1, -0.000197021, 0.000197021, -1, -125, 0 ),
+"type": "Arrow"
+},
+"Arrow[11496]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11496]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, -75, 0 ),
+"type": "Arrow"
+},
+"Arrow[11500]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11500]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, -75, -50 ),
+"type": "Arrow"
+},
+"Arrow[11504]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11504]",
+"transform": Transform2D( -1, -0.000197085, 0.000197085, -1, -25, 0 ),
+"type": "Arrow"
+},
+"Arrow[11508]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11508]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, 25, 0 ),
+"type": "Arrow"
+},
+"Arrow[11512]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11512]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, 25, -50 ),
+"type": "Arrow"
+},
+"Arrow[11516]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11516]",
+"transform": Transform2D( -1, -0.000197085, 0.000197085, -1, 75, 0 ),
+"type": "Arrow"
+},
+"Arrow[11520]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11520]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, 125, 0 ),
+"type": "Arrow"
+},
+"Arrow[11524]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11524]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, 125, -50 ),
+"type": "Arrow"
+},
+"Arrow[11528]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11528]",
+"transform": Transform2D( -1, -0.000197085, 0.000197085, -1, 175, 0 ),
+"type": "Arrow"
+},
+"Arrow[11532]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11532]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, -175, 0 ),
+"type": "Arrow"
+},
+"Arrow[11536]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11536]",
+"transform": Transform2D( -0.994516, -0.104585, 0.104585, -0.994516, 175, 50 ),
+"type": "Arrow"
+},
+"Arrow[11540]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11540]",
+"transform": Transform2D( -0.989022, -0.147768, 0.147768, -0.989022, 175, 50 ),
+"type": "Arrow"
+},
+"Arrow[11544]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11544]",
+"transform": Transform2D( -0.964511, -0.264044, 0.264044, -0.964511, 175, 50 ),
+"type": "Arrow"
+},
+"Arrow[11548]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11548]",
+"transform": Transform2D( -0.763063, -0.646324, 0.646324, -0.763063, 175, 50 ),
+"type": "Arrow"
+}
+},
+"position": Vector2( 150, 200 ),
+"size": Vector2( 350, 100 ),
+"type": "Box"
+}, {
+"contents": {
+"Arrow[11563]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11563]",
+"transform": Transform2D( -0.711292, -0.702897, 0.702897, -0.711292, 0, 50 ),
+"type": "Arrow"
+},
+"Arrow[11567]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11567]",
+"transform": Transform2D( 0.00396664, -0.999992, 0.999992, 0.00396664, -50, 50 ),
+"type": "Arrow"
+},
+"Arrow[11571]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11571]",
+"transform": Transform2D( 0.70842, -0.705791, 0.705791, 0.70842, -50, 0 ),
+"type": "Arrow"
+},
+"Arrow[11575]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11575]",
+"transform": Transform2D( 0.711706, -0.702477, 0.702477, 0.711706, -50, 50 ),
+"type": "Arrow"
+},
+"Arrow[11579]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11579]",
+"transform": Transform2D( 0.715067, -0.699056, 0.699056, 0.715067, 0, 50 ),
+"type": "Arrow"
+},
+"Arrow[11583]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11583]",
+"transform": Transform2D( 0.763173, -0.646194, 0.646194, 0.763173, 0, 0 ),
+"type": "Arrow"
+},
+"Arrow[11587]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11587]",
+"transform": Transform2D( -0.0190152, -0.999819, 0.999819, -0.0190152, 50, 0 ),
+"type": "Arrow"
+},
+"Arrow[11591]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11591]",
+"transform": Transform2D( -0.99929, -0.0376842, 0.0376842, -0.99929, 50, -50 ),
+"type": "Arrow"
+},
+"Arrow[11595]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11595]",
+"transform": Transform2D( 0.00555413, -0.999985, 0.999985, 0.00555413, 0, -50 ),
+"type": "Arrow"
+}
+},
+"position": Vector2( 600, 200 ),
+"size": Vector2( 100, 100 ),
+"type": "Box"
+}, {
+"contents": {
+"Arrow[11610]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11610]",
+"transform": Transform2D( -0.711292, -0.702897, 0.702897, -0.711292, 50, 0 ),
+"type": "Arrow"
+},
+"Arrow[11614]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11614]",
+"transform": Transform2D( 0.00396663, -0.999992, 0.999992, 0.00396663, 0, 0 ),
+"type": "Arrow"
+},
+"Arrow[11618]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11618]",
+"transform": Transform2D( 0.70842, -0.705791, 0.705791, 0.70842, 0, -50 ),
+"type": "Arrow"
+},
+"Arrow[11622]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11622]",
+"transform": Transform2D( 0.711706, -0.702477, 0.702477, 0.711706, 0, 0 ),
+"type": "Arrow"
+},
+"Arrow[11626]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11626]",
+"transform": Transform2D( 0.715067, -0.699056, 0.699056, 0.715067, 50, 0 ),
+"type": "Arrow"
+},
+"Arrow[11630]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11630]",
+"transform": Transform2D( 0.763173, -0.646194, 0.646194, 0.763173, 50, -50 ),
+"type": "Arrow"
+},
+"Arrow[11634]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11634]",
+"transform": Transform2D( -0.0190152, -0.999819, 0.999819, -0.0190152, 100, -50 ),
+"type": "Arrow"
+},
+"Arrow[11638]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11638]",
+"transform": Transform2D( -0.99929, -0.0376843, 0.0376843, -0.99929, 100, -100 ),
+"type": "Arrow"
+},
+"Arrow[11642]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11642]",
+"transform": Transform2D( 0.00555413, -0.999985, 0.999985, 0.00555413, 50, -100 ),
+"type": "Arrow"
+},
+"Arrow[11646]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11646]",
+"transform": Transform2D( 0.00365776, -0.999993, 0.999993, 0.00365776, -100, 0 ),
+"type": "Arrow"
+},
+"Arrow[11650]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11650]",
+"transform": Transform2D( -0.999994, -0.00332441, 0.00332441, -0.999994, -100, -100 ),
+"type": "Arrow"
+},
+"Arrow[11654]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11654]",
+"transform": Transform2D( -0.42015, -0.907455, 0.907455, -0.42015, -50, 0 ),
+"type": "Arrow"
+},
+"Arrow[11658]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11658]",
+"transform": Transform2D( 0.00276048, -0.999996, 0.999996, 0.00276048, -100, 100 ),
+"type": "Arrow"
+},
+"Arrow[11662]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11662]",
+"transform": Transform2D( 0.726232, -0.68745, 0.68745, 0.726232, -100, 100 ),
+"type": "Arrow"
+},
+"Arrow[11666]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11666]",
+"transform": Transform2D( -0.841345, -0.540498, 0.540498, -0.841345, 100, 100 ),
+"type": "Arrow"
+},
+"Arrow[11670]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11670]",
+"transform": Transform2D( -0.444921, -0.89557, 0.89557, -0.444921, 100, 100 ),
+"type": "Arrow"
+}
+},
+"position": Vector2( 800, 100 ),
+"size": Vector2( 200, 200 ),
+"type": "Box"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11674]",
+"transform": Transform2D( -0.999993, -0.00381412, 0.00381412, -0.999993, 0, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11678]",
+"transform": Transform2D( -0.998906, 0.046753, -0.046753, -0.998906, 50, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11682]",
+"transform": Transform2D( -0.998359, 0.0572732, -0.0572732, -0.998359, 100, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11686]",
+"transform": Transform2D( -0.998099, -0.061633, 0.061633, -0.998099, 150, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11690]",
+"transform": Transform2D( -0.999984, -0.00561226, 0.00561226, -0.999984, 200, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11694]",
+"transform": Transform2D( -0.999832, 0.0183411, -0.0183411, -0.999832, 250, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11698]",
+"transform": Transform2D( -0.999722, 0.0235976, -0.0235976, -0.999722, 300, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11702]",
+"transform": Transform2D( -0.999938, -0.011156, 0.011156, -0.999938, 350, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11706]",
+"transform": Transform2D( -0.999993, -0.00381412, 0.00381412, -0.999993, 400, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11710]",
+"transform": Transform2D( -0.998906, 0.046753, -0.046753, -0.998906, 450, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11714]",
+"transform": Transform2D( -0.998359, 0.0572732, -0.0572732, -0.998359, 500, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11718]",
+"transform": Transform2D( -0.998099, -0.061633, 0.061633, -0.998099, 550, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11722]",
+"transform": Transform2D( -0.999984, -0.00561226, 0.00561226, -0.999984, 600, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11726]",
+"transform": Transform2D( -0.999832, 0.0183411, -0.0183411, -0.999832, 650, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11730]",
+"transform": Transform2D( -0.999721, 0.0235976, -0.0235976, -0.999721, 700, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11734]",
+"transform": Transform2D( -0.999938, -0.011156, 0.011156, -0.999938, 750, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11738]",
+"transform": Transform2D( -0.999993, -0.00381412, 0.00381412, -0.999993, 800, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11742]",
+"transform": Transform2D( -0.998906, 0.046753, -0.046753, -0.998906, 850, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11746]",
+"transform": Transform2D( -0.998359, 0.0572732, -0.0572732, -0.998359, 900, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11750]",
+"transform": Transform2D( -0.998099, -0.061633, 0.061633, -0.998099, 950, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11754]",
+"transform": Transform2D( -0.999984, -0.00561226, 0.00561226, -0.999984, 1000, 450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11758]",
+"transform": Transform2D( -0.999832, 0.0183411, -0.0183411, -0.999832, 1650, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11762]",
+"transform": Transform2D( -0.999721, 0.0235976, -0.0235976, -0.999721, 1700, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11766]",
+"transform": Transform2D( -0.999938, -0.011156, 0.011156, -0.999938, 1750, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11770]",
+"transform": Transform2D( -0.999993, -0.00381412, 0.00381412, -0.999993, 1800, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11774]",
+"transform": Transform2D( -0.998906, 0.046753, -0.046753, -0.998906, 1850, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11778]",
+"transform": Transform2D( -0.998359, 0.0572732, -0.0572732, -0.998359, 1900, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11782]",
+"transform": Transform2D( -0.998099, -0.061633, 0.061633, -0.998099, 1950, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11786]",
+"transform": Transform2D( -0.999984, -0.00561226, 0.00561226, -0.999984, 2000, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11790]",
+"transform": Transform2D( -0.999832, 0.0183411, -0.0183411, -0.999832, 2050, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11794]",
+"transform": Transform2D( -0.999721, 0.0235976, -0.0235976, -0.999721, 2100, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11798]",
+"transform": Transform2D( -0.999938, -0.011156, 0.011156, -0.999938, 2150, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11802]",
+"transform": Transform2D( -0.999832, 0.0183411, -0.0183411, -0.999832, 1050, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11806]",
+"transform": Transform2D( -0.999721, 0.0235976, -0.0235976, -0.999721, 1100, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11810]",
+"transform": Transform2D( -0.999938, -0.011156, 0.011156, -0.999938, 1150, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11814]",
+"transform": Transform2D( -0.999993, -0.00381412, 0.00381412, -0.999993, 1200, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11818]",
+"transform": Transform2D( -0.998906, 0.046753, -0.046753, -0.998906, 1250, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11822]",
+"transform": Transform2D( -0.998359, 0.0572732, -0.0572732, -0.998359, 1300, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11826]",
+"transform": Transform2D( -0.998099, -0.061633, 0.061633, -0.998099, 1350, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11830]",
+"transform": Transform2D( -0.999984, -0.00561226, 0.00561226, -0.999984, 1400, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11834]",
+"transform": Transform2D( -0.999832, 0.0183411, -0.0183411, -0.999832, 1450, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11838]",
+"transform": Transform2D( -0.999721, 0.0235976, -0.0235976, -0.999721, 1500, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11842]",
+"transform": Transform2D( -0.999938, -0.011156, 0.011156, -0.999938, 1550, 550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[11846]",
+"transform": Transform2D( -0.99914, 0.0414681, -0.0414681, -0.99914, 1600, 550 ),
+"type": "Arrow"
+}, {
+"contents": {
+"Arrow[11861]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11861]",
+"transform": Transform2D( -0.711292, -0.702897, 0.702897, -0.711292, 225, 25 ),
+"type": "Arrow"
+},
+"Arrow[11865]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11865]",
+"transform": Transform2D( 0.00396663, -0.999992, 0.999992, 0.00396663, 175, 25 ),
+"type": "Arrow"
+},
+"Arrow[11869]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11869]",
+"transform": Transform2D( 0.70842, -0.705791, 0.705791, 0.70842, 175, -25 ),
+"type": "Arrow"
+},
+"Arrow[11873]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11873]",
+"transform": Transform2D( 0.711706, -0.702477, 0.702477, 0.711706, 175, 25 ),
+"type": "Arrow"
+},
+"Arrow[11877]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11877]",
+"transform": Transform2D( 0.715067, -0.699056, 0.699056, 0.715067, 225, 25 ),
+"type": "Arrow"
+},
+"Arrow[11881]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11881]",
+"transform": Transform2D( 0.763173, -0.646194, 0.646194, 0.763173, 225, -25 ),
+"type": "Arrow"
+},
+"Arrow[11885]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11885]",
+"transform": Transform2D( -0.0190152, -0.999819, 0.999819, -0.0190152, 275, -25 ),
+"type": "Arrow"
+},
+"Arrow[11889]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11889]",
+"transform": Transform2D( -0.99929, -0.0376843, 0.0376843, -0.99929, 275, -75 ),
+"type": "Arrow"
+},
+"Arrow[11893]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11893]",
+"transform": Transform2D( 0.00555413, -0.999985, 0.999985, 0.00555413, 225, -75 ),
+"type": "Arrow"
+},
+"Arrow[11897]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11897]",
+"transform": Transform2D( 0.00365776, -0.999993, 0.999993, 0.00365776, 75, 25 ),
+"type": "Arrow"
+},
+"Arrow[11901]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11901]",
+"transform": Transform2D( -0.999994, -0.00332441, 0.00332441, -0.999994, 75, -75 ),
+"type": "Arrow"
+},
+"Arrow[11905]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11905]",
+"transform": Transform2D( -0.42015, -0.907455, 0.907455, -0.42015, 125, 25 ),
+"type": "Arrow"
+},
+"Arrow[11909]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11909]",
+"transform": Transform2D( 0.00276048, -0.999996, 0.999996, 0.00276048, 75, 125 ),
+"type": "Arrow"
+},
+"Arrow[11913]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11913]",
+"transform": Transform2D( 0.726232, -0.68745, 0.68745, 0.726232, 75, 125 ),
+"type": "Arrow"
+},
+"Arrow[11917]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11917]",
+"transform": Transform2D( -0.841345, -0.540498, 0.540498, -0.841345, 275, 125 ),
+"type": "Arrow"
+},
+"Arrow[11921]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11921]",
+"transform": Transform2D( -0.444921, -0.89557, 0.89557, -0.444921, 275, 125 ),
+"type": "Arrow"
+},
+"Arrow[11925]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11925]",
+"transform": Transform2D( -0.00158636, -0.999999, 0.999999, -0.00158636, 25, -75 ),
+"type": "Arrow"
+},
+"Arrow[11929]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11929]",
+"transform": Transform2D( -1, -0.000689419, 0.000689419, -1, 25, -125 ),
+"type": "Arrow"
+},
+"Arrow[11933]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11933]",
+"transform": Transform2D( -1, -0.000744494, 0.000744494, -1, 225, -175 ),
+"type": "Arrow"
+},
+"Arrow[11937]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11937]",
+"transform": Transform2D( -0.711292, -0.702897, 0.702897, -0.711292, -125, 25 ),
+"type": "Arrow"
+},
+"Arrow[11941]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11941]",
+"transform": Transform2D( 0.00396663, -0.999992, 0.999992, 0.00396663, -175, 25 ),
+"type": "Arrow"
+},
+"Arrow[11945]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11945]",
+"transform": Transform2D( 0.70842, -0.705791, 0.705791, 0.70842, -175, -25 ),
+"type": "Arrow"
+},
+"Arrow[11949]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11949]",
+"transform": Transform2D( 0.711706, -0.702477, 0.702477, 0.711706, -175, 25 ),
+"type": "Arrow"
+},
+"Arrow[11953]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11953]",
+"transform": Transform2D( 0.715067, -0.699056, 0.699056, 0.715067, -125, 25 ),
+"type": "Arrow"
+},
+"Arrow[11957]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11957]",
+"transform": Transform2D( 0.763173, -0.646194, 0.646194, 0.763173, -125, -25 ),
+"type": "Arrow"
+},
+"Arrow[11961]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11961]",
+"transform": Transform2D( -0.0190152, -0.999819, 0.999819, -0.0190152, -75, -25 ),
+"type": "Arrow"
+},
+"Arrow[11965]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11965]",
+"transform": Transform2D( -0.99929, -0.0376843, 0.0376843, -0.99929, -75, -75 ),
+"type": "Arrow"
+},
+"Arrow[11969]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11969]",
+"transform": Transform2D( 0.00555413, -0.999985, 0.999985, 0.00555413, -125, -75 ),
+"type": "Arrow"
+},
+"Arrow[11973]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11973]",
+"transform": Transform2D( 0.00365776, -0.999993, 0.999993, 0.00365776, -275, 25 ),
+"type": "Arrow"
+},
+"Arrow[11977]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11977]",
+"transform": Transform2D( -0.999994, -0.00332441, 0.00332441, -0.999994, -275, -75 ),
+"type": "Arrow"
+},
+"Arrow[11981]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[11981]",
+"transform": Transform2D( -0.42015, -0.907455, 0.907455, -0.42015, -225, 25 ),
+"type": "Arrow"
+},
+"Arrow[11985]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11985]",
+"transform": Transform2D( 0.00276048, -0.999996, 0.999996, 0.00276048, -275, 125 ),
+"type": "Arrow"
+},
+"Arrow[11989]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11989]",
+"transform": Transform2D( 0.726232, -0.68745, 0.68745, 0.726232, -275, 125 ),
+"type": "Arrow"
+},
+"Arrow[11993]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11993]",
+"transform": Transform2D( -0.841345, -0.540498, 0.540498, -0.841345, -75, 125 ),
+"type": "Arrow"
+},
+"Arrow[11997]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[11997]",
+"transform": Transform2D( -0.444921, -0.89557, 0.89557, -0.444921, -75, 125 ),
+"type": "Arrow"
+},
+"Arrow[12001]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12001]",
+"transform": Transform2D( -0.999988, -0.00487651, 0.00487651, -0.999988, -325, -75 ),
+"type": "Arrow"
+},
+"Arrow[12005]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12005]",
+"transform": Transform2D( -0.140464, 0.990086, -0.990086, -0.140464, -25, -175 ),
+"type": "Arrow"
+},
+"Arrow[12009]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12009]",
+"transform": Transform2D( -0.712172, 0.702005, -0.702005, -0.712172, -275, -125 ),
+"type": "Arrow"
+},
+"Arrow[12013]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12013]",
+"transform": Transform2D( 0.722072, -0.691818, 0.691818, 0.722072, -25, 225 ),
+"type": "Arrow"
+},
+"Arrow[12017]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12017]",
+"transform": Transform2D( 0.450813, -0.892618, 0.892618, 0.450813, -325, 225 ),
+"type": "Arrow"
+},
+"Arrow[12021]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12021]",
+"transform": Transform2D( -0.448391, -0.893838, 0.893838, -0.448391, 325, 225 ),
+"type": "Arrow"
+},
+"Arrow[12025]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12025]",
+"transform": Transform2D( -0.0015357, -0.999999, 0.999999, -0.0015357, -125, -225 ),
+"type": "Arrow"
+}
+},
+"position": Vector2( 1100, 0 ),
+"size": Vector2( 650, 450 ),
+"type": "Box"
+}, {
+"contents": {
+"Arrow[12040]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12040]",
+"transform": Transform2D( -0.711292, -0.702897, 0.702897, -0.711292, 225, 25 ),
+"type": "Arrow"
+},
+"Arrow[12044]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12044]",
+"transform": Transform2D( 0.00396663, -0.999992, 0.999992, 0.00396663, 175, 25 ),
+"type": "Arrow"
+},
+"Arrow[12048]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12048]",
+"transform": Transform2D( 0.70842, -0.705791, 0.705791, 0.70842, 175, -25 ),
+"type": "Arrow"
+},
+"Arrow[12052]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12052]",
+"transform": Transform2D( 0.711706, -0.702477, 0.702477, 0.711706, 175, 25 ),
+"type": "Arrow"
+},
+"Arrow[12056]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12056]",
+"transform": Transform2D( 0.715067, -0.699056, 0.699056, 0.715067, 225, 25 ),
+"type": "Arrow"
+},
+"Arrow[12060]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12060]",
+"transform": Transform2D( 0.763173, -0.646194, 0.646194, 0.763173, 225, -25 ),
+"type": "Arrow"
+},
+"Arrow[12064]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12064]",
+"transform": Transform2D( -0.0190152, -0.999819, 0.999819, -0.0190152, 275, -25 ),
+"type": "Arrow"
+},
+"Arrow[12068]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12068]",
+"transform": Transform2D( -0.99929, -0.0376843, 0.0376843, -0.99929, 275, -75 ),
+"type": "Arrow"
+},
+"Arrow[12072]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12072]",
+"transform": Transform2D( 0.00555413, -0.999985, 0.999985, 0.00555413, 225, -75 ),
+"type": "Arrow"
+},
+"Arrow[12076]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12076]",
+"transform": Transform2D( 0.00365776, -0.999993, 0.999993, 0.00365776, 75, 25 ),
+"type": "Arrow"
+},
+"Arrow[12080]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12080]",
+"transform": Transform2D( -0.999994, -0.00332441, 0.00332441, -0.999994, 75, -75 ),
+"type": "Arrow"
+},
+"Arrow[12084]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12084]",
+"transform": Transform2D( -0.42015, -0.907455, 0.907455, -0.42015, 125, 25 ),
+"type": "Arrow"
+},
+"Arrow[12088]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12088]",
+"transform": Transform2D( 0.00276048, -0.999996, 0.999996, 0.00276048, 75, 125 ),
+"type": "Arrow"
+},
+"Arrow[12092]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12092]",
+"transform": Transform2D( 0.726232, -0.68745, 0.68745, 0.726232, 75, 125 ),
+"type": "Arrow"
+},
+"Arrow[12096]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12096]",
+"transform": Transform2D( -0.841345, -0.540498, 0.540498, -0.841345, 275, 125 ),
+"type": "Arrow"
+},
+"Arrow[12100]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12100]",
+"transform": Transform2D( -0.444921, -0.89557, 0.89557, -0.444921, 275, 125 ),
+"type": "Arrow"
+},
+"Arrow[12104]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12104]",
+"transform": Transform2D( -0.00158636, -0.999999, 0.999999, -0.00158636, 25, -75 ),
+"type": "Arrow"
+},
+"Arrow[12108]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12108]",
+"transform": Transform2D( -1, -0.000689419, 0.000689419, -1, 25, -125 ),
+"type": "Arrow"
+},
+"Arrow[12112]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12112]",
+"transform": Transform2D( -1, -0.000744494, 0.000744494, -1, 225, -175 ),
+"type": "Arrow"
+},
+"Arrow[12116]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12116]",
+"transform": Transform2D( -0.711292, -0.702897, 0.702897, -0.711292, -125, 25 ),
+"type": "Arrow"
+},
+"Arrow[12120]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12120]",
+"transform": Transform2D( 0.00396663, -0.999992, 0.999992, 0.00396663, -175, 25 ),
+"type": "Arrow"
+},
+"Arrow[12124]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12124]",
+"transform": Transform2D( 0.70842, -0.705791, 0.705791, 0.70842, -175, -25 ),
+"type": "Arrow"
+},
+"Arrow[12128]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12128]",
+"transform": Transform2D( 0.711706, -0.702477, 0.702477, 0.711706, -175, 25 ),
+"type": "Arrow"
+},
+"Arrow[12132]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12132]",
+"transform": Transform2D( 0.715067, -0.699056, 0.699056, 0.715067, -125, 25 ),
+"type": "Arrow"
+},
+"Arrow[12136]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12136]",
+"transform": Transform2D( 0.763173, -0.646194, 0.646194, 0.763173, -125, -25 ),
+"type": "Arrow"
+},
+"Arrow[12140]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12140]",
+"transform": Transform2D( -0.0190152, -0.999819, 0.999819, -0.0190152, -75, -25 ),
+"type": "Arrow"
+},
+"Arrow[12144]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12144]",
+"transform": Transform2D( -0.99929, -0.0376843, 0.0376843, -0.99929, -75, -75 ),
+"type": "Arrow"
+},
+"Arrow[12148]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12148]",
+"transform": Transform2D( 0.00555413, -0.999985, 0.999985, 0.00555413, -125, -75 ),
+"type": "Arrow"
+},
+"Arrow[12152]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12152]",
+"transform": Transform2D( 0.00365776, -0.999993, 0.999993, 0.00365776, -275, 25 ),
+"type": "Arrow"
+},
+"Arrow[12156]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12156]",
+"transform": Transform2D( -0.999994, -0.00332441, 0.00332441, -0.999994, -275, -75 ),
+"type": "Arrow"
+},
+"Arrow[12160]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12160]",
+"transform": Transform2D( -0.42015, -0.907455, 0.907455, -0.42015, -225, 25 ),
+"type": "Arrow"
+},
+"Arrow[12164]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12164]",
+"transform": Transform2D( 0.00276048, -0.999996, 0.999996, 0.00276048, -275, 125 ),
+"type": "Arrow"
+},
+"Arrow[12168]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12168]",
+"transform": Transform2D( 0.726232, -0.68745, 0.68745, 0.726232, -275, 125 ),
+"type": "Arrow"
+},
+"Arrow[12172]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12172]",
+"transform": Transform2D( -0.841345, -0.540498, 0.540498, -0.841345, -75, 125 ),
+"type": "Arrow"
+},
+"Arrow[12176]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12176]",
+"transform": Transform2D( -0.444921, -0.89557, 0.89557, -0.444921, -75, 125 ),
+"type": "Arrow"
+},
+"Arrow[12180]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12180]",
+"transform": Transform2D( -0.999988, -0.00487651, 0.00487651, -0.999988, -325, -75 ),
+"type": "Arrow"
+},
+"Arrow[12184]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12184]",
+"transform": Transform2D( -0.140464, 0.990086, -0.990086, -0.140464, -25, -175 ),
+"type": "Arrow"
+},
+"Arrow[12188]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12188]",
+"transform": Transform2D( -0.712172, 0.702005, -0.702005, -0.712172, -275, -125 ),
+"type": "Arrow"
+},
+"Arrow[12192]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12192]",
+"transform": Transform2D( 0.722072, -0.691818, 0.691818, 0.722072, -25, 225 ),
+"type": "Arrow"
+},
+"Arrow[12196]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12196]",
+"transform": Transform2D( 0.450813, -0.892618, 0.892618, 0.450813, -325, 225 ),
+"type": "Arrow"
+},
+"Arrow[12200]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12200]",
+"transform": Transform2D( -0.448391, -0.893838, 0.893838, -0.448391, 325, 225 ),
+"type": "Arrow"
+},
+"Arrow[12204]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12204]",
+"transform": Transform2D( -0.0015357, -0.999999, 0.999999, -0.0015357, -125, -225 ),
+"type": "Arrow"
+}
+},
+"position": Vector2( 200, 3450 ),
+"size": Vector2( 650, 450 ),
+"type": "Box"
+}, {
+"contents": {
+"Arrow[12219]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12219]",
+"transform": Transform2D( -0.711292, -0.702897, 0.702897, -0.711292, 225, 25 ),
+"type": "Arrow"
+},
+"Arrow[12223]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12223]",
+"transform": Transform2D( 0.00396663, -0.999992, 0.999992, 0.00396663, 175, 25 ),
+"type": "Arrow"
+},
+"Arrow[12227]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12227]",
+"transform": Transform2D( 0.70842, -0.705791, 0.705791, 0.70842, 175, -25 ),
+"type": "Arrow"
+},
+"Arrow[12231]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12231]",
+"transform": Transform2D( 0.711706, -0.702477, 0.702477, 0.711706, 175, 25 ),
+"type": "Arrow"
+},
+"Arrow[12235]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12235]",
+"transform": Transform2D( 0.715067, -0.699056, 0.699056, 0.715067, 225, 25 ),
+"type": "Arrow"
+},
+"Arrow[12239]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12239]",
+"transform": Transform2D( 0.763173, -0.646194, 0.646194, 0.763173, 225, -25 ),
+"type": "Arrow"
+},
+"Arrow[12243]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12243]",
+"transform": Transform2D( -0.0190152, -0.999819, 0.999819, -0.0190152, 275, -25 ),
+"type": "Arrow"
+},
+"Arrow[12247]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12247]",
+"transform": Transform2D( -0.99929, -0.0376843, 0.0376843, -0.99929, 275, -75 ),
+"type": "Arrow"
+},
+"Arrow[12251]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12251]",
+"transform": Transform2D( 0.00555413, -0.999985, 0.999985, 0.00555413, 225, -75 ),
+"type": "Arrow"
+},
+"Arrow[12255]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12255]",
+"transform": Transform2D( 0.00365776, -0.999993, 0.999993, 0.00365776, 75, 25 ),
+"type": "Arrow"
+},
+"Arrow[12259]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12259]",
+"transform": Transform2D( -0.999994, -0.00332441, 0.00332441, -0.999994, 75, -75 ),
+"type": "Arrow"
+},
+"Arrow[12263]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12263]",
+"transform": Transform2D( -0.42015, -0.907455, 0.907455, -0.42015, 125, 25 ),
+"type": "Arrow"
+},
+"Arrow[12267]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12267]",
+"transform": Transform2D( 0.00276048, -0.999996, 0.999996, 0.00276048, 75, 125 ),
+"type": "Arrow"
+},
+"Arrow[12271]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12271]",
+"transform": Transform2D( 0.726232, -0.68745, 0.68745, 0.726232, 75, 125 ),
+"type": "Arrow"
+},
+"Arrow[12275]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12275]",
+"transform": Transform2D( -0.841345, -0.540498, 0.540498, -0.841345, 275, 125 ),
+"type": "Arrow"
+},
+"Arrow[12279]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12279]",
+"transform": Transform2D( -0.444921, -0.89557, 0.89557, -0.444921, 275, 125 ),
+"type": "Arrow"
+},
+"Arrow[12283]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12283]",
+"transform": Transform2D( -0.00158636, -0.999999, 0.999999, -0.00158636, 25, -75 ),
+"type": "Arrow"
+},
+"Arrow[12287]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12287]",
+"transform": Transform2D( -1, -0.000689419, 0.000689419, -1, 25, -125 ),
+"type": "Arrow"
+},
+"Arrow[12291]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12291]",
+"transform": Transform2D( -1, -0.000744494, 0.000744494, -1, 225, -175 ),
+"type": "Arrow"
+},
+"Arrow[12295]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12295]",
+"transform": Transform2D( -0.711292, -0.702897, 0.702897, -0.711292, -125, 25 ),
+"type": "Arrow"
+},
+"Arrow[12299]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12299]",
+"transform": Transform2D( 0.00396663, -0.999992, 0.999992, 0.00396663, -175, 25 ),
+"type": "Arrow"
+},
+"Arrow[12303]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12303]",
+"transform": Transform2D( 0.70842, -0.705791, 0.705791, 0.70842, -175, -25 ),
+"type": "Arrow"
+},
+"Arrow[12307]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12307]",
+"transform": Transform2D( 0.711706, -0.702477, 0.702477, 0.711706, -175, 25 ),
+"type": "Arrow"
+},
+"Arrow[12311]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12311]",
+"transform": Transform2D( 0.715067, -0.699056, 0.699056, 0.715067, -125, 25 ),
+"type": "Arrow"
+},
+"Arrow[12315]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12315]",
+"transform": Transform2D( 0.763173, -0.646194, 0.646194, 0.763173, -125, -25 ),
+"type": "Arrow"
+},
+"Arrow[12319]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12319]",
+"transform": Transform2D( -0.0190152, -0.999819, 0.999819, -0.0190152, -75, -25 ),
+"type": "Arrow"
+},
+"Arrow[12323]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12323]",
+"transform": Transform2D( -0.99929, -0.0376843, 0.0376843, -0.99929, -75, -75 ),
+"type": "Arrow"
+},
+"Arrow[12327]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12327]",
+"transform": Transform2D( 0.00555413, -0.999985, 0.999985, 0.00555413, -125, -75 ),
+"type": "Arrow"
+},
+"Arrow[12331]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12331]",
+"transform": Transform2D( 0.00365776, -0.999993, 0.999993, 0.00365776, -275, 25 ),
+"type": "Arrow"
+},
+"Arrow[12335]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12335]",
+"transform": Transform2D( -0.999994, -0.00332441, 0.00332441, -0.999994, -275, -75 ),
+"type": "Arrow"
+},
+"Arrow[12339]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12339]",
+"transform": Transform2D( -0.42015, -0.907455, 0.907455, -0.42015, -225, 25 ),
+"type": "Arrow"
+},
+"Arrow[12343]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12343]",
+"transform": Transform2D( 0.00276048, -0.999996, 0.999996, 0.00276048, -275, 125 ),
+"type": "Arrow"
+},
+"Arrow[12347]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12347]",
+"transform": Transform2D( 0.726232, -0.68745, 0.68745, 0.726232, -275, 125 ),
+"type": "Arrow"
+},
+"Arrow[12351]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12351]",
+"transform": Transform2D( -0.841345, -0.540498, 0.540498, -0.841345, -75, 125 ),
+"type": "Arrow"
+},
+"Arrow[12355]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12355]",
+"transform": Transform2D( -0.444921, -0.89557, 0.89557, -0.444921, -75, 125 ),
+"type": "Arrow"
+},
+"Arrow[12359]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12359]",
+"transform": Transform2D( -0.999988, -0.00487651, 0.00487651, -0.999988, -325, -75 ),
+"type": "Arrow"
+},
+"Arrow[12363]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12363]",
+"transform": Transform2D( -0.140464, 0.990086, -0.990086, -0.140464, -25, -175 ),
+"type": "Arrow"
+},
+"Arrow[12367]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12367]",
+"transform": Transform2D( -0.712172, 0.702005, -0.702005, -0.712172, -275, -125 ),
+"type": "Arrow"
+},
+"Arrow[12371]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12371]",
+"transform": Transform2D( 0.722072, -0.691818, 0.691818, 0.722072, -25, 225 ),
+"type": "Arrow"
+},
+"Arrow[12375]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12375]",
+"transform": Transform2D( 0.450813, -0.892618, 0.892618, 0.450813, -325, 225 ),
+"type": "Arrow"
+},
+"Arrow[12379]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12379]",
+"transform": Transform2D( -0.448391, -0.893838, 0.893838, -0.448391, 325, 225 ),
+"type": "Arrow"
+},
+"Arrow[12383]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12383]",
+"transform": Transform2D( -0.0015357, -0.999999, 0.999999, -0.0015357, -125, -225 ),
+"type": "Arrow"
+}
+},
+"position": Vector2( 950, 3450 ),
+"size": Vector2( 650, 450 ),
+"type": "Box"
+}, {
+"contents": {
+"Arrow[12398]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12398]",
+"transform": Transform2D( -0.711292, -0.702897, 0.702897, -0.711292, 225, 25 ),
+"type": "Arrow"
+},
+"Arrow[12402]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12402]",
+"transform": Transform2D( 0.00396663, -0.999992, 0.999992, 0.00396663, 175, 25 ),
+"type": "Arrow"
+},
+"Arrow[12406]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12406]",
+"transform": Transform2D( 0.70842, -0.705791, 0.705791, 0.70842, 175, -25 ),
+"type": "Arrow"
+},
+"Arrow[12410]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12410]",
+"transform": Transform2D( 0.711706, -0.702477, 0.702477, 0.711706, 175, 25 ),
+"type": "Arrow"
+},
+"Arrow[12414]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12414]",
+"transform": Transform2D( 0.715067, -0.699056, 0.699056, 0.715067, 225, 25 ),
+"type": "Arrow"
+},
+"Arrow[12418]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12418]",
+"transform": Transform2D( 0.763173, -0.646194, 0.646194, 0.763173, 225, -25 ),
+"type": "Arrow"
+},
+"Arrow[12422]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12422]",
+"transform": Transform2D( -0.0190152, -0.999819, 0.999819, -0.0190152, 275, -25 ),
+"type": "Arrow"
+},
+"Arrow[12426]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12426]",
+"transform": Transform2D( -0.99929, -0.0376843, 0.0376843, -0.99929, 275, -75 ),
+"type": "Arrow"
+},
+"Arrow[12430]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12430]",
+"transform": Transform2D( 0.00555413, -0.999985, 0.999985, 0.00555413, 225, -75 ),
+"type": "Arrow"
+},
+"Arrow[12434]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12434]",
+"transform": Transform2D( 0.00365776, -0.999993, 0.999993, 0.00365776, 75, 25 ),
+"type": "Arrow"
+},
+"Arrow[12438]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12438]",
+"transform": Transform2D( -0.999994, -0.00332441, 0.00332441, -0.999994, 75, -75 ),
+"type": "Arrow"
+},
+"Arrow[12442]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12442]",
+"transform": Transform2D( -0.42015, -0.907455, 0.907455, -0.42015, 125, 25 ),
+"type": "Arrow"
+},
+"Arrow[12446]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12446]",
+"transform": Transform2D( 0.00276048, -0.999996, 0.999996, 0.00276048, 75, 125 ),
+"type": "Arrow"
+},
+"Arrow[12450]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12450]",
+"transform": Transform2D( 0.726232, -0.68745, 0.68745, 0.726232, 75, 125 ),
+"type": "Arrow"
+},
+"Arrow[12454]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12454]",
+"transform": Transform2D( -0.841345, -0.540498, 0.540498, -0.841345, 275, 125 ),
+"type": "Arrow"
+},
+"Arrow[12458]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12458]",
+"transform": Transform2D( -0.444921, -0.89557, 0.89557, -0.444921, 275, 125 ),
+"type": "Arrow"
+},
+"Arrow[12462]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12462]",
+"transform": Transform2D( -0.00158636, -0.999999, 0.999999, -0.00158636, 25, -75 ),
+"type": "Arrow"
+},
+"Arrow[12466]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12466]",
+"transform": Transform2D( -1, -0.000689419, 0.000689419, -1, 25, -125 ),
+"type": "Arrow"
+},
+"Arrow[12470]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12470]",
+"transform": Transform2D( -1, -0.000744494, 0.000744494, -1, 225, -175 ),
+"type": "Arrow"
+},
+"Arrow[12474]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12474]",
+"transform": Transform2D( -0.711292, -0.702897, 0.702897, -0.711292, -125, 25 ),
+"type": "Arrow"
+},
+"Arrow[12478]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12478]",
+"transform": Transform2D( 0.00396663, -0.999992, 0.999992, 0.00396663, -175, 25 ),
+"type": "Arrow"
+},
+"Arrow[12482]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12482]",
+"transform": Transform2D( 0.70842, -0.705791, 0.705791, 0.70842, -175, -25 ),
+"type": "Arrow"
+},
+"Arrow[12486]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12486]",
+"transform": Transform2D( 0.711706, -0.702477, 0.702477, 0.711706, -175, 25 ),
+"type": "Arrow"
+},
+"Arrow[12490]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12490]",
+"transform": Transform2D( 0.715067, -0.699056, 0.699056, 0.715067, -125, 25 ),
+"type": "Arrow"
+},
+"Arrow[12494]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12494]",
+"transform": Transform2D( 0.763173, -0.646194, 0.646194, 0.763173, -125, -25 ),
+"type": "Arrow"
+},
+"Arrow[12498]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12498]",
+"transform": Transform2D( -0.0190152, -0.999819, 0.999819, -0.0190152, -75, -25 ),
+"type": "Arrow"
+},
+"Arrow[12502]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12502]",
+"transform": Transform2D( -0.99929, -0.0376843, 0.0376843, -0.99929, -75, -75 ),
+"type": "Arrow"
+},
+"Arrow[12506]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12506]",
+"transform": Transform2D( 0.00555413, -0.999985, 0.999985, 0.00555413, -125, -75 ),
+"type": "Arrow"
+},
+"Arrow[12510]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12510]",
+"transform": Transform2D( 0.00365776, -0.999993, 0.999993, 0.00365776, -275, 25 ),
+"type": "Arrow"
+},
+"Arrow[12514]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12514]",
+"transform": Transform2D( -0.999994, -0.00332441, 0.00332441, -0.999994, -275, -75 ),
+"type": "Arrow"
+},
+"Arrow[12518]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12518]",
+"transform": Transform2D( -0.42015, -0.907455, 0.907455, -0.42015, -225, 25 ),
+"type": "Arrow"
+},
+"Arrow[12522]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12522]",
+"transform": Transform2D( 0.00276048, -0.999996, 0.999996, 0.00276048, -275, 125 ),
+"type": "Arrow"
+},
+"Arrow[12526]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12526]",
+"transform": Transform2D( 0.726232, -0.68745, 0.68745, 0.726232, -275, 125 ),
+"type": "Arrow"
+},
+"Arrow[12530]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12530]",
+"transform": Transform2D( -0.841345, -0.540498, 0.540498, -0.841345, -75, 125 ),
+"type": "Arrow"
+},
+"Arrow[12534]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12534]",
+"transform": Transform2D( -0.444921, -0.89557, 0.89557, -0.444921, -75, 125 ),
+"type": "Arrow"
+},
+"Arrow[12538]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12538]",
+"transform": Transform2D( -0.999988, -0.00487651, 0.00487651, -0.999988, -325, -75 ),
+"type": "Arrow"
+},
+"Arrow[12542]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12542]",
+"transform": Transform2D( -0.140464, 0.990086, -0.990086, -0.140464, -25, -175 ),
+"type": "Arrow"
+},
+"Arrow[12546]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12546]",
+"transform": Transform2D( -0.712172, 0.702005, -0.702005, -0.712172, -275, -125 ),
+"type": "Arrow"
+},
+"Arrow[12550]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12550]",
+"transform": Transform2D( 0.722072, -0.691818, 0.691818, 0.722072, -25, 225 ),
+"type": "Arrow"
+},
+"Arrow[12554]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12554]",
+"transform": Transform2D( 0.450813, -0.892618, 0.892618, 0.450813, -325, 225 ),
+"type": "Arrow"
+},
+"Arrow[12558]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12558]",
+"transform": Transform2D( -0.448391, -0.893838, 0.893838, -0.448391, 325, 225 ),
+"type": "Arrow"
+},
+"Arrow[12562]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12562]",
+"transform": Transform2D( -0.0015357, -0.999999, 0.999999, -0.0015357, -125, -225 ),
+"type": "Arrow"
+}
+},
+"position": Vector2( 1700, 3450 ),
+"size": Vector2( 650, 450 ),
+"type": "Box"
+}, {
+"contents": {
+"Arrow[12577]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12577]",
+"transform": Transform2D( -0.711292, -0.702897, 0.702897, -0.711292, 225, 25 ),
+"type": "Arrow"
+},
+"Arrow[12581]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12581]",
+"transform": Transform2D( 0.00396663, -0.999992, 0.999992, 0.00396663, 175, 25 ),
+"type": "Arrow"
+},
+"Arrow[12585]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12585]",
+"transform": Transform2D( 0.70842, -0.705791, 0.705791, 0.70842, 175, -25 ),
+"type": "Arrow"
+},
+"Arrow[12589]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12589]",
+"transform": Transform2D( 0.711706, -0.702477, 0.702477, 0.711706, 175, 25 ),
+"type": "Arrow"
+},
+"Arrow[12593]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12593]",
+"transform": Transform2D( 0.715067, -0.699056, 0.699056, 0.715067, 225, 25 ),
+"type": "Arrow"
+},
+"Arrow[12597]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12597]",
+"transform": Transform2D( 0.763173, -0.646194, 0.646194, 0.763173, 225, -25 ),
+"type": "Arrow"
+},
+"Arrow[12601]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12601]",
+"transform": Transform2D( -0.0190152, -0.999819, 0.999819, -0.0190152, 275, -25 ),
+"type": "Arrow"
+},
+"Arrow[12605]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12605]",
+"transform": Transform2D( -0.99929, -0.0376843, 0.0376843, -0.99929, 275, -75 ),
+"type": "Arrow"
+},
+"Arrow[12609]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12609]",
+"transform": Transform2D( 0.00555413, -0.999985, 0.999985, 0.00555413, 225, -75 ),
+"type": "Arrow"
+},
+"Arrow[12613]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12613]",
+"transform": Transform2D( 0.00365776, -0.999993, 0.999993, 0.00365776, 75, 25 ),
+"type": "Arrow"
+},
+"Arrow[12617]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12617]",
+"transform": Transform2D( -0.999994, -0.00332441, 0.00332441, -0.999994, 75, -75 ),
+"type": "Arrow"
+},
+"Arrow[12621]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12621]",
+"transform": Transform2D( -0.42015, -0.907455, 0.907455, -0.42015, 125, 25 ),
+"type": "Arrow"
+},
+"Arrow[12625]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12625]",
+"transform": Transform2D( 0.00276048, -0.999996, 0.999996, 0.00276048, 75, 125 ),
+"type": "Arrow"
+},
+"Arrow[12629]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12629]",
+"transform": Transform2D( 0.726232, -0.68745, 0.68745, 0.726232, 75, 125 ),
+"type": "Arrow"
+},
+"Arrow[12633]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12633]",
+"transform": Transform2D( -0.841345, -0.540498, 0.540498, -0.841345, 275, 125 ),
+"type": "Arrow"
+},
+"Arrow[12637]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12637]",
+"transform": Transform2D( -0.444921, -0.89557, 0.89557, -0.444921, 275, 125 ),
+"type": "Arrow"
+},
+"Arrow[12641]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12641]",
+"transform": Transform2D( -0.00158636, -0.999999, 0.999999, -0.00158636, 25, -75 ),
+"type": "Arrow"
+},
+"Arrow[12645]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12645]",
+"transform": Transform2D( -1, -0.000689419, 0.000689419, -1, 25, -125 ),
+"type": "Arrow"
+},
+"Arrow[12649]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12649]",
+"transform": Transform2D( -1, -0.000744494, 0.000744494, -1, 225, -175 ),
+"type": "Arrow"
+},
+"Arrow[12653]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12653]",
+"transform": Transform2D( -0.711292, -0.702897, 0.702897, -0.711292, -125, 25 ),
+"type": "Arrow"
+},
+"Arrow[12657]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12657]",
+"transform": Transform2D( 0.00396663, -0.999992, 0.999992, 0.00396663, -175, 25 ),
+"type": "Arrow"
+},
+"Arrow[12661]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12661]",
+"transform": Transform2D( 0.70842, -0.705791, 0.705791, 0.70842, -175, -25 ),
+"type": "Arrow"
+},
+"Arrow[12665]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12665]",
+"transform": Transform2D( 0.711706, -0.702477, 0.702477, 0.711706, -175, 25 ),
+"type": "Arrow"
+},
+"Arrow[12669]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12669]",
+"transform": Transform2D( 0.715067, -0.699056, 0.699056, 0.715067, -125, 25 ),
+"type": "Arrow"
+},
+"Arrow[12673]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12673]",
+"transform": Transform2D( 0.763173, -0.646194, 0.646194, 0.763173, -125, -25 ),
+"type": "Arrow"
+},
+"Arrow[12677]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12677]",
+"transform": Transform2D( -0.0190152, -0.999819, 0.999819, -0.0190152, -75, -25 ),
+"type": "Arrow"
+},
+"Arrow[12681]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12681]",
+"transform": Transform2D( -0.99929, -0.0376843, 0.0376843, -0.99929, -75, -75 ),
+"type": "Arrow"
+},
+"Arrow[12685]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12685]",
+"transform": Transform2D( 0.00555413, -0.999985, 0.999985, 0.00555413, -125, -75 ),
+"type": "Arrow"
+},
+"Arrow[12689]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12689]",
+"transform": Transform2D( 0.00365776, -0.999993, 0.999993, 0.00365776, -275, 25 ),
+"type": "Arrow"
+},
+"Arrow[12693]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12693]",
+"transform": Transform2D( -0.999994, -0.00332441, 0.00332441, -0.999994, -275, -75 ),
+"type": "Arrow"
+},
+"Arrow[12697]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12697]",
+"transform": Transform2D( -0.42015, -0.907455, 0.907455, -0.42015, -225, 25 ),
+"type": "Arrow"
+},
+"Arrow[12701]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12701]",
+"transform": Transform2D( 0.00276048, -0.999996, 0.999996, 0.00276048, -275, 125 ),
+"type": "Arrow"
+},
+"Arrow[12705]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12705]",
+"transform": Transform2D( 0.726232, -0.68745, 0.68745, 0.726232, -275, 125 ),
+"type": "Arrow"
+},
+"Arrow[12709]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12709]",
+"transform": Transform2D( -0.841345, -0.540498, 0.540498, -0.841345, -75, 125 ),
+"type": "Arrow"
+},
+"Arrow[12713]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12713]",
+"transform": Transform2D( -0.444921, -0.89557, 0.89557, -0.444921, -75, 125 ),
+"type": "Arrow"
+},
+"Arrow[12717]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12717]",
+"transform": Transform2D( -0.999988, -0.00487651, 0.00487651, -0.999988, -325, -75 ),
+"type": "Arrow"
+},
+"Arrow[12721]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12721]",
+"transform": Transform2D( -0.140464, 0.990086, -0.990086, -0.140464, -25, -175 ),
+"type": "Arrow"
+},
+"Arrow[12725]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12725]",
+"transform": Transform2D( -0.712172, 0.702005, -0.702005, -0.712172, -275, -125 ),
+"type": "Arrow"
+},
+"Arrow[12729]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12729]",
+"transform": Transform2D( 0.722072, -0.691818, 0.691818, 0.722072, -25, 225 ),
+"type": "Arrow"
+},
+"Arrow[12733]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12733]",
+"transform": Transform2D( 0.450813, -0.892618, 0.892618, 0.450813, -325, 225 ),
+"type": "Arrow"
+},
+"Arrow[12737]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12737]",
+"transform": Transform2D( -0.448391, -0.893838, 0.893838, -0.448391, 325, 225 ),
+"type": "Arrow"
+},
+"Arrow[12741]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12741]",
+"transform": Transform2D( -0.0015357, -0.999999, 0.999999, -0.0015357, -125, -225 ),
+"type": "Arrow"
+}
+},
+"position": Vector2( 2450, 3450 ),
+"size": Vector2( 650, 450 ),
+"type": "Box"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[12745]",
+"transform": Transform2D( -0.163283, 0.986579, -0.986579, -0.163283, 900, 3600 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[12749]",
+"transform": Transform2D( -0.160168, 0.98709, -0.98709, -0.160168, 1650, 3600 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[12753]",
+"transform": Transform2D( -0.171127, 0.985249, -0.985249, -0.171127, 2400, 3600 ),
+"type": "Arrow"
+}, {
+"contents": {
+"Arrow[12768]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12768]",
+"transform": Transform2D( -0.0334958, -0.999439, 0.999439, -0.0334958, -100, 200 ),
+"type": "Arrow"
+},
+"Arrow[12772]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12772]",
+"transform": Transform2D( 0.715918, -0.698185, 0.698185, 0.715918, -50, 200 ),
+"type": "Arrow"
+},
+"Arrow[12776]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12776]",
+"transform": Transform2D( 0.905267, -0.424843, 0.424843, 0.905267, 0, 200 ),
+"type": "Arrow"
+},
+"Arrow[12780]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12780]",
+"transform": Transform2D( 0.956754, -0.290898, 0.290898, 0.956754, 50, 200 ),
+"type": "Arrow"
+},
+"Arrow[12784]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12784]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, -150, 100 ),
+"type": "Arrow"
+},
+"Arrow[12788]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12788]",
+"transform": Transform2D( -1, -0.000197085, 0.000197085, -1, -100, 150 ),
+"type": "Arrow"
+},
+"Arrow[12792]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12792]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, -50, 150 ),
+"type": "Arrow"
+},
+"Arrow[12796]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12796]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, -50, 100 ),
+"type": "Arrow"
+},
+"Arrow[12800]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12800]",
+"transform": Transform2D( -1, -0.000197085, 0.000197085, -1, 0, 150 ),
+"type": "Arrow"
+},
+"Arrow[12804]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12804]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, 50, 150 ),
+"type": "Arrow"
+},
+"Arrow[12808]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12808]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, 50, 100 ),
+"type": "Arrow"
+},
+"Arrow[12812]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12812]",
+"transform": Transform2D( -1, -0.000197085, 0.000197085, -1, 100, 150 ),
+"type": "Arrow"
+},
+"Arrow[12816]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12816]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, 150, 150 ),
+"type": "Arrow"
+},
+"Arrow[12820]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12820]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, 150, 100 ),
+"type": "Arrow"
+},
+"Arrow[12824]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12824]",
+"transform": Transform2D( -1, -0.000197085, 0.000197085, -1, 200, 150 ),
+"type": "Arrow"
+},
+"Arrow[12828]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12828]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, -150, 150 ),
+"type": "Arrow"
+},
+"Arrow[12832]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12832]",
+"transform": Transform2D( -0.994516, -0.104585, 0.104585, -0.994516, 200, 200 ),
+"type": "Arrow"
+},
+"Arrow[12836]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12836]",
+"transform": Transform2D( -0.989022, -0.147768, 0.147768, -0.989022, 200, 200 ),
+"type": "Arrow"
+},
+"Arrow[12840]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12840]",
+"transform": Transform2D( -0.964511, -0.264044, 0.264044, -0.964511, 200, 200 ),
+"type": "Arrow"
+},
+"Arrow[12844]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12844]",
+"transform": Transform2D( -0.763063, -0.646324, 0.646324, -0.763063, 200, 200 ),
+"type": "Arrow"
+},
+"Arrow[12848]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12848]",
+"transform": Transform2D( -0.000238939, -1, 1, -0.000238939, -150, 100 ),
+"type": "Arrow"
+},
+"Arrow[12852]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12852]",
+"transform": Transform2D( 9.62774e-05, -1, 1, 9.62774e-05, -50, 100 ),
+"type": "Arrow"
+},
+"Arrow[12856]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12856]",
+"transform": Transform2D( 0.000630693, -1, 1, 0.000630693, 50, 100 ),
+"type": "Arrow"
+},
+"Arrow[12860]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12860]",
+"transform": Transform2D( 0.000835375, -1, 1, 0.000835375, 150, 100 ),
+"type": "Arrow"
+},
+"Arrow[12864]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12864]",
+"transform": Transform2D( 0.00186808, -0.999998, 0.999998, 0.00186808, -150, -100 ),
+"type": "Arrow"
+},
+"Arrow[12868]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12868]",
+"transform": Transform2D( -1.80443e-05, -1, 1, -1.80443e-05, -150, -200 ),
+"type": "Arrow"
+},
+"Arrow[12872]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12872]",
+"transform": Transform2D( -0.468588, -0.883417, 0.883417, -0.468588, -100, -100 ),
+"type": "Arrow"
+},
+"Arrow[12876]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12876]",
+"transform": Transform2D( -0.0129676, 0.999916, -0.999916, -0.0129676, -100, -150 ),
+"type": "Arrow"
+},
+"Arrow[12880]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12880]",
+"transform": Transform2D( 0.00186808, -0.999998, 0.999998, 0.00186808, -50, -100 ),
+"type": "Arrow"
+},
+"Arrow[12884]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12884]",
+"transform": Transform2D( -1.80443e-05, -1, 1, -1.80443e-05, -50, -200 ),
+"type": "Arrow"
+},
+"Arrow[12888]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12888]",
+"transform": Transform2D( -0.468588, -0.883417, 0.883417, -0.468588, 0, -100 ),
+"type": "Arrow"
+},
+"Arrow[12892]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12892]",
+"transform": Transform2D( -0.0129676, 0.999916, -0.999916, -0.0129676, 0, -150 ),
+"type": "Arrow"
+},
+"Arrow[12896]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12896]",
+"transform": Transform2D( 0.00186808, -0.999998, 0.999998, 0.00186808, 50, -100 ),
+"type": "Arrow"
+},
+"Arrow[12900]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12900]",
+"transform": Transform2D( -1.80443e-05, -1, 1, -1.80443e-05, 50, -200 ),
+"type": "Arrow"
+},
+"Arrow[12904]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12904]",
+"transform": Transform2D( -0.468588, -0.883417, 0.883417, -0.468588, 100, -100 ),
+"type": "Arrow"
+},
+"Arrow[12908]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12908]",
+"transform": Transform2D( -0.0129676, 0.999916, -0.999916, -0.0129676, 100, -150 ),
+"type": "Arrow"
+},
+"Arrow[12912]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12912]",
+"transform": Transform2D( 0.00186808, -0.999998, 0.999998, 0.00186808, 150, -100 ),
+"type": "Arrow"
+},
+"Arrow[12916]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12916]",
+"transform": Transform2D( -1.80443e-05, -1, 1, -1.80443e-05, 150, -200 ),
+"type": "Arrow"
+},
+"Arrow[12920]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12920]",
+"transform": Transform2D( -0.468588, -0.883417, 0.883417, -0.468588, 200, -100 ),
+"type": "Arrow"
+},
+"Arrow[12924]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12924]",
+"transform": Transform2D( -0.0129676, 0.999916, -0.999916, -0.0129676, 200, -150 ),
+"type": "Arrow"
+},
+"Arrow[12928]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12928]",
+"transform": Transform2D( 0.999652, -0.0263886, 0.0263886, 0.999652, -200, -150 ),
+"type": "Arrow"
+},
+"Arrow[12932]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12932]",
+"transform": Transform2D( 1, -0.000363985, 0.000363985, 1, -100, -150 ),
+"type": "Arrow"
+},
+"Arrow[12936]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12936]",
+"transform": Transform2D( 0.999994, 0.00351753, -0.00351753, 0.999994, 0, -150 ),
+"type": "Arrow"
+},
+"Arrow[12940]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12940]",
+"transform": Transform2D( 0.999997, 0.00222552, -0.00222552, 0.999997, 100, -150 ),
+"type": "Arrow"
+}
+},
+"position": Vector2( 200, 550 ),
+"size": Vector2( 400, 400 ),
+"type": "Box"
+}, {
+"contents": {
+"Arrow[12955]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12955]",
+"transform": Transform2D( -0.0334958, -0.999439, 0.999439, -0.0334958, -100, 200 ),
+"type": "Arrow"
+},
+"Arrow[12959]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12959]",
+"transform": Transform2D( 0.715918, -0.698185, 0.698185, 0.715918, -50, 200 ),
+"type": "Arrow"
+},
+"Arrow[12963]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12963]",
+"transform": Transform2D( 0.905267, -0.424843, 0.424843, 0.905267, 0, 200 ),
+"type": "Arrow"
+},
+"Arrow[12967]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12967]",
+"transform": Transform2D( 0.956754, -0.290898, 0.290898, 0.956754, 50, 200 ),
+"type": "Arrow"
+},
+"Arrow[12971]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12971]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, -150, 100 ),
+"type": "Arrow"
+},
+"Arrow[12975]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12975]",
+"transform": Transform2D( -1, -0.000197085, 0.000197085, -1, -100, 150 ),
+"type": "Arrow"
+},
+"Arrow[12979]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12979]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, -50, 150 ),
+"type": "Arrow"
+},
+"Arrow[12983]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12983]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, -50, 100 ),
+"type": "Arrow"
+},
+"Arrow[12987]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12987]",
+"transform": Transform2D( -1, -0.000197085, 0.000197085, -1, 0, 150 ),
+"type": "Arrow"
+},
+"Arrow[12991]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12991]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, 50, 150 ),
+"type": "Arrow"
+},
+"Arrow[12995]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[12995]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, 50, 100 ),
+"type": "Arrow"
+},
+"Arrow[12999]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[12999]",
+"transform": Transform2D( -1, -0.000197085, 0.000197085, -1, 100, 150 ),
+"type": "Arrow"
+},
+"Arrow[13003]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13003]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, 150, 150 ),
+"type": "Arrow"
+},
+"Arrow[13007]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13007]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, 150, 100 ),
+"type": "Arrow"
+},
+"Arrow[13011]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13011]",
+"transform": Transform2D( -1, -0.000197085, 0.000197085, -1, 200, 150 ),
+"type": "Arrow"
+},
+"Arrow[13015]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13015]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, -150, 150 ),
+"type": "Arrow"
+},
+"Arrow[13019]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13019]",
+"transform": Transform2D( -0.994516, -0.104585, 0.104585, -0.994516, 200, 200 ),
+"type": "Arrow"
+},
+"Arrow[13023]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13023]",
+"transform": Transform2D( -0.989022, -0.147768, 0.147768, -0.989022, 200, 200 ),
+"type": "Arrow"
+},
+"Arrow[13027]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13027]",
+"transform": Transform2D( -0.964511, -0.264044, 0.264044, -0.964511, 200, 200 ),
+"type": "Arrow"
+},
+"Arrow[13031]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13031]",
+"transform": Transform2D( -0.763063, -0.646324, 0.646324, -0.763063, 200, 200 ),
+"type": "Arrow"
+},
+"Arrow[13035]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13035]",
+"transform": Transform2D( -0.000238939, -1, 1, -0.000238939, -150, 100 ),
+"type": "Arrow"
+},
+"Arrow[13039]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13039]",
+"transform": Transform2D( 9.62774e-05, -1, 1, 9.62774e-05, -50, 100 ),
+"type": "Arrow"
+},
+"Arrow[13043]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13043]",
+"transform": Transform2D( 0.000630693, -1, 1, 0.000630693, 50, 100 ),
+"type": "Arrow"
+},
+"Arrow[13047]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13047]",
+"transform": Transform2D( 0.000835375, -1, 1, 0.000835375, 150, 100 ),
+"type": "Arrow"
+},
+"Arrow[13051]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13051]",
+"transform": Transform2D( 0.00186808, -0.999998, 0.999998, 0.00186808, -150, -100 ),
+"type": "Arrow"
+},
+"Arrow[13055]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13055]",
+"transform": Transform2D( -1.80443e-05, -1, 1, -1.80443e-05, -150, -200 ),
+"type": "Arrow"
+},
+"Arrow[13059]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13059]",
+"transform": Transform2D( -0.468588, -0.883417, 0.883417, -0.468588, -100, -100 ),
+"type": "Arrow"
+},
+"Arrow[13063]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13063]",
+"transform": Transform2D( -0.0129676, 0.999916, -0.999916, -0.0129676, -100, -150 ),
+"type": "Arrow"
+},
+"Arrow[13067]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13067]",
+"transform": Transform2D( 0.00186808, -0.999998, 0.999998, 0.00186808, -50, -100 ),
+"type": "Arrow"
+},
+"Arrow[13071]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13071]",
+"transform": Transform2D( -1.80443e-05, -1, 1, -1.80443e-05, -50, -200 ),
+"type": "Arrow"
+},
+"Arrow[13075]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13075]",
+"transform": Transform2D( -0.468588, -0.883417, 0.883417, -0.468588, 0, -100 ),
+"type": "Arrow"
+},
+"Arrow[13079]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13079]",
+"transform": Transform2D( -0.0129676, 0.999916, -0.999916, -0.0129676, 0, -150 ),
+"type": "Arrow"
+},
+"Arrow[13083]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13083]",
+"transform": Transform2D( 0.00186808, -0.999998, 0.999998, 0.00186808, 50, -100 ),
+"type": "Arrow"
+},
+"Arrow[13087]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13087]",
+"transform": Transform2D( -1.80443e-05, -1, 1, -1.80443e-05, 50, -200 ),
+"type": "Arrow"
+},
+"Arrow[13091]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13091]",
+"transform": Transform2D( -0.468588, -0.883417, 0.883417, -0.468588, 100, -100 ),
+"type": "Arrow"
+},
+"Arrow[13095]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13095]",
+"transform": Transform2D( -0.0129676, 0.999916, -0.999916, -0.0129676, 100, -150 ),
+"type": "Arrow"
+},
+"Arrow[13099]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13099]",
+"transform": Transform2D( 0.00186808, -0.999998, 0.999998, 0.00186808, 150, -100 ),
+"type": "Arrow"
+},
+"Arrow[13103]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13103]",
+"transform": Transform2D( -1.80443e-05, -1, 1, -1.80443e-05, 150, -200 ),
+"type": "Arrow"
+},
+"Arrow[13107]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13107]",
+"transform": Transform2D( -0.468588, -0.883417, 0.883417, -0.468588, 200, -100 ),
+"type": "Arrow"
+},
+"Arrow[13111]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13111]",
+"transform": Transform2D( -0.0129676, 0.999916, -0.999916, -0.0129676, 200, -150 ),
+"type": "Arrow"
+},
+"Arrow[13115]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13115]",
+"transform": Transform2D( 0.999652, -0.0263886, 0.0263886, 0.999652, -200, -150 ),
+"type": "Arrow"
+},
+"Arrow[13119]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13119]",
+"transform": Transform2D( 1, -0.000363985, 0.000363985, 1, -100, -150 ),
+"type": "Arrow"
+},
+"Arrow[13123]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13123]",
+"transform": Transform2D( 0.999994, 0.00351753, -0.00351753, 0.999994, 0, -150 ),
+"type": "Arrow"
+},
+"Arrow[13127]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13127]",
+"transform": Transform2D( 0.999997, 0.00222552, -0.00222552, 0.999997, 100, -150 ),
+"type": "Arrow"
+}
+},
+"position": Vector2( 1950, 4250 ),
+"size": Vector2( 400, 400 ),
+"type": "Box"
+}, {
+"contents": {
+"Arrow[13142]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13142]",
+"transform": Transform2D( -0.0334958, -0.999439, 0.999439, -0.0334958, -100, 200 ),
+"type": "Arrow"
+},
+"Arrow[13146]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13146]",
+"transform": Transform2D( 0.715918, -0.698185, 0.698185, 0.715918, -50, 200 ),
+"type": "Arrow"
+},
+"Arrow[13150]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13150]",
+"transform": Transform2D( 0.905267, -0.424843, 0.424843, 0.905267, 0, 200 ),
+"type": "Arrow"
+},
+"Arrow[13154]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13154]",
+"transform": Transform2D( 0.956754, -0.290898, 0.290898, 0.956754, 50, 200 ),
+"type": "Arrow"
+},
+"Arrow[13158]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13158]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, -150, 100 ),
+"type": "Arrow"
+},
+"Arrow[13162]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13162]",
+"transform": Transform2D( -1, -0.000197085, 0.000197085, -1, -100, 150 ),
+"type": "Arrow"
+},
+"Arrow[13166]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13166]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, -50, 150 ),
+"type": "Arrow"
+},
+"Arrow[13170]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13170]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, -50, 100 ),
+"type": "Arrow"
+},
+"Arrow[13174]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13174]",
+"transform": Transform2D( -1, -0.000197085, 0.000197085, -1, 0, 150 ),
+"type": "Arrow"
+},
+"Arrow[13178]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13178]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, 50, 150 ),
+"type": "Arrow"
+},
+"Arrow[13182]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13182]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, 50, 100 ),
+"type": "Arrow"
+},
+"Arrow[13186]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13186]",
+"transform": Transform2D( -1, -0.000197085, 0.000197085, -1, 100, 150 ),
+"type": "Arrow"
+},
+"Arrow[13190]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13190]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, 150, 150 ),
+"type": "Arrow"
+},
+"Arrow[13194]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13194]",
+"transform": Transform2D( 0.736199, 0.676765, -0.676765, 0.736199, 150, 100 ),
+"type": "Arrow"
+},
+"Arrow[13198]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13198]",
+"transform": Transform2D( -1, -0.000197085, 0.000197085, -1, 200, 150 ),
+"type": "Arrow"
+},
+"Arrow[13202]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13202]",
+"transform": Transform2D( -0.00135653, -0.999999, 0.999999, -0.00135653, -150, 150 ),
+"type": "Arrow"
+},
+"Arrow[13206]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13206]",
+"transform": Transform2D( -0.994516, -0.104585, 0.104585, -0.994516, 200, 200 ),
+"type": "Arrow"
+},
+"Arrow[13210]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13210]",
+"transform": Transform2D( -0.989022, -0.147768, 0.147768, -0.989022, 200, 200 ),
+"type": "Arrow"
+},
+"Arrow[13214]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13214]",
+"transform": Transform2D( -0.964511, -0.264044, 0.264044, -0.964511, 200, 200 ),
+"type": "Arrow"
+},
+"Arrow[13218]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13218]",
+"transform": Transform2D( -0.763063, -0.646324, 0.646324, -0.763063, 200, 200 ),
+"type": "Arrow"
+},
+"Arrow[13222]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13222]",
+"transform": Transform2D( -0.000238939, -1, 1, -0.000238939, -150, 100 ),
+"type": "Arrow"
+},
+"Arrow[13226]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13226]",
+"transform": Transform2D( 9.62774e-05, -1, 1, 9.62774e-05, -50, 100 ),
+"type": "Arrow"
+},
+"Arrow[13230]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13230]",
+"transform": Transform2D( 0.000630693, -1, 1, 0.000630693, 50, 100 ),
+"type": "Arrow"
+},
+"Arrow[13234]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13234]",
+"transform": Transform2D( 0.000835375, -1, 1, 0.000835375, 150, 100 ),
+"type": "Arrow"
+},
+"Arrow[13238]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13238]",
+"transform": Transform2D( 0.00186808, -0.999998, 0.999998, 0.00186808, -150, -100 ),
+"type": "Arrow"
+},
+"Arrow[13242]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13242]",
+"transform": Transform2D( -1.80443e-05, -1, 1, -1.80443e-05, -150, -200 ),
+"type": "Arrow"
+},
+"Arrow[13246]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13246]",
+"transform": Transform2D( -0.468588, -0.883417, 0.883417, -0.468588, -100, -100 ),
+"type": "Arrow"
+},
+"Arrow[13250]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13250]",
+"transform": Transform2D( -0.0129676, 0.999916, -0.999916, -0.0129676, -100, -150 ),
+"type": "Arrow"
+},
+"Arrow[13254]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13254]",
+"transform": Transform2D( 0.00186808, -0.999998, 0.999998, 0.00186808, -50, -100 ),
+"type": "Arrow"
+},
+"Arrow[13258]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13258]",
+"transform": Transform2D( -1.80443e-05, -1, 1, -1.80443e-05, -50, -200 ),
+"type": "Arrow"
+},
+"Arrow[13262]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13262]",
+"transform": Transform2D( -0.468588, -0.883417, 0.883417, -0.468588, 0, -100 ),
+"type": "Arrow"
+},
+"Arrow[13266]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13266]",
+"transform": Transform2D( -0.0129676, 0.999916, -0.999916, -0.0129676, 0, -150 ),
+"type": "Arrow"
+},
+"Arrow[13270]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13270]",
+"transform": Transform2D( 0.00186808, -0.999998, 0.999998, 0.00186808, 50, -100 ),
+"type": "Arrow"
+},
+"Arrow[13274]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13274]",
+"transform": Transform2D( -1.80443e-05, -1, 1, -1.80443e-05, 50, -200 ),
+"type": "Arrow"
+},
+"Arrow[13278]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13278]",
+"transform": Transform2D( -0.468588, -0.883417, 0.883417, -0.468588, 100, -100 ),
+"type": "Arrow"
+},
+"Arrow[13282]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13282]",
+"transform": Transform2D( -0.0129676, 0.999916, -0.999916, -0.0129676, 100, -150 ),
+"type": "Arrow"
+},
+"Arrow[13286]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13286]",
+"transform": Transform2D( 0.00186808, -0.999998, 0.999998, 0.00186808, 150, -100 ),
+"type": "Arrow"
+},
+"Arrow[13290]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13290]",
+"transform": Transform2D( -1.80443e-05, -1, 1, -1.80443e-05, 150, -200 ),
+"type": "Arrow"
+},
+"Arrow[13294]": {
+"hit": false,
+"inv": true,
+"name": "Arrow[13294]",
+"transform": Transform2D( -0.468588, -0.883417, 0.883417, -0.468588, 200, -100 ),
+"type": "Arrow"
+},
+"Arrow[13298]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13298]",
+"transform": Transform2D( -0.0129676, 0.999916, -0.999916, -0.0129676, 200, -150 ),
+"type": "Arrow"
+},
+"Arrow[13302]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13302]",
+"transform": Transform2D( 0.999652, -0.0263886, 0.0263886, 0.999652, -200, -150 ),
+"type": "Arrow"
+},
+"Arrow[13306]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13306]",
+"transform": Transform2D( 1, -0.000363985, 0.000363985, 1, -100, -150 ),
+"type": "Arrow"
+},
+"Arrow[13310]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13310]",
+"transform": Transform2D( 0.999994, 0.00351753, -0.00351753, 0.999994, 0, -150 ),
+"type": "Arrow"
+},
+"Arrow[13314]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13314]",
+"transform": Transform2D( 0.999997, 0.00222552, -0.00222552, 0.999997, 100, -150 ),
+"type": "Arrow"
+}
+},
+"position": Vector2( 950, 4250 ),
+"size": Vector2( 400, 400 ),
+"type": "Box"
+}, {
+"contents": {
+"Arrow[13329]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13329]",
+"transform": Transform2D( -0.514592, -0.857435, 0.857435, -0.514592, 350, -50 ),
+"type": "Arrow"
+},
+"Arrow[13333]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13333]",
+"transform": Transform2D( -0.627993, -0.778219, 0.778219, -0.627993, 350, -50 ),
+"type": "Arrow"
+},
+"Arrow[13337]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13337]",
+"transform": Transform2D( -0.780816, -0.624762, 0.624762, -0.780816, 350, -50 ),
+"type": "Arrow"
+},
+"Arrow[13341]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13341]",
+"transform": Transform2D( -0.710977, -0.703215, 0.703215, -0.710977, 350, -50 ),
+"type": "Arrow"
+},
+"Arrow[13345]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13345]",
+"transform": Transform2D( -0.000362082, -1, 1, -0.000362082, 350, 50 ),
+"type": "Arrow"
+},
+"Arrow[13349]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13349]",
+"transform": Transform2D( -0.726848, -0.686799, 0.686799, -0.726848, 300, -50 ),
+"type": "Arrow"
+},
+"Arrow[13353]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13353]",
+"transform": Transform2D( -0.630561, -0.77614, 0.77614, -0.630561, 300, -50 ),
+"type": "Arrow"
+},
+"Arrow[13357]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13357]",
+"transform": Transform2D( -0.517093, -0.855929, 0.855929, -0.517093, 300, -50 ),
+"type": "Arrow"
+},
+"Arrow[13361]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13361]",
+"transform": Transform2D( 0.000589565, -1, 1, 0.000589565, 300, 50 ),
+"type": "Arrow"
+},
+"Arrow[13365]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13365]",
+"transform": Transform2D( -0.62885, -0.777527, 0.777527, -0.62885, 250, -50 ),
+"type": "Arrow"
+},
+"Arrow[13369]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13369]",
+"transform": Transform2D( -0.517552, -0.855652, 0.855652, -0.517552, 250, -50 ),
+"type": "Arrow"
+},
+"Arrow[13373]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13373]",
+"transform": Transform2D( -0.195502, -0.980703, 0.980703, -0.195502, 250, -50 ),
+"type": "Arrow"
+},
+"Arrow[13377]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13377]",
+"transform": Transform2D( 4.15603e-05, -1, 1, 4.15603e-05, 250, 50 ),
+"type": "Arrow"
+},
+"Arrow[13381]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13381]",
+"transform": Transform2D( 0.000733451, -1, 1, 0.000733451, 200, 50 ),
+"type": "Arrow"
+},
+"Arrow[13385]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13385]",
+"transform": Transform2D( -0.522665, -0.852538, 0.852538, -0.522665, 200, -50 ),
+"type": "Arrow"
+},
+"Arrow[13389]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13389]",
+"transform": Transform2D( -0.376718, -0.926328, 0.926328, -0.376718, 200, -50 ),
+"type": "Arrow"
+},
+"Arrow[13393]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13393]",
+"transform": Transform2D( -0.00140326, -0.999999, 0.999999, -0.00140326, 150, 50 ),
+"type": "Arrow"
+},
+"Arrow[13397]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13397]",
+"transform": Transform2D( -0.392831, -0.919611, 0.919611, -0.392831, 150, -50 ),
+"type": "Arrow"
+},
+"Arrow[13401]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13401]",
+"transform": Transform2D( -0.00612343, -0.999981, 0.999981, -0.00612343, 150, -50 ),
+"type": "Arrow"
+},
+"Arrow[13405]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13405]",
+"transform": Transform2D( 0.199844, -0.979828, 0.979828, 0.199844, 150, -50 ),
+"type": "Arrow"
+},
+"Arrow[13409]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13409]",
+"transform": Transform2D( 0.000169949, -1, 1, 0.000169949, 100, 50 ),
+"type": "Arrow"
+},
+"Arrow[13413]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13413]",
+"transform": Transform2D( -0.196939, -0.980416, 0.980416, -0.196939, 100, -50 ),
+"type": "Arrow"
+},
+"Arrow[13417]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13417]",
+"transform": Transform2D( 0.186627, -0.982431, 0.982431, 0.186627, 100, -50 ),
+"type": "Arrow"
+},
+"Arrow[13421]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13421]",
+"transform": Transform2D( -0.000404402, -1, 1, -0.000404402, 50, 50 ),
+"type": "Arrow"
+},
+"Arrow[13425]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13425]",
+"transform": Transform2D( -0.00247185, -0.999997, 0.999997, -0.00247185, 50, -50 ),
+"type": "Arrow"
+},
+"Arrow[13429]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13429]",
+"transform": Transform2D( 0.508498, -0.861063, 0.861063, 0.508498, 50, -50 ),
+"type": "Arrow"
+},
+"Arrow[13433]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13433]",
+"transform": Transform2D( -0.000992103, -1, 1, -0.000992103, 0, 50 ),
+"type": "Arrow"
+},
+"Arrow[13437]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13437]",
+"transform": Transform2D( 0.196201, -0.980564, 0.980564, 0.196201, 0, -50 ),
+"type": "Arrow"
+},
+"Arrow[13441]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13441]",
+"transform": Transform2D( 0.00019987, -1, 1, 0.00019987, -50, 50 ),
+"type": "Arrow"
+},
+"Arrow[13445]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13445]",
+"transform": Transform2D( 0.512601, -0.858627, 0.858627, 0.512601, -50, -50 ),
+"type": "Arrow"
+},
+"Arrow[13449]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13449]",
+"transform": Transform2D( 0.625645, -0.780108, 0.780108, 0.625645, -50, -50 ),
+"type": "Arrow"
+},
+"Arrow[13453]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13453]",
+"transform": Transform2D( 0.709799, -0.704404, 0.704404, 0.709799, -50, -50 ),
+"type": "Arrow"
+},
+"Arrow[13457]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13457]",
+"transform": Transform2D( 9.47277e-05, -1, 1, 9.47277e-05, -100, 50 ),
+"type": "Arrow"
+},
+"Arrow[13461]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13461]",
+"transform": Transform2D( 0.622484, -0.782632, 0.782632, 0.622484, -100, -50 ),
+"type": "Arrow"
+},
+"Arrow[13465]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13465]",
+"transform": Transform2D( 0.704722, -0.709484, 0.709484, 0.704722, -100, -50 ),
+"type": "Arrow"
+},
+"Arrow[13469]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13469]",
+"transform": Transform2D( 3.8902e-06, -1, 1, 3.8902e-06, -150, 50 ),
+"type": "Arrow"
+},
+"Arrow[13473]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13473]",
+"transform": Transform2D( 0.70588, -0.708331, 0.708331, 0.70588, -150, -50 ),
+"type": "Arrow"
+},
+"Arrow[13477]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13477]",
+"transform": Transform2D( 0.814717, -0.579859, 0.579859, 0.814717, -150, -50 ),
+"type": "Arrow"
+},
+"Arrow[13481]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13481]",
+"transform": Transform2D( -8.75433e-05, -1, 1, -8.75433e-05, -200, 50 ),
+"type": "Arrow"
+},
+"Arrow[13485]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13485]",
+"transform": Transform2D( 0.765969, -0.642878, 0.642878, 0.765969, -200, -50 ),
+"type": "Arrow"
+},
+"Arrow[13489]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13489]",
+"transform": Transform2D( -0.000179096, -1, 1, -0.000179096, -250, 50 ),
+"type": "Arrow"
+},
+"Arrow[13493]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13493]",
+"transform": Transform2D( 0.846672, -0.532116, 0.532116, 0.846672, -250, -50 ),
+"type": "Arrow"
+},
+"Arrow[13497]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13497]",
+"transform": Transform2D( 0.874913, -0.48428, 0.48428, 0.874913, -250, -50 ),
+"type": "Arrow"
+},
+"Arrow[13501]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13501]",
+"transform": Transform2D( -0.000272795, -1, 1, -0.000272795, -300, 50 ),
+"type": "Arrow"
+},
+"Arrow[13505]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13505]",
+"transform": Transform2D( 0.874002, -0.485922, 0.485922, 0.874002, -300, -50 ),
+"type": "Arrow"
+},
+"Arrow[13509]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13509]",
+"transform": Transform2D( 0.000892238, -1, 1, 0.000892238, -350, 50 ),
+"type": "Arrow"
+},
+"Arrow[13513]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13513]",
+"transform": Transform2D( 0.910055, -0.414489, 0.414489, 0.910055, -350, -50 ),
+"type": "Arrow"
+}
+},
+"position": Vector2( 650, 4900 ),
+"size": Vector2( 700, 100 ),
+"type": "Box"
+}, {
+"contents": {
+"Arrow[13528]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13528]",
+"transform": Transform2D( -0.514592, -0.857435, 0.857435, -0.514592, 350, -50 ),
+"type": "Arrow"
+},
+"Arrow[13532]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13532]",
+"transform": Transform2D( -0.627993, -0.778219, 0.778219, -0.627993, 350, -50 ),
+"type": "Arrow"
+},
+"Arrow[13536]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13536]",
+"transform": Transform2D( -0.780816, -0.624761, 0.624761, -0.780816, 350, -50 ),
+"type": "Arrow"
+},
+"Arrow[13540]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13540]",
+"transform": Transform2D( -0.710977, -0.703215, 0.703215, -0.710977, 350, -50 ),
+"type": "Arrow"
+},
+"Arrow[13544]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13544]",
+"transform": Transform2D( -0.000361907, -1, 1, -0.000361907, 350, 50 ),
+"type": "Arrow"
+},
+"Arrow[13548]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13548]",
+"transform": Transform2D( -0.726848, -0.686799, 0.686799, -0.726848, 300, -50 ),
+"type": "Arrow"
+},
+"Arrow[13552]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13552]",
+"transform": Transform2D( -0.630561, -0.77614, 0.77614, -0.630561, 300, -50 ),
+"type": "Arrow"
+},
+"Arrow[13556]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13556]",
+"transform": Transform2D( -0.517093, -0.855929, 0.855929, -0.517093, 300, -50 ),
+"type": "Arrow"
+},
+"Arrow[13560]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13560]",
+"transform": Transform2D( 0.000589383, -1, 1, 0.000589383, 300, 50 ),
+"type": "Arrow"
+},
+"Arrow[13564]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13564]",
+"transform": Transform2D( -0.62885, -0.777527, 0.777527, -0.62885, 250, -50 ),
+"type": "Arrow"
+},
+"Arrow[13568]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13568]",
+"transform": Transform2D( -0.517552, -0.855652, 0.855652, -0.517552, 250, -50 ),
+"type": "Arrow"
+},
+"Arrow[13572]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13572]",
+"transform": Transform2D( -0.195502, -0.980703, 0.980703, -0.195502, 250, -50 ),
+"type": "Arrow"
+},
+"Arrow[13576]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13576]",
+"transform": Transform2D( 4.14968e-05, -1, 1, 4.14968e-05, 250, 50 ),
+"type": "Arrow"
+},
+"Arrow[13580]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13580]",
+"transform": Transform2D( 0.000733387, -1, 1, 0.000733387, 200, 50 ),
+"type": "Arrow"
+},
+"Arrow[13584]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13584]",
+"transform": Transform2D( -0.522665, -0.852538, 0.852538, -0.522665, 200, -50 ),
+"type": "Arrow"
+},
+"Arrow[13588]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13588]",
+"transform": Transform2D( -0.376718, -0.926328, 0.926328, -0.376718, 200, -50 ),
+"type": "Arrow"
+},
+"Arrow[13592]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13592]",
+"transform": Transform2D( -0.00140332, -0.999999, 0.999999, -0.00140332, 150, 50 ),
+"type": "Arrow"
+},
+"Arrow[13596]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13596]",
+"transform": Transform2D( -0.392831, -0.919611, 0.919611, -0.392831, 150, -50 ),
+"type": "Arrow"
+},
+"Arrow[13600]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13600]",
+"transform": Transform2D( -0.00612349, -0.999981, 0.999981, -0.00612349, 150, -50 ),
+"type": "Arrow"
+},
+"Arrow[13604]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13604]",
+"transform": Transform2D( 0.199844, -0.979828, 0.979828, 0.199844, 150, -50 ),
+"type": "Arrow"
+},
+"Arrow[13608]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13608]",
+"transform": Transform2D( 0.000169766, -1, 1, 0.000169766, 100, 50 ),
+"type": "Arrow"
+},
+"Arrow[13612]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13612]",
+"transform": Transform2D( -0.196939, -0.980416, 0.980416, -0.196939, 100, -50 ),
+"type": "Arrow"
+},
+"Arrow[13616]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13616]",
+"transform": Transform2D( 0.186627, -0.982431, 0.982431, 0.186627, 100, -50 ),
+"type": "Arrow"
+},
+"Arrow[13620]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13620]",
+"transform": Transform2D( -0.000404346, -1, 1, -0.000404346, 50, 50 ),
+"type": "Arrow"
+},
+"Arrow[13624]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13624]",
+"transform": Transform2D( -0.00247191, -0.999997, 0.999997, -0.00247191, 50, -50 ),
+"type": "Arrow"
+},
+"Arrow[13628]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13628]",
+"transform": Transform2D( 0.508497, -0.861064, 0.861064, 0.508497, 50, -50 ),
+"type": "Arrow"
+},
+"Arrow[13632]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13632]",
+"transform": Transform2D( -0.000992286, -1, 1, -0.000992286, 0, 50 ),
+"type": "Arrow"
+},
+"Arrow[13636]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13636]",
+"transform": Transform2D( 0.196201, -0.980564, 0.980564, 0.196201, 0, -50 ),
+"type": "Arrow"
+},
+"Arrow[13640]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13640]",
+"transform": Transform2D( 0.000199807, -1, 1, 0.000199807, -50, 50 ),
+"type": "Arrow"
+},
+"Arrow[13644]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13644]",
+"transform": Transform2D( 0.512601, -0.858627, 0.858627, 0.512601, -50, -50 ),
+"type": "Arrow"
+},
+"Arrow[13648]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13648]",
+"transform": Transform2D( 0.625645, -0.780108, 0.780108, 0.625645, -50, -50 ),
+"type": "Arrow"
+},
+"Arrow[13652]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13652]",
+"transform": Transform2D( 0.709799, -0.704404, 0.704404, 0.709799, -50, -50 ),
+"type": "Arrow"
+},
+"Arrow[13656]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13656]",
+"transform": Transform2D( 9.49025e-05, -1, 1, 9.49025e-05, -100, 50 ),
+"type": "Arrow"
+},
+"Arrow[13660]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13660]",
+"transform": Transform2D( 0.622484, -0.782632, 0.782632, 0.622484, -100, -50 ),
+"type": "Arrow"
+},
+"Arrow[13664]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13664]",
+"transform": Transform2D( 0.704722, -0.709484, 0.709484, 0.704722, -100, -50 ),
+"type": "Arrow"
+},
+"Arrow[13668]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13668]",
+"transform": Transform2D( 3.82662e-06, -1, 1, 3.82662e-06, -150, 50 ),
+"type": "Arrow"
+},
+"Arrow[13672]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13672]",
+"transform": Transform2D( 0.705881, -0.708331, 0.708331, 0.705881, -150, -50 ),
+"type": "Arrow"
+},
+"Arrow[13676]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13676]",
+"transform": Transform2D( 0.814717, -0.579858, 0.579858, 0.814717, -150, -50 ),
+"type": "Arrow"
+},
+"Arrow[13680]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13680]",
+"transform": Transform2D( -8.77261e-05, -1, 1, -8.77261e-05, -200, 50 ),
+"type": "Arrow"
+},
+"Arrow[13684]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13684]",
+"transform": Transform2D( 0.765969, -0.642878, 0.642878, 0.765969, -200, -50 ),
+"type": "Arrow"
+},
+"Arrow[13688]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13688]",
+"transform": Transform2D( -0.000179279, -1, 1, -0.000179279, -250, 50 ),
+"type": "Arrow"
+},
+"Arrow[13692]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13692]",
+"transform": Transform2D( 0.846672, -0.532116, 0.532116, 0.846672, -250, -50 ),
+"type": "Arrow"
+},
+"Arrow[13696]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13696]",
+"transform": Transform2D( 0.874913, -0.484279, 0.484279, 0.874913, -250, -50 ),
+"type": "Arrow"
+},
+"Arrow[13700]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13700]",
+"transform": Transform2D( -0.000272739, -1, 1, -0.000272739, -300, 50 ),
+"type": "Arrow"
+},
+"Arrow[13704]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13704]",
+"transform": Transform2D( 0.874003, -0.485921, 0.485921, 0.874003, -300, -50 ),
+"type": "Arrow"
+},
+"Arrow[13708]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13708]",
+"transform": Transform2D( 0.000892174, -0.999999, 0.999999, 0.000892174, -350, 50 ),
+"type": "Arrow"
+},
+"Arrow[13712]": {
+"hit": false,
+"inv": false,
+"name": "Arrow[13712]",
+"transform": Transform2D( 0.910055, -0.414488, 0.414488, 0.910055, -350, -50 ),
+"type": "Arrow"
+}
+},
+"position": Vector2( 1650, 4900 ),
+"size": Vector2( 700, 100 ),
+"type": "Box"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[13716]",
+"transform": Transform2D( -0.518397, -0.85514, 0.85514, -0.518397, 1500, 4900 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[13720]",
+"transform": Transform2D( 0.959491, -0.28174, 0.28174, 0.959491, 1500, 4900 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[13724]",
+"transform": Transform2D( 0.0182147, -0.999834, 0.999834, 0.0182147, 1500, 5000 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[13728]",
+"transform": Transform2D( -0.9362, -0.351468, 0.351468, -0.9362, 1000, 4200 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[13732]",
+"transform": Transform2D( -0.439903, -0.898045, 0.898045, -0.439903, 1100, 4200 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[13736]",
+"transform": Transform2D( 0.858013, -0.513628, 0.513628, 0.858013, 1200, 4200 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[13740]",
+"transform": Transform2D( 0.967796, -0.251737, 0.251737, 0.967796, 1300, 4200 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[13744]",
+"transform": Transform2D( -0.980597, -0.196033, 0.196033, -0.980597, 2000, 4200 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[13748]",
+"transform": Transform2D( -0.943522, -0.33131, 0.33131, -0.943522, 2100, 4200 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[13752]",
+"transform": Transform2D( -0.552849, -0.833281, 0.833281, -0.552849, 2200, 4200 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[13756]",
+"transform": Transform2D( 0.833653, -0.552288, 0.552288, 0.833653, 2300, 4200 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[13760]",
+"transform": Transform2D( 1, 6.65659e-05, -6.65659e-05, 1, 1350, 4300 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": true,
+"name": "Arrow[13764]",
+"transform": Transform2D( 0.999925, 0.0122787, -0.0122787, 0.999925, 800, 4300 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[197460]",
+"transform": Transform2D( 0.999999, -0.00115642, 0.00115642, 0.999999, 2650, 2550 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[209912]",
+"transform": Transform2D( 1, 0.000252099, -0.000252099, 1, 1900, 2500 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[222291]",
+"transform": Transform2D( 0.999999, -0.00106953, 0.00106953, 0.999999, 1150, 2450 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[236187]",
+"transform": Transform2D( 1, -0.000294171, 0.000294171, 1, 400, 2400 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[247349]",
+"transform": Transform2D( 1, 0.000158677, -0.000158677, 1, 2650, 2500 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[260628]",
+"transform": Transform2D( 1, -0.000749086, 0.000749086, 1, 2650, 2400 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": false,
+"name": "Arrow[414204]",
+"transform": Transform2D( 0.999999, -0.00104559, 0.00104559, 0.999999, 2650, 2450 ),
+"type": "Arrow"
+} ],
+"Dots": [ {
+"direction": Vector2( -1, -0.000744494 ),
+"from_arrows": [ "Arrow[1059725]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, -445383, 4961.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.999988, -0.00487651 ),
+"from_arrows": [ "Arrow[1059793]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, -445926, 2940.89 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -1, -0.000689419 ),
+"from_arrows": [ "Arrow[1059721]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, -445483, 5039.05 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4972.35, 2547.56 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4972.35, 2500.03 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4972.35, 2398.51 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4972.35, 2447.58 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4872.34, 2547.66 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2622.47, 2398.88 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4872.34, 2500.03 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4872.34, 2398.57 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4872.34, 2447.69 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4772.34, 2547.77 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2522.46, 2398.93 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4772.34, 2500.03 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4772.34, 2398.63 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4772.34, 2447.79 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4672.51, 2547.87 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2422.62, 2398.98 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4672.51, 2500.03 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4672.51, 2398.7 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4672.51, 2447.89 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4572.3, 2547.97 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2322.41, 2399.03 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4572.3, 2500.03 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4572.3, 2398.77 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4572.3, 2448 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4472.56, 2548.08 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2222.66, 2399.08 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4472.56, 2500.03 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4472.56, 2398.83 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4472.56, 2448.1 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4372.47, 2548.18 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2122.57, 2399.13 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4372.47, 2500.02 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4372.47, 2398.9 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4372.47, 2448.21 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4272.65, 2548.29 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2022.76, 2399.18 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4272.65, 2500.02 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4272.65, 2398.97 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4272.65, 2448.31 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4172.3, 2548.39 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1922.41, 2399.23 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4172.3, 2500.02 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4172.3, 2399.04 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4172.3, 2448.41 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4072.38, 2548.5 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00106953 ),
+"from_arrows": [ "Arrow[222291]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2572.47, 2448.52 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1822.48, 2399.28 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4072.38, 2500.02 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4072.38, 2399.11 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 4072.38, 2448.52 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3972.3, 2548.6 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00106953 ),
+"from_arrows": [ "Arrow[222291]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2472.38, 2448.62 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1722.39, 2399.33 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3972.3, 2500.02 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3972.3, 2399.17 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3972.3, 2448.62 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3872.31, 2548.71 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00106953 ),
+"from_arrows": [ "Arrow[222291]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2372.38, 2448.72 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1622.39, 2399.38 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3872.31, 2500.02 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3872.31, 2399.23 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3872.31, 2448.72 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.967796, -0.251737 ),
+"from_arrows": [ "Arrow[13740]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2386.42, 3917.31 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3772.49, 2548.81 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00106953 ),
+"from_arrows": [ "Arrow[222291]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2272.56, 2448.83 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1522.57, 2399.44 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3772.49, 2500.02 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3772.49, 2399.29 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3772.49, 2448.83 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 398.428, 2427.54 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.967796, -0.251737 ),
+"from_arrows": [ "Arrow[13740]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2289.59, 3942.5 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3672.46, 2548.92 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00106953 ),
+"from_arrows": [ "Arrow[222291]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2172.54, 2448.93 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1422.53, 2399.49 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3672.46, 2500.01 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3672.46, 2399.36 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3672.46, 2448.93 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 398.581, 2527.26 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12383]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1148.58, 2527.26 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12562]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1898.58, 2527.26 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.967796, -0.251737 ),
+"from_arrows": [ "Arrow[13740]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2193.07, 3967.59 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3572.74, 2549.02 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00106953 ),
+"from_arrows": [ "Arrow[222291]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2072.82, 2449.03 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1322.81, 2399.53 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3572.74, 2500.01 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3572.74, 2399.43 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3572.74, 2449.03 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 398.735, 2627.52 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12383]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1148.74, 2627.52 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12562]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1898.74, 2627.52 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12741]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2648.72, 2627.52 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.9362, -0.351468 ),
+"from_arrows": [ "Arrow[13728]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 229.958, 3910.85 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.967796, -0.251737 ),
+"from_arrows": [ "Arrow[13740]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2096.02, 3992.86 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.943522, -0.33131 ),
+"from_arrows": [ "Arrow[13748]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1323.91, 3927.54 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3472.48, 2549.13 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00106953 ),
+"from_arrows": [ "Arrow[222291]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1972.55, 2449.14 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1222.54, 2399.58 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3472.48, 2500.01 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3472.48, 2399.49 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3472.48, 2449.14 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 398.889, 2727.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12383]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1148.89, 2727.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12562]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1898.89, 2727.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12741]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2648.87, 2727.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.9362, -0.351468 ),
+"from_arrows": [ "Arrow[13728]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 323.616, 3946.02 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.967796, -0.251737 ),
+"from_arrows": [ "Arrow[13740]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1999.21, 4018.06 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.943522, -0.33131 ),
+"from_arrows": [ "Arrow[13748]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1418.3, 3960.69 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3372.45, 2549.23 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000252099 ),
+"from_arrows": [ "Arrow[209912]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2622.46, 2500.08 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00106953 ),
+"from_arrows": [ "Arrow[222291]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1872.5, 2449.24 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1122.49, 2399.64 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3372.45, 2500.01 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3372.45, 2399.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3372.45, 2449.24 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 399.042, 2827.47 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12383]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1149.04, 2827.47 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12562]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1899.04, 2827.47 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12741]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2649.03, 2827.47 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.9362, -0.351468 ),
+"from_arrows": [ "Arrow[13728]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 417.158, 3981.14 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.967796, -0.251737 ),
+"from_arrows": [ "Arrow[13740]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1902.51, 4043.2 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.943522, -0.33131 ),
+"from_arrows": [ "Arrow[13748]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1512.58, 3993.78 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3272.53, 2549.34 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000252099 ),
+"from_arrows": [ "Arrow[209912]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2522.55, 2500.07 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00106953 ),
+"from_arrows": [ "Arrow[222291]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1772.58, 2449.35 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1022.57, 2399.69 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3272.53, 2500.01 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3272.53, 2399.61 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3272.53, 2449.35 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 399.196, 2927.33 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12383]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1149.2, 2927.33 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12562]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1899.2, 2927.33 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12741]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2649.19, 2927.33 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.9362, -0.351468 ),
+"from_arrows": [ "Arrow[13728]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 510.655, 4016.25 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.858013, -0.513628 ),
+"from_arrows": [ "Arrow[13736]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1648.48, 3931.53 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.967796, -0.251737 ),
+"from_arrows": [ "Arrow[13740]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1805.86, 4068.35 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.943522, -0.33131 ),
+"from_arrows": [ "Arrow[13748]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1606.81, 4026.85 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 6.65659e-05 ),
+"from_arrows": [ "Arrow[13760]", "Arrow[13298]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1872.71, 4300 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3172.67, 2549.44 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000252099 ),
+"from_arrows": [ "Arrow[209912]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2422.68, 2500.06 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00106953 ),
+"from_arrows": [ "Arrow[222291]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1672.71, 2449.45 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 922.701, 2399.74 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3172.67, 2500.01 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3172.67, 2399.67 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3172.67, 2449.45 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 399.35, 3027.46 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12383]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1149.35, 3027.46 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12562]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1899.35, 3027.46 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12741]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2649.34, 3027.46 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.9362, -0.351468 ),
+"from_arrows": [ "Arrow[13728]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 604.395, 4051.45 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.858013, -0.513628 ),
+"from_arrows": [ "Arrow[13736]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1562.57, 3982.96 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.967796, -0.251737 ),
+"from_arrows": [ "Arrow[13740]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1708.95, 4093.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.943522, -0.33131 ),
+"from_arrows": [ "Arrow[13748]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1701.29, 4060.03 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 6.65659e-05 ),
+"from_arrows": [ "Arrow[13760]", "Arrow[13298]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1772.58, 4300 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3072.54, 2549.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000252099 ),
+"from_arrows": [ "Arrow[209912]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2322.56, 2500.04 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00106953 ),
+"from_arrows": [ "Arrow[222291]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1572.58, 2449.56 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 822.572, 2399.79 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3072.54, 2500.01 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3072.54, 2399.74 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3072.54, 2449.56 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 399.504, 3127.48 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12383]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1149.5, 3127.48 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12562]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1899.5, 3127.48 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12741]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2649.5, 3127.48 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.9362, -0.351468 ),
+"from_arrows": [ "Arrow[13728]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 698.041, 4086.61 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.858013, -0.513628 ),
+"from_arrows": [ "Arrow[13736]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1476.74, 4034.33 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.967796, -0.251737 ),
+"from_arrows": [ "Arrow[13740]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1612.15, 4118.75 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.943522, -0.33131 ),
+"from_arrows": [ "Arrow[13748]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1795.67, 4093.19 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 6.65659e-05 ),
+"from_arrows": [ "Arrow[13760]", "Arrow[13298]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1672.55, 4300 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2972.52, 2549.66 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000252099 ),
+"from_arrows": [ "Arrow[209912]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2222.54, 2500.03 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00106953 ),
+"from_arrows": [ "Arrow[222291]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1472.55, 2449.66 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 722.543, 2399.84 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2972.52, 2500.01 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2972.52, 2399.8 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2972.52, 2449.66 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 399.658, 3227.31 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -1, -0.000744494 ),
+"from_arrows": [ "Arrow[12291]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1277.29, 3499.86 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.140464, 0.990086 ),
+"from_arrows": [ "Arrow[12363]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1218.72, 3720.48 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12383]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1149.66, 3227.31 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12562]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1899.66, 3227.31 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12741]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2649.66, 3227.31 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.9362, -0.351468 ),
+"from_arrows": [ "Arrow[13728]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 791.51, 4121.71 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.858013, -0.513628 ),
+"from_arrows": [ "Arrow[13736]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1391.08, 4085.61 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.967796, -0.251737 ),
+"from_arrows": [ "Arrow[13740]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1515.53, 4143.9 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.943522, -0.33131 ),
+"from_arrows": [ "Arrow[13748]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1889.88, 4126.26 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 6.65659e-05 ),
+"from_arrows": [ "Arrow[13760]", "Arrow[13298]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1572.71, 4300 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2872.69, 2549.77 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000252099 ),
+"from_arrows": [ "Arrow[209912]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2122.7, 2500.03 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00106953 ),
+"from_arrows": [ "Arrow[222291]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1372.71, 2449.77 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 622.703, 2399.89 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2872.69, 2500 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2872.69, 2399.86 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2872.69, 2449.77 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00555413, -0.999985 ),
+"from_arrows": [ "Arrow[12148]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 400.684, 3477.17 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.726232, -0.68745 ),
+"from_arrows": [ "Arrow[12168]", "Arrow[12164]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 339.21, 3715.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 399.811, 3327.17 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.726232, -0.68745 ),
+"from_arrows": [ "Arrow[12271]", "Arrow[12267]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1439.21, 3715.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -1, -0.000744494 ),
+"from_arrows": [ "Arrow[12291]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1377.16, 3499.92 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00555413, -0.999985 ),
+"from_arrows": [ "Arrow[12327]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1150.69, 3477.17 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.841345, -0.540498 ),
+"from_arrows": [ "Arrow[12351]", "Arrow[12355]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1096.65, 3733.61 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.140464, 0.990086 ),
+"from_arrows": [ "Arrow[12363]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1232.75, 3621.62 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.722072, -0.691818 ),
+"from_arrows": [ "Arrow[12371]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1338.7, 3815.02 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12383]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1149.81, 3327.17 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00555413, -0.999985 ),
+"from_arrows": [ "Arrow[12506]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1900.69, 3477.17 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.726232, -0.68745 ),
+"from_arrows": [ "Arrow[12526]", "Arrow[12522]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1839.21, 3715.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12562]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1899.81, 3327.17 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00555413, -0.999985 ),
+"from_arrows": [ "Arrow[12685]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2650.68, 3477.17 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.726232, -0.68745 ),
+"from_arrows": [ "Arrow[12705]", "Arrow[12701]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2589.2, 3715.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12741]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2649.81, 3327.17 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.000238939, -1 ),
+"from_arrows": [ "Arrow[12848]", "Arrow[12784]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 249.971, 727.162 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 9.62774e-05, -1 ),
+"from_arrows": [ "Arrow[12852]", "Arrow[12796]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 350.013, 727.162 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.000630693, -1 ),
+"from_arrows": [ "Arrow[12856]", "Arrow[12808]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 450.077, 727.162 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 9.62774e-05, -1 ),
+"from_arrows": [ "Arrow[13039]", "Arrow[12983]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2100, 4427.17 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.000238939, -1 ),
+"from_arrows": [ "Arrow[13222]", "Arrow[13158]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 999.969, 4427.17 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.000630693, -1 ),
+"from_arrows": [ "Arrow[13230]", "Arrow[13182]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1200.07, 4427.17 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.000835375, -1 ),
+"from_arrows": [ "Arrow[13234]", "Arrow[13194]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1300.1, 4427.17 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.9362, -0.351468 ),
+"from_arrows": [ "Arrow[13728]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 885.001, 4156.82 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.858013, -0.513628 ),
+"from_arrows": [ "Arrow[13736]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1305.39, 4136.9 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.967796, -0.251737 ),
+"from_arrows": [ "Arrow[13740]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1418.88, 4169.06 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.943522, -0.33131 ),
+"from_arrows": [ "Arrow[13748]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1984.1, 4159.33 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 6.65659e-05 ),
+"from_arrows": [ "Arrow[13760]", "Arrow[13298]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1472.84, 4300 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999925, 0.0122787 ),
+"from_arrows": [ "Arrow[13764]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 922.828, 4301.51 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2772.83, 2549.87 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000252099 ),
+"from_arrows": [ "Arrow[209912]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2022.84, 2500.02 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00106953 ),
+"from_arrows": [ "Arrow[222291]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1272.84, 2449.87 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 522.84, 2399.94 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2772.83, 2500 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2772.83, 2399.92 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2772.83, 2449.87 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.736199, 0.676765 ),
+"from_arrows": [ "Arrow[11488]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 166.526, 215.192 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.736199, 0.676765 ),
+"from_arrows": [ "Arrow[11500]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 266.526, 215.192 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.00135653, -0.999999 ),
+"from_arrows": [ "Arrow[11532]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 149.97, 227.552 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.70842, -0.705791 ),
+"from_arrows": [ "Arrow[11571]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 615.902, 234.156 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.763173, -0.646194 ),
+"from_arrows": [ "Arrow[11583]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 667.132, 235.494 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0190152, -0.999819 ),
+"from_arrows": [ "Arrow[11587]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 699.573, 227.556 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.70842, -0.705791 ),
+"from_arrows": [ "Arrow[11618]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 915.902, 134.156 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.763173, -0.646194 ),
+"from_arrows": [ "Arrow[11630]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 967.132, 135.494 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0190152, -0.999819 ),
+"from_arrows": [ "Arrow[11634]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 999.573, 127.556 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00365777, -0.999993 ),
+"from_arrows": [ "Arrow[11646]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 800.082, 177.552 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.42015, -0.907455 ),
+"from_arrows": [ "Arrow[11654]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 840.568, 179.629 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.70842, -0.705791 ),
+"from_arrows": [ "Arrow[11869]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1615.9, 184.156 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.763173, -0.646194 ),
+"from_arrows": [ "Arrow[11881]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1667.13, 185.494 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0190152, -0.999819 ),
+"from_arrows": [ "Arrow[11885]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1699.57, 177.556 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00365777, -0.999993 ),
+"from_arrows": [ "Arrow[11897]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1500.08, 227.552 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.42015, -0.907455 ),
+"from_arrows": [ "Arrow[11905]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1540.57, 229.629 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.70842, -0.705791 ),
+"from_arrows": [ "Arrow[11945]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1265.9, 184.156 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.763173, -0.646194 ),
+"from_arrows": [ "Arrow[11957]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1317.13, 185.494 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0190152, -0.999819 ),
+"from_arrows": [ "Arrow[11961]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1349.57, 177.556 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00365777, -0.999993 ),
+"from_arrows": [ "Arrow[11973]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1150.08, 227.552 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.42015, -0.907455 ),
+"from_arrows": [ "Arrow[11981]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1190.57, 229.629 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.70842, -0.705791 ),
+"from_arrows": [ "Arrow[12048]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 715.902, 3634.16 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.763173, -0.646194 ),
+"from_arrows": [ "Arrow[12060]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 767.132, 3635.5 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0190152, -0.999819 ),
+"from_arrows": [ "Arrow[12064]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 799.573, 3627.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00365777, -0.999993 ),
+"from_arrows": [ "Arrow[12076]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 600.082, 3677.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.42015, -0.907455 ),
+"from_arrows": [ "Arrow[12084]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 640.568, 3679.63 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00396664, -0.999992 ),
+"from_arrows": [ "Arrow[12120]", "Arrow[12128]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 350.089, 3677.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.711706, -0.702477 ),
+"from_arrows": [ "Arrow[12128]", "Arrow[12120]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 365.977, 3684.23 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0190152, -0.999819 ),
+"from_arrows": [ "Arrow[12140]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 449.573, 3627.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00555413, -0.999985 ),
+"from_arrows": [ "Arrow[12148]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 400.125, 3577.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.42015, -0.907455 ),
+"from_arrows": [ "Arrow[12160]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 290.568, 3679.63 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00276048, -0.999996 ),
+"from_arrows": [ "Arrow[12164]", "Arrow[12168]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 250.062, 3777.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.726232, -0.68745 ),
+"from_arrows": [ "Arrow[12168]", "Arrow[12164]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 266.303, 3784.57 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.450813, -0.892618 ),
+"from_arrows": [ "Arrow[12196]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 210.12, 3879.96 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 399.966, 3427.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00396664, -0.999992 ),
+"from_arrows": [ "Arrow[12223]", "Arrow[12231]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1450.09, 3677.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.711706, -0.702477 ),
+"from_arrows": [ "Arrow[12231]", "Arrow[12223]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1465.98, 3684.23 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0190152, -0.999819 ),
+"from_arrows": [ "Arrow[12243]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1549.57, 3627.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00555413, -0.999985 ),
+"from_arrows": [ "Arrow[12251]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1500.13, 3577.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.42015, -0.907455 ),
+"from_arrows": [ "Arrow[12263]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1390.57, 3679.63 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00276048, -0.999996 ),
+"from_arrows": [ "Arrow[12267]", "Arrow[12271]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1350.06, 3777.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.726232, -0.68745 ),
+"from_arrows": [ "Arrow[12271]", "Arrow[12267]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1366.3, 3784.57 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -1, -0.000744494 ),
+"from_arrows": [ "Arrow[12291]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1477.55, 3499.98 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.711292, -0.702897 ),
+"from_arrows": [ "Arrow[12295]", "Arrow[12311]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1134.03, 3684.22 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.715067, -0.699056 ),
+"from_arrows": [ "Arrow[12311]", "Arrow[12295]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1166.05, 3684.31 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.763173, -0.646194 ),
+"from_arrows": [ "Arrow[12315]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1167.13, 3635.5 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00555413, -0.999985 ),
+"from_arrows": [ "Arrow[12327]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1150.13, 3577.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00365777, -0.999993 ),
+"from_arrows": [ "Arrow[12331]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1000.08, 3677.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.841345, -0.540498 ),
+"from_arrows": [ "Arrow[12351]", "Arrow[12355]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1181.11, 3787.87 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.444921, -0.89557 ),
+"from_arrows": [ "Arrow[12355]", "Arrow[12351]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1190.01, 3779.9 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.140464, 0.990086 ),
+"from_arrows": [ "Arrow[12363]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1246.85, 3522.23 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.722072, -0.691818 ),
+"from_arrows": [ "Arrow[12371]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1266.21, 3884.47 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12383]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1149.97, 3427.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.70842, -0.705791 ),
+"from_arrows": [ "Arrow[12406]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2215.9, 3634.16 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.763173, -0.646194 ),
+"from_arrows": [ "Arrow[12418]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2267.13, 3635.5 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0190152, -0.999819 ),
+"from_arrows": [ "Arrow[12422]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2299.57, 3627.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00365777, -0.999993 ),
+"from_arrows": [ "Arrow[12434]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2100.08, 3677.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.42015, -0.907455 ),
+"from_arrows": [ "Arrow[12442]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2140.57, 3679.63 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00396664, -0.999992 ),
+"from_arrows": [ "Arrow[12478]", "Arrow[12486]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1850.09, 3677.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.711706, -0.702477 ),
+"from_arrows": [ "Arrow[12486]", "Arrow[12478]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1865.98, 3684.23 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0190152, -0.999819 ),
+"from_arrows": [ "Arrow[12498]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1949.57, 3627.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00555413, -0.999985 ),
+"from_arrows": [ "Arrow[12506]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1900.13, 3577.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.42015, -0.907455 ),
+"from_arrows": [ "Arrow[12518]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1790.57, 3679.63 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00276048, -0.999996 ),
+"from_arrows": [ "Arrow[12522]", "Arrow[12526]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1750.06, 3777.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.726232, -0.68745 ),
+"from_arrows": [ "Arrow[12526]", "Arrow[12522]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1766.3, 3784.57 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.450813, -0.892618 ),
+"from_arrows": [ "Arrow[12554]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1710.12, 3879.96 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12562]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1899.97, 3427.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.70842, -0.705791 ),
+"from_arrows": [ "Arrow[12585]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2965.9, 3634.16 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.763173, -0.646194 ),
+"from_arrows": [ "Arrow[12597]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3017.13, 3635.5 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0190152, -0.999819 ),
+"from_arrows": [ "Arrow[12601]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 3049.57, 3627.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00365777, -0.999993 ),
+"from_arrows": [ "Arrow[12613]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2850.08, 3677.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.42015, -0.907455 ),
+"from_arrows": [ "Arrow[12621]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2890.57, 3679.63 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00396664, -0.999992 ),
+"from_arrows": [ "Arrow[12657]", "Arrow[12665]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2600.09, 3677.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.711706, -0.702477 ),
+"from_arrows": [ "Arrow[12665]", "Arrow[12657]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2615.98, 3684.23 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0190152, -0.999819 ),
+"from_arrows": [ "Arrow[12677]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2699.57, 3627.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00555413, -0.999985 ),
+"from_arrows": [ "Arrow[12685]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2650.12, 3577.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.42015, -0.907455 ),
+"from_arrows": [ "Arrow[12697]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2540.57, 3679.63 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00276048, -0.999996 ),
+"from_arrows": [ "Arrow[12701]", "Arrow[12705]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2500.06, 3777.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.726232, -0.68745 ),
+"from_arrows": [ "Arrow[12705]", "Arrow[12701]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2516.3, 3784.57 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.450813, -0.892618 ),
+"from_arrows": [ "Arrow[12733]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2460.12, 3879.96 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0015357, -0.999999 ),
+"from_arrows": [ "Arrow[12741]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2649.97, 3427.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0334958, -0.999439 ),
+"from_arrows": [ "Arrow[12768]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 299.248, 927.565 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.736199, 0.676765 ),
+"from_arrows": [ "Arrow[12784]", "Arrow[12848]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 266.526, 865.192 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.00135653, -0.999999 ),
+"from_arrows": [ "Arrow[12804]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 449.97, 877.552 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.736199, 0.676765 ),
+"from_arrows": [ "Arrow[12808]", "Arrow[12856]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 466.526, 865.192 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.736199, 0.676765 ),
+"from_arrows": [ "Arrow[12820]", "Arrow[12860]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 566.527, 865.192 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -1, -0.000197085 ),
+"from_arrows": [ "Arrow[12824]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 577.552, 899.995 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.00135653, -0.999999 ),
+"from_arrows": [ "Arrow[12828]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 249.97, 877.552 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.000238939, -1 ),
+"from_arrows": [ "Arrow[12848]", "Arrow[12784]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 249.995, 827.552 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.000630693, -1 ),
+"from_arrows": [ "Arrow[12856]", "Arrow[12808]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 450.014, 827.552 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.000835375, -1 ),
+"from_arrows": [ "Arrow[12860]", "Arrow[12820]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 550.019, 827.552 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.468588, -0.883417 ),
+"from_arrows": [ "Arrow[12872]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 289.481, 630.169 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00186808, -0.999998 ),
+"from_arrows": [ "Arrow[12880]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 350.042, 627.552 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.468588, -0.883417 ),
+"from_arrows": [ "Arrow[12888]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 389.481, 630.169 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.468588, -0.883417 ),
+"from_arrows": [ "Arrow[12904]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 489.481, 630.169 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00186808, -0.999998 ),
+"from_arrows": [ "Arrow[12912]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 550.042, 627.552 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.468588, -0.883417 ),
+"from_arrows": [ "Arrow[12920]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 589.48, 630.169 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -1, -0.000197085 ),
+"from_arrows": [ "Arrow[12975]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2027.55, 4600 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.00135653, -0.999999 ),
+"from_arrows": [ "Arrow[12979]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2099.97, 4577.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.736199, 0.676765 ),
+"from_arrows": [ "Arrow[12983]", "Arrow[13039]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2116.53, 4565.19 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -1, -0.000197085 ),
+"from_arrows": [ "Arrow[12999]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2227.55, 4600 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -1, -0.000197085 ),
+"from_arrows": [ "Arrow[13011]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2327.55, 4600 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 9.62774e-05, -1 ),
+"from_arrows": [ "Arrow[13039]", "Arrow[12983]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2100, 4527.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00186808, -0.999998 ),
+"from_arrows": [ "Arrow[13051]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2000.04, 4327.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0129676, 0.999916 ),
+"from_arrows": [ "Arrow[13063]", "Arrow[13119]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2049.71, 4322.45 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -1.80443e-05, -1 ),
+"from_arrows": [ "Arrow[13071]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2100, 4227.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0129676, 0.999916 ),
+"from_arrows": [ "Arrow[13079]", "Arrow[13123]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2149.71, 4322.45 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00186808, -0.999998 ),
+"from_arrows": [ "Arrow[13083]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2200.04, 4327.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0129676, 0.999916 ),
+"from_arrows": [ "Arrow[13095]", "Arrow[13127]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2249.71, 4322.45 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00186808, -0.999998 ),
+"from_arrows": [ "Arrow[13099]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2300.04, 4327.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0129676, 0.999916 ),
+"from_arrows": [ "Arrow[13111]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2349.71, 4322.45 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999652, -0.0263886 ),
+"from_arrows": [ "Arrow[13115]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1972.44, 4299.41 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000363985 ),
+"from_arrows": [ "Arrow[13119]", "Arrow[13063]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2072.45, 4300 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999994, 0.00351753 ),
+"from_arrows": [ "Arrow[13123]", "Arrow[13079]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2172.45, 4300.08 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999997, 0.00222552 ),
+"from_arrows": [ "Arrow[13127]", "Arrow[13095]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2272.45, 4300.05 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.736199, 0.676765 ),
+"from_arrows": [ "Arrow[13158]", "Arrow[13222]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1016.53, 4565.19 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -1, -0.000197085 ),
+"from_arrows": [ "Arrow[13174]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1127.55, 4600 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.00135653, -0.999999 ),
+"from_arrows": [ "Arrow[13178]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1199.97, 4577.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.736199, 0.676765 ),
+"from_arrows": [ "Arrow[13182]", "Arrow[13230]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1216.53, 4565.19 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.00135653, -0.999999 ),
+"from_arrows": [ "Arrow[13190]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1299.97, 4577.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.736199, 0.676765 ),
+"from_arrows": [ "Arrow[13194]", "Arrow[13234]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1316.53, 4565.19 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.00135653, -0.999999 ),
+"from_arrows": [ "Arrow[13202]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 999.969, 4577.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.000238939, -1 ),
+"from_arrows": [ "Arrow[13222]", "Arrow[13158]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 999.995, 4527.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.000630693, -1 ),
+"from_arrows": [ "Arrow[13230]", "Arrow[13182]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1200.02, 4527.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.000835375, -1 ),
+"from_arrows": [ "Arrow[13234]", "Arrow[13194]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1300.02, 4527.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -1.80443e-05, -1 ),
+"from_arrows": [ "Arrow[13242]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1000, 4227.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0129676, 0.999916 ),
+"from_arrows": [ "Arrow[13250]", "Arrow[13306]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1049.71, 4322.45 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.00186808, -0.999998 ),
+"from_arrows": [ "Arrow[13254]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1100.04, 4327.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0129676, 0.999916 ),
+"from_arrows": [ "Arrow[13266]", "Arrow[13310]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1149.71, 4322.45 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -1.80443e-05, -1 ),
+"from_arrows": [ "Arrow[13274]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1200, 4227.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0129676, 0.999916 ),
+"from_arrows": [ "Arrow[13282]", "Arrow[13314]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1249.71, 4322.45 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -1.80443e-05, -1 ),
+"from_arrows": [ "Arrow[13290]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1300, 4227.55 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.0129676, 0.999916 ),
+"from_arrows": [ "Arrow[13298]", "Arrow[13760]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1349.71, 4322.45 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999652, -0.0263886 ),
+"from_arrows": [ "Arrow[13302]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 972.44, 4299.41 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000363985 ),
+"from_arrows": [ "Arrow[13306]", "Arrow[13250]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1072.45, 4300 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999994, 0.00351753 ),
+"from_arrows": [ "Arrow[13310]", "Arrow[13266]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1172.45, 4300.08 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999997, 0.00222552 ),
+"from_arrows": [ "Arrow[13314]", "Arrow[13282]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1272.45, 4300.05 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.9362, -0.351468 ),
+"from_arrows": [ "Arrow[13728]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 978.984, 4192.11 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.858013, -0.513628 ),
+"from_arrows": [ "Arrow[13736]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1219.26, 4188.47 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.967796, -0.251737 ),
+"from_arrows": [ "Arrow[13740]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1321.73, 4194.35 ),
+"type": "Dot"
+}, {
+"direction": Vector2( -0.943522, -0.33131 ),
+"from_arrows": [ "Arrow[13748]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2078.82, 4192.57 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 6.65659e-05 ),
+"from_arrows": [ "Arrow[13760]", "Arrow[13298]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1372.45, 4300 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999925, 0.0122787 ),
+"from_arrows": [ "Arrow[13764]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 822.446, 4300.28 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00115642 ),
+"from_arrows": [ "Arrow[197460]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2672.45, 2549.98 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000252099 ),
+"from_arrows": [ "Arrow[209912]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1922.45, 2500.01 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00106953 ),
+"from_arrows": [ "Arrow[222291]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 1172.45, 2449.98 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000294171 ),
+"from_arrows": [ "Arrow[236187]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 422.448, 2399.99 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, 0.000158677 ),
+"from_arrows": [ "Arrow[247349]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2672.45, 2500 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 1, -0.000749086 ),
+"from_arrows": [ "Arrow[260628]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2672.45, 2399.98 ),
+"type": "Dot"
+}, {
+"direction": Vector2( 0.999999, -0.00104559 ),
+"from_arrows": [ "Arrow[414204]" ],
+"speed": 100.0,
+"transform": Transform2D( 1, 0, 0, 1, 2672.45, 2449.98 ),
+"type": "Dot"
+} ]
+}

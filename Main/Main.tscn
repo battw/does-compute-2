@@ -24,7 +24,7 @@ z_as_relative = false
 [node name="PlayArea" type="Area2D" parent="."]
 collision_layer = 0
 script = ExtResource( 5 )
-size = Vector2( 5000, 5000 )
+size = Vector2( 7000, 5000 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="PlayArea"]
 show_behind_parent = true
