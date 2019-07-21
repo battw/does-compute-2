@@ -23,6 +23,10 @@ _global_script_class_icons={
 config/name="does-compute-2"
 run/main_scene="res://Main/Main.tscn"
 
+[autoload]
+
+DotFactory="*res://Dot/DotFactory.gd"
+
 [display]
 
 window/size/width=1796

@@ -2,6 +2,7 @@
 ** Improvements 
 *** Nested Boxes
 *** Dots using a single image
+
 ** Bugs
 *** Arrow area2D calls hit for clicks and overlaps of other arrows
 This should be limited to only dots. 
@@ -20,6 +21,7 @@ Try scrolling or growing the box or both
 **** Memory allocation?
 Can use dots from a preallocated pool.
 
-
+** Godot Bugs
+*** remove_child() crashes sometimes. Need to figure out when.
 
 

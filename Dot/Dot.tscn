@@ -17,7 +17,6 @@ speed = 100.0
 [node name="Circle" parent="." instance=ExtResource( 2 )]
 
 [node name="Area2D" type="Area2D" parent="."]
-editor/display_folded = true
 gravity = 0.0
 collision_mask = 0
 

@@ -33,9 +33,9 @@ func _enter_tree():
 	
 	
 func hit(area2d):
-	""" Called by signal from the arrows Area2d """
+	""" Called by signal from the arrows Area2d """	
 	var d = area2d.find_parent("*Dot*")
-	if d != null and !d.from_arrows.has(self.name):
+	if d != null and !d.name == "Dots" and !d.from_arrows.has(self.name):
 		var names = get_contiguous_neighbours_names()
 		for name in names:
 			var node = find_parent("Arrows").find_node(name, true, false)
@@ -43,7 +43,8 @@ func hit(area2d):
 				print("Can't find arrow " + str(name) + " (Arrow.hit())")
 				continue
 			node.hit = true
-		d.queue_free()
+		
+		DotFactory.recycle(d)
 
 
 # TODO: return nodes instead of names so we don't need to rely on all arrows sharing the same parent
@@ -68,12 +69,12 @@ func tick():
 
 
 func emit():
-	var d = dot.instance()
+	var d = DotFactory.build_dot()
 	d.direction = Vector2.RIGHT.rotated(get_global_transform().get_rotation())
-	d.position = global_position
+	d.position = self.global_position
 	d.from_arrows = get_contiguous_neighbours_names()
 	var dots = get_tree().get_root().find_node("Dots", true, false)
-	if !dots:
+	if dots == null:
 		print("can't find Dots. Unable to emit dot (Arrow.emit())")
 		return
 	dots.add_child(d)

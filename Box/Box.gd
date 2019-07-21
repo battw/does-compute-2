@@ -41,6 +41,7 @@ func _on_Copy_pressed():
 	cursor.add_child(cop)
 	ui.set_move_mode(true)
 
+
 func _set_size(a_size):
 	size = a_size
 	if $Area2D == null:
