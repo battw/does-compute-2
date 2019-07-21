@@ -37,7 +37,7 @@ func hit(area2d):
 	""" Called by signal from the arrows Area2d """	
 	var d = area2d.find_parent("*Dot*")
 	if d != null and !d.name == "Dots" and !d.from_arrows.has(self.name):
-		var names = get_contiguous_neighbours_names()
+		var names = _get_contiguous_neighbours_names()
 		for name in names:
 			var node = find_parent("Arrows").find_node(name, true, false)
 			if node == null:
@@ -49,7 +49,7 @@ func hit(area2d):
 
 
 # TODO: return nodes instead of names so we don't need to rely on all arrows sharing the same parent
-func get_contiguous_neighbours_names(visited=[self.name]):
+func _get_contiguous_neighbours_names(visited=[self.name]):
 	""" returns an array of the names of all arrows which form a contiguous area which includes this arrow.
 	An argument shouldn't be given, it is used for recursive calls by this function. """
 	var area = find_node("*Area2D*")
@@ -58,7 +58,7 @@ func get_contiguous_neighbours_names(visited=[self.name]):
 		var arrow = n.find_parent("*Arrow*")
 		if arrow != null and !visited.has(arrow.name):
 			visited.append(arrow.name)
-			visited = arrow.get_contiguous_neighbours_names(visited)
+			visited = arrow._get_contiguous_neighbours_names(visited)
 			
 	return visited
 
@@ -73,7 +73,7 @@ func emit():
 	var d = DotFactory.build_dot()
 	d.direction = Vector2.RIGHT.rotated(get_global_transform().get_rotation())
 	d.position = self.global_position
-	d.from_arrows = get_contiguous_neighbours_names()
+	d.from_arrows = _get_contiguous_neighbours_names()
 	if self.dots == null:
 		print("can't find Dots. Unable to emit dot (Arrow.emit())")
 		return

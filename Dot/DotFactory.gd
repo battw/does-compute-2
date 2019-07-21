@@ -10,9 +10,13 @@ func _ready():
 	_add_stat_print_timer()
 
 func _init_pool():
-	dot_pool.resize(1000)
+	self.dot_pool.resize(1000)
 
 func _pool_push(dot):
+	if len(self.dot_pool) <= self.pool_last + 1:
+		dot.queue_free()
+		return
+		
 	self.pool_last += 1
 	self.dot_pool[self.pool_last] = dot
 	dot.is_pooled = true
@@ -35,16 +39,20 @@ func _add_stat_print_timer():
 	add_child(t)
 
 func print_stats():
-	var pool_size = self.pool_last + 1
-	print("pool size = " + str(pool_size))
-	print("total dots = " + str(self.total_dots))
-	print("active dots = " + str(self.total_dots - pool_size))
+	if len(self.dot_pool) <= self.pool_last + 1:
+		print("dot pool has overflowed in DotFactory")
+	else:
+		var pool_size = self.pool_last + 1
+		print("pool size = " + str(pool_size))
+		print("total dots = " + str(self.total_dots))
+		print("active dots = " + str(self.total_dots - pool_size))
+	
 
 func build_dot():
 	if pool_last > -1:
 		return _pool_pop()
 	else:
-		total_dots += 1
+		self.total_dots += 1
 		return Dot.instance()
 
 
