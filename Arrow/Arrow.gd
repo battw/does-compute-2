@@ -8,6 +8,7 @@ export var hit = false # the Arrow has been hit by a Dot since the last tick
 export var color = Color(.92, .86, .7)
 export var inv_color = Color(.4, .36, .33)
 
+var dots
 
 func get_inv():
 	return inv
@@ -25,7 +26,7 @@ func _ready():
 	add_to_group("Arrows")
 	add_to_group("Tickers")
 	self.name = "Arrow[" + str(get_instance_id()) + "]"
-	#add_to_group("Savers")
+	self.dots = get_viewport().find_node("Dots", true, false)
 	
 	
 func _enter_tree():
@@ -73,11 +74,10 @@ func emit():
 	d.direction = Vector2.RIGHT.rotated(get_global_transform().get_rotation())
 	d.position = self.global_position
 	d.from_arrows = get_contiguous_neighbours_names()
-	var dots = get_tree().get_root().find_node("Dots", true, false)
-	if dots == null:
+	if self.dots == null:
 		print("can't find Dots. Unable to emit dot (Arrow.emit())")
 		return
-	dots.add_child(d)
+	self.dots.add_child(d)
 
 
 func invert():
