@@ -23,5 +23,6 @@ Can use dots from a preallocated pool.
 
 ** Godot Bugs
 *** remove_child() crashes sometimes. Need to figure out when.
-
+I was accessing it during the physics update.
+I think that had an effect.
 
