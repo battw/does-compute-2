@@ -1,6 +1,6 @@
 extends Node2D
 
-export var speed = 10.0
+export var speed = 200
 var direction
 var from_arrows # an array containing the group of arrows which spawned this dot
 var is_pooled = false

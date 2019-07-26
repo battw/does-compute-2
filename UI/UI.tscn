@@ -41,22 +41,27 @@ script = ExtResource( 4 )
 margin_left = -564.831
 margin_top = 172.698
 margin_right = -308.831
-margin_bottom = 383.698
+margin_bottom = 772.698
 script = ExtResource( 5 )
 
 [node name="LineEdit" type="LineEdit" parent="UIControl/Button/MenuPopup/SaveMenu"]
-margin_left = 28.0
-margin_top = 170.0
-margin_right = 153.0
-margin_bottom = 194.0
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = -35.0
+margin_right = 170.0
+margin_bottom = -5.0
 caret_blink = true
 caret_blink_speed = 0.5
 
 [node name="SaveButton" type="Button" parent="UIControl/Button/MenuPopup/SaveMenu"]
-margin_left = 165.0
-margin_top = 170.0
-margin_right = 237.0
-margin_bottom = 194.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 175.0
+margin_top = -35.0
+margin_right = -5.0
+margin_bottom = -5.0
 text = "SAVE"
 
 [node name="Saver" parent="UIControl/Button/MenuPopup/SaveMenu" instance=ExtResource( 6 )]

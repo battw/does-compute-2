@@ -1,0 +1,69 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Saver/SaveData.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+data = {
+"Arrows": [ {
+"hit": false,
+"inv": true,
+"name": "Arrow[2110]",
+"transform": Transform2D( 0.929927, -0.367744, 0.367744, 0.929927, 550, 500 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": true,
+"name": "Arrow[3534]",
+"transform": Transform2D( 0.832927, -0.553383, 0.553383, 0.832927, 600, 500 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": true,
+"name": "Arrow[4738]",
+"transform": Transform2D( 0.714073, -0.700071, 0.700071, 0.714073, 650, 500 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": true,
+"name": "Arrow[6002]",
+"transform": Transform2D( 0.45089, -0.892579, 0.892579, 0.45089, 700, 500 ),
+"type": "Arrow"
+}, {
+"hit": true,
+"inv": false,
+"name": "Arrow[6470]",
+"transform": Transform2D( 1.19249e-08, -1, 1, 1.19249e-08, 750, 400 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": true,
+"name": "Arrow[8194]",
+"transform": Transform2D( 1.19249e-08, -1, 1, 1.19249e-08, 750, 500 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": true,
+"name": "Arrow[9210]",
+"transform": Transform2D( -0.468716, -0.883349, 0.883349, -0.468716, 800, 500 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": true,
+"name": "Arrow[10331]",
+"transform": Transform2D( -0.721533, -0.69238, 0.69238, -0.721533, 850, 500 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": true,
+"name": "Arrow[11283]",
+"transform": Transform2D( -0.843195, -0.537607, 0.537607, -0.843195, 900, 500 ),
+"type": "Arrow"
+}, {
+"hit": false,
+"inv": true,
+"name": "Arrow[12567]",
+"transform": Transform2D( -0.905237, -0.424907, 0.424907, -0.905237, 950, 500 ),
+"type": "Arrow"
+} ]
+}

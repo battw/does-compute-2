@@ -3,7 +3,14 @@
 *** Nested Boxes
 *** Dots using a single image
 
+*** Refactor so each object deals with its own lifecycle
 ** Bugs
+*** It is possible to place boxes in a way which puts arrows outside of the playarea.
+*** Cursor not visible over GUI elements
+*** List of saves overlaps the line input for the name in save menu
+*** List of saves in load and save menus doesn't fit in the menu
+Try scrolling or growing the box or both
+*** The user can attempt to overlap Boxes but this doesn't work properly
 *** Arrow area2D calls hit for clicks and overlaps of other arrows
 This should be limited to only dots. 
 **** Fix
@@ -12,15 +19,9 @@ add a script to the area2D which sorts the different types of collision
 and send the appropriate signal type. 
 *** Keyboard input sometimes doesn't register till after a mouse click
 _input function in Main is not called by the engine.
-*** List of saves overlaps the line input for the name in save menu
-*** List of saves in load and save menus doesn't fit in the menu
-Try scrolling or growing the box or both
-*** Cursor not visible over GUI elements
-*** The user can attempt to overlap Boxes but this doesn't work properly
 *** Movement jerks at the point that the dots spawn
 **** Memory allocation?
 Can use dots from a preallocated pool.
-
 ** Godot Bugs
 *** remove_child() crashes sometimes. Need to figure out when.
 I was accessing it during the physics update.

@@ -71,6 +71,7 @@ func copy():
 	dup.find_node("Area2D").get_child(0).shape = RectangleShape2D.new() # otherwise the duplicates reference the same shape
 	dup.transform.origin = Vector2.ONE
 	dup.size = Vector2(self.size.x, self.size.y)
+	
 	return dup
 	
 func kill():
@@ -91,6 +92,11 @@ func paste():
 	var cop = copy()
 	arrows.add_child(cop)
 	cop.position = arrows.to_local(cursor.get_parent().to_global(cursor.position))
+	
+	
+	
+#	for c in cop.find_node("Contents", true, false).get_children():
+#		print(c.find_node("CollisionShape2D", true, false).shape)
 
 
 func _set_button_visibility(value):
