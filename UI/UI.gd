@@ -49,7 +49,7 @@ func _on_gui_input(event):
 			handle_select(event)
 		MOVE:
 			handle_move(event)
-	
+
 func set_move_mode(event):
 	self.input_mode = MOVE
 	self.cursor.set_mode(MOVE)
@@ -60,22 +60,22 @@ func handle_mode_change(event):
 		var box_curs = get_viewport().find_node("BoxCursor", true, false)
 		if box_curs != null:
 			box_curs.kill_box()
-			
+
 		if self.input_mode == MOVE:
 			self.input_mode = 0
 		else:
 			self.input_mode = (self.input_mode + 1) % 4
 		if cursor:
 			cursor.set_mode(self.input_mode)
-			
-			
+
+
 func handle_zoom(event):
 	if !event.is_action("zoom_out") and !event.is_action("zoom_in"):
 		return
-	
+
 	var mouse_position = get_global_mouse_position()
-	get_viewport().canvas_transform.origin -= mouse_position 
-	
+	get_viewport().canvas_transform.origin -= mouse_position
+
 	if event.is_action("zoom_out"):
 		get_viewport().canvas_transform = \
 			get_viewport().canvas_transform.scaled(Vector2.ONE - Vector2.ONE * self.zoom_factor)
@@ -83,18 +83,18 @@ func handle_zoom(event):
 	if event.is_action("zoom_in"):
 		get_viewport().canvas_transform = \
 			get_viewport().canvas_transform.scaled(Vector2.ONE + Vector2.ONE * self.zoom_factor)
-	
-	get_viewport().canvas_transform.origin += mouse_position 
+
+	get_viewport().canvas_transform.origin += mouse_position
 
 
 func handle_add(event):
 	if event.is_action_pressed("click"):
 		var pos = _get_model_mouse_position()
 		current_arrow = self.main.add_arrow(pos)
-			
+
 	elif event.is_action_released("click"):
 		current_arrow = null
-		
+
 	if current_arrow != null:
 		var mpos = _get_model_mouse_position()
 		current_arrow.look_at(mpos)
@@ -114,7 +114,7 @@ func handle_select(event):
 		self.dragbox = DragBox.instance()
 		main.add_child(self.dragbox)
 		self.dragbox.drag_on()
-		
+
 	elif event.is_action_released("click"):
 		var res = self.dragbox.drag_off()
 		self.dragbox = null
@@ -123,7 +123,7 @@ func handle_select(event):
 		var arrows = main.find_node("Arrows")
 		if arrows != null and res["size"]:
 			arrows.create_box(res["position"], res["size"], res["arrows"])
-		
+
 	elif self.dragbox:
 		self.dragbox.drag()
 
@@ -132,16 +132,16 @@ func handle_move(event):
 	if box_cursor == null:
 		print("can't find box cursor (UI.handle_move()")
 		return
-		
+
 	var box = box_cursor.find_node("*Box*", true, false)
 	if box == null:
 		print("can't find box (UI.handle_move())")
 		return
-	
+
 	if event.is_action_pressed("cancel_copy"):
 		box_cursor.remove_child(box)
 		self.copying_box = false
-	
+
 	if event.is_action_pressed("click"):
 		box.paste()
 

@@ -1,6 +1,6 @@
 extends Node
 
-var Arrow = preload("res://Arrow/Arrow.tscn") 
+var Arrow = preload("res://Arrow/Arrow.tscn")
 var Box = preload("res://Box/Box.tscn")
 
 func add_arrow(pos):
@@ -9,7 +9,7 @@ func add_arrow(pos):
 	a.global_position = pos
 	self.add_child(a)
 	return a
-	
+
 func create_box(position, size, arrows):
 	var b = Box.instance()
 	b.position = position
@@ -20,4 +20,4 @@ func create_box(position, size, arrows):
 			a.transform = a.global_transform
 			remove_child(a)
 			b.add_arrow(a)
-	
+
