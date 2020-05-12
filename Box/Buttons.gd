@@ -3,7 +3,7 @@ extends Control
 export var button_height = 40
 var min_button_width = 30
 
-func set_width(width):
+func set_size(width):
 	var num_buttons = get_child_count()
 	var num_cols = int(width) / int(self.min_button_width)
 	var num_rows = int(round(float(num_buttons) / num_cols))
@@ -21,7 +21,7 @@ func set_width(width):
 			kid.rect_size = Vector2(button_width + 1, self.button_height + 1)
 			pos += Vector2(button_width, 0)
 		pos = Vector2(0, pos.y + button_height)
-
+	
 	# final row of buttons
 	num_cols = len(kids)
 	button_width = float(width) / num_cols
@@ -32,7 +32,7 @@ func set_width(width):
 		kid.rect_position = pos
 		kid.rect_size = Vector2(button_width + 1, self.button_height + 1)
 		pos += Vector2(button_width, 0)
-
+	
 
 #func set_size(width):
 #	self.rect_position = Vector2(0, -self.button_height)

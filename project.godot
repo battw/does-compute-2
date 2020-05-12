@@ -23,6 +23,10 @@ _global_script_class_icons={
 config/name="does-compute-2"
 run/main_scene="res://Main/Main.tscn"
 
+[autoload]
+
+DotFactory="*res://Dot/DotFactory.gd"
+
 [display]
 
 window/size/width=1796
@@ -154,6 +158,7 @@ quality/shading/force_lambert_over_burley.mobile=false
 quality/shading/force_blinn_over_ggx.mobile=false
 quality/depth_prepass/enable=false
 quality/subsurface_scattering/weight_samples=false
+quality/voxel_cone_tracing/high_quality=false
 environment/default_clear_color=Color( 0.588235, 0.588235, 0.588235, 1 )
 quality/depth/hdr=false
 quality/dynamic_fonts/use_oversampling=false
