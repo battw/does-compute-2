@@ -31,4 +31,4 @@ func snap_to_grid(position):
 	if y > maxY:
 		y = maxY
 	return Vector2(x, y)
-	
+

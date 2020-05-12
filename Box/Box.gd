@@ -25,16 +25,16 @@ func _on_Copy_pressed():
 	if cursor == null:
 		print("can't find BoxCursor (Box._on_Copy_pressed)")
 		return
-		
+
 	var ui = get_viewport().find_node("UIControl", true, false)
 	if ui == null:
 		print("can't find UIControl (Box._on_Copy_pressed)")
 		return
-	
+
 	if cursor.get_child_count() > 0:
 		print("can't attach copy of box to BoxCursor as it already has a child (Box._on_Copy_pressed)")
 		return
-	
+
 	var cop = copy()
 	cop.button_visibility = false
 	cop.is_moving_copy = true
@@ -54,47 +54,47 @@ func _set_size(a_size):
 			if $Area2D/CollisionShape2D.shape == null:
 				$Area2D/CollisionShape2D.shape = RectangleShape2D.new()
 			$Area2D/CollisionShape2D.shape.extents = size / 2
-			
-	
+
+
 	if $Contents == null:
 		print("$Contents == null (Box._set_size())")
 	else:
 		$Contents.position = size / 2
-		
+
 	if $Buttons == null:
 		print("$Buttons == null (Box._set_size())")
 	else:
-		$Buttons.set_size(size.x)
-	
+		$Buttons.set_width(size.x)
+
 func copy():
 	var dup = duplicate()
 	dup.find_node("Area2D").get_child(0).shape = RectangleShape2D.new() # otherwise the duplicates reference the same shape
 	dup.transform.origin = Vector2.ONE
 	dup.size = Vector2(self.size.x, self.size.y)
-	
+
 	return dup
-	
+
 func kill():
 	# delete the component and all of the arrows it contains
 	get_parent().get_child(get_index())
 	queue_free()
-	
+
 func paste():
 	var arrows = get_viewport().find_node("Arrows", true, false)
 	if arrows == null:
 		print("can't find Arrows (Box.paste())")
 		return
-	
+
 	var cursor = find_parent("BoxCursor")
 	if cursor == null:
 		print("can't find BoxCursor (Box.paste())")
-	
+
 	var cop = copy()
 	arrows.add_child(cop)
 	cop.position = arrows.to_local(cursor.get_parent().to_global(cursor.position))
-	
-	
-	
+
+
+
 #	for c in cop.find_node("Contents", true, false).get_children():
 #		print(c.find_node("CollisionShape2D", true, false).shape)
 
@@ -117,10 +117,10 @@ func remove():
 	for c in $Contents.get_children():
 		if c.name.match("*Arrow*"):
 			c.transform = arrows.global_transform.affine_inverse() * c.global_transform
-			$Contents.remove_child(c)	
+			$Contents.remove_child(c)
 			arrows.add_child(c)
 	kill()
-	
+
 func save():
 	var data = {}
 	data["type"] = "Box"
@@ -149,7 +149,7 @@ func _on_Buttons_mouse_entered():
 func _on_Buttons_mouse_exited():
 	self.mouse_over_buttons = false
 	_update_visibility()
-	
+
 func _on_Area2D_area_entered(area):
 	self.mouse_over_box = true
 	_update_visibility()
@@ -157,7 +157,7 @@ func _on_Area2D_area_entered(area):
 func _on_Area2D_area_exited(area):
 	self.mouse_over_box = false
 	_update_visibility()
-	
+
 func _update_visibility():
 	self.button_visibility = ! self.is_moving_copy and (self.mouse_over_box or self.mouse_over_buttons)
 

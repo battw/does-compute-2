@@ -1,14 +1,14 @@
 extends Node2D
 
 onready var Dot = preload("res://Dot/Dot.tscn")
-# All the variables are exported as that means self.duplicate() 
+# All the variables are exported as that means self.duplicate()
 # will maintain their current state.
-export var inv = false setget set_inv, get_inv 
+export var inv = false setget set_inv, get_inv
 export var color = Color(.92, .86, .7)
 export var inv_color = Color(.4, .36, .33)
 
 enum { ONESTEP, TWOSTEP }
-var mode = TWOSTEP # ONESTEP is unstable 
+var mode = TWOSTEP # ONESTEP is unstable
 var hit = false # the Arrow has been hit by a Dot since the last tick
 var prev_hit = false # was hit before the last tick
 var emitting = false
@@ -21,7 +21,7 @@ func get_inv():
 func set_inv(abool):
 	inv = abool
 	_sort_color()
-	
+
 func _sort_color():
 	if inv:
 		$Polygon2D.color = self.inv_color
@@ -34,15 +34,15 @@ func _ready():
 	add_to_group("Tickers")
 	self.name = "Arrow[" + str(get_instance_id()) + "]"
 	self.dots = get_viewport().find_node("Dots", true, false)
-	
-	
-	
+
+
+
 func _enter_tree():
 	pass
-	
-	
+
+
 func hit(area2d):
-	""" Called by signal from the arrows Area2d """	
+	""" Called by signal from the arrows Area2d """
 	var d = area2d.find_parent("*Dot*")
 	if d != null and !d.name == "Dots" and !d.from_arrows.has(self):
 		var neighs = _get_contiguous_neighbours()
@@ -61,7 +61,7 @@ func _get_contiguous_neighbours(visited=[self]):
 		if arrow != null and !visited.has(arrow):
 			visited.append(arrow)
 			visited = arrow._get_contiguous_neighbours(visited)
-			
+
 	return visited
 
 
@@ -72,7 +72,7 @@ func _process(delta):
 	elif i == 0:
 		_sort_color()
 		i -= 1
-	
+
 
 func tick():
 	match self.mode:
@@ -81,12 +81,12 @@ func tick():
 		TWOSTEP:
 			if (self.hit and self.prev_hit) or (!self.hit and !self.prev_hit):
 				self.emitting = (self.hit and !self.inv) or (!self.hit and self.inv)
-				
+
 			self.prev_hit = self.hit
 
-	if self.emitting:	
+	if self.emitting:
 		emit()
-	
+
 	self.hit = false
 
 
@@ -125,4 +125,3 @@ func load(data):
 	self.inv = data["inv"]
 	self.hit = data["hit"]
 	self.transform = data["transform"]
-	
