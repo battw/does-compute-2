@@ -9,22 +9,16 @@ position = Vector2( 36.0995, 29.6289 )
 z_index = 10
 z_as_relative = false
 script = ExtResource( 1 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Polygon2D" type="Polygon2D" parent="."]
 color = Color( 0.921569, 0.858824, 0.698039, 1 )
 polygon = PoolVector2Array( -10, 10, -10, -10, 20, 0 )
 
 [node name="Area2D" type="Area2D" parent="."]
+visible = false
 gravity = 0.0
 collision_layer = 2
 collision_mask = 3
-__meta__ = {
-"_edit_group_": true,
-"_edit_lock_": true
-}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 rotation = 1.5708

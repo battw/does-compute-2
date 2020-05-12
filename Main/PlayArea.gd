@@ -25,9 +25,6 @@ func _ready():
 func _add_crosses():
 	if main.grid_size <= 0:
 		return
-
-
-
 	var rows = int(self.size.y / self.snap_grid_size) + 1
 	var cols = int(self.size.x / self.snap_grid_size) + 1
 	for r in range(rows):

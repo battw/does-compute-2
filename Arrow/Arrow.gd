@@ -34,6 +34,7 @@ func _ready():
 	add_to_group("Tickers")
 	self.name = "Arrow[" + str(get_instance_id()) + "]"
 	self.dots = get_viewport().find_node("Dots", true, false)
+	$Area2D/CollisionShape2D.shape.points = $Polygon2D.polygon
 
 
 
