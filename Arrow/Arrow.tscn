@@ -21,8 +21,6 @@ collision_layer = 2
 collision_mask = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-rotation = 1.5708
-scale = Vector2( 1.155, 2 )
 shape = SubResource( 1 )
 __meta__ = {
 "_edit_lock_": true

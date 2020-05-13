@@ -25,7 +25,7 @@ func save():
 	return data
 
 func load(data):
-	self.speed = data["speed"] 
+	self.speed = data["speed"]
 	self.direction = data["direction"]
 	self.from_arrows = data["from_arrows"]
 	self.transform = data["transform"]

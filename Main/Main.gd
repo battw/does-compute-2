@@ -8,10 +8,6 @@ func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN)
 
 
-func add_arrow(pos):
-	return $PlayArea.add_arrow(snap_to_grid(pos))
-
-
 func zoom(ratio):
 	$PlayArea.apply_scale(ratio * Vector2.ONE)
 

@@ -61,9 +61,3 @@ func _out_of_bounds(local_pos):
 		local_pos.x < -half_grid or local_pos.y < -half_grid
 
 
-func add_arrow(pos):
-	var local_pos = self.to_local(pos)
-	if self._out_of_bounds(local_pos):
-		return
-	return $Arrows.add_arrow(local_pos)
-
