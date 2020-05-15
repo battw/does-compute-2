@@ -16,14 +16,14 @@ func _enter_tree():
 func _draw():
 	if self.top_left == null or self.size == null:
 		return
-	
+
 	var rect = Rect2(self.top_left - self.global_position, self.size - self.global_position)
 	draw_rect(rect, self.color)
 
-	
+
 func drag_on():
 	self.click_position = main.snap_to_grid(get_global_mouse_position())
-	
+
 
 func drag():
 	var drag_position = main.snap_to_grid(get_global_mouse_position())
@@ -39,7 +39,7 @@ func update_size(drag_position):
 	self.size = Vector2(maxX, maxY) - top_left
 	$Area2D.global_position = top_left + size / 2
 	$Area2D/CollisionShape2D.shape.extents = size / 2
-	
+
 
 func drag_off():
 	var arrows = []
@@ -49,11 +49,11 @@ func drag_off():
 			print("Bad arrow in DragBox.drag_off: " + str(arrow))
 		else:
 			arrows.append(arrow)
-	
+
 	get_parent().remove_child(self)
 	queue_free()
-	
+
 	if size.x == 0 or size.y == 0:
 		return null
 	return {"position": top_left, "size": size, "arrows": arrows}
-	
+

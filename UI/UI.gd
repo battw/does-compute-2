@@ -3,18 +3,17 @@ extends Control
 export var move_speed = 100
 export var zoom_factor = 0.2
 
-signal arrow_add_signal(pos)
-signal arrow_point_signal(pos)
 
 enum { ADD, INVERT, DELETE, SELECT, MOVE }
 var mode_names = ["ADD", "INVERT", "DELETE", "SELECT", "MOVE"]
 var input_mode = ADD
 var main
+var play_area
 var cursor
-var has_drag_arrow = false
 var DragBox = preload("res://DragBox/DragBox.tscn")
 var dragbox
 var keys_disabled = false
+var current_arrow
 
 var move = Vector2.ZERO # Viewport movement direction
 
@@ -22,16 +21,13 @@ func _ready():
 	self.main = self.find_parent("Main")
 	self.rect_size = get_viewport_rect().size
 	self.cursor = main.find_node("Cursor")
-	connect("arrow_add_signal", get_tree().get_root().find_node("Arrows", true, false), "add_arrow")
-	connect("arrow_point_signal", get_tree().get_root().find_node("Arrows", true, false), "point_arrow")
+	self.play_area = self.main.find_node("PlayArea")
+
 
 func _process(delta):
 	var game_scale = get_viewport().canvas_transform.get_scale().x
 	get_viewport().canvas_transform = \
 		get_viewport().canvas_transform.translated(self.move  *  self.move_speed * delta * (3 / game_scale))
-
-
-
 
 func _exit_tree():
 	self.main = null
@@ -94,16 +90,13 @@ func handle_zoom(event):
 func handle_add(event):
 	var pos = _get_model_mouse_position()
 	if event.is_action_pressed("click"):
-		emit_signal("arrow_add_signal", pos)
-		self.has_drag_arrow = true
+		self.current_arrow = self.play_area.add_arrow(pos)
+		print(current_arrow)
 	elif event.is_action_released("click"):
-		self.has_drag_arrow = false
-	elif self.has_drag_arrow:
-		emit_signal("arrow_point_signal", pos)
-
-#	if current_arrow != null:
-#		var mpos = _get_model_mouse_position()
-#		current_arrow.look_at(mpos)
+		self.current_arrow = null
+	elif current_arrow != null:
+		var mpos = _get_model_mouse_position()
+		current_arrow.look_at(mpos)
 
 func handle_invert(event):
 	if event.is_action_pressed("click"):
