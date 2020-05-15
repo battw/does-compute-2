@@ -67,3 +67,6 @@ func snap_to_grid(position):
 
 func add_arrow(pos):
 	return $Arrows.add_arrow(snap_to_grid(pos))
+
+func create_box(position, size, arrows):
+	$Arrows.create_box(position, size, arrows)

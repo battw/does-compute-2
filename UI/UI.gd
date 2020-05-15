@@ -7,7 +7,6 @@ export var zoom_factor = 0.2
 enum { ADD, INVERT, DELETE, SELECT, MOVE }
 var mode_names = ["ADD", "INVERT", "DELETE", "SELECT", "MOVE"]
 var input_mode = ADD
-var main
 var play_area
 var cursor
 var DragBox = preload("res://DragBox/DragBox.tscn")
@@ -18,10 +17,9 @@ var current_arrow
 var move = Vector2.ZERO # Viewport movement direction
 
 func _ready():
-	self.main = self.find_parent("Main")
 	self.rect_size = get_viewport_rect().size
-	self.cursor = main.find_node("Cursor")
-	self.play_area = self.main.find_node("PlayArea")
+	self.cursor = get_tree().get_root().find_node("Cursor", true, false)
+	self.play_area = get_tree().get_root().find_node("PlayArea", true, false)
 
 
 func _process(delta):
@@ -30,7 +28,8 @@ func _process(delta):
 		get_viewport().canvas_transform.translated(self.move  *  self.move_speed * delta * (3 / game_scale))
 
 func _exit_tree():
-	self.main = null
+	self.play_area = null
+	self.cursor = null
 
 func _get_model_mouse_position():
 	return get_viewport().canvas_transform.affine_inverse() * get_viewport().get_mouse_position()
@@ -91,7 +90,6 @@ func handle_add(event):
 	var pos = _get_model_mouse_position()
 	if event.is_action_pressed("click"):
 		self.current_arrow = self.play_area.add_arrow(pos)
-		print(current_arrow)
 	elif event.is_action_released("click"):
 		self.current_arrow = null
 	elif current_arrow != null:
@@ -111,7 +109,7 @@ func handle_delete(event):
 func handle_select(event):
 	if event.is_action_pressed("click"):
 		self.dragbox = DragBox.instance()
-		main.add_child(self.dragbox)
+		self.play_area.add_child(self.dragbox)
 		self.dragbox.drag_on()
 
 	elif event.is_action_released("click"):
@@ -119,9 +117,8 @@ func handle_select(event):
 		self.dragbox = null
 		if res == null:
 			return
-		var arrows = main.find_node("Arrows")
-		if arrows != null and res["size"]:
-			arrows.create_box(res["position"], res["size"], res["arrows"])
+		if res["size"].x != 0 and res["size"].y != 0:
+			self.play_area.create_box(res["position"], res["size"], res["arrows"])
 
 	elif self.dragbox:
 		self.dragbox.drag()

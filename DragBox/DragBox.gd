@@ -3,7 +3,7 @@ extends Node2D
 
 export var color = Color(1, 1, 1, .2)
 
-var main
+var play_area
 
 var click_position
 var top_left
@@ -11,7 +11,7 @@ var size = Vector2.ZERO
 
 
 func _enter_tree():
-	self.main = find_parent("Main")
+	self.play_area = find_parent("PlayArea")
 
 func _draw():
 	if self.top_left == null or self.size == null:
@@ -22,11 +22,11 @@ func _draw():
 
 
 func drag_on():
-	self.click_position = main.snap_to_grid(get_global_mouse_position())
+	self.click_position = self.play_area.snap_to_grid(get_global_mouse_position())
 
 
 func drag():
-	var drag_position = main.snap_to_grid(get_global_mouse_position())
+	var drag_position = self.play_area.snap_to_grid(get_global_mouse_position())
 	update_size(drag_position)
 	update()
 
@@ -53,7 +53,5 @@ func drag_off():
 	get_parent().remove_child(self)
 	queue_free()
 
-	if size.x == 0 or size.y == 0:
-		return null
-	return {"position": top_left, "size": size, "arrows": arrows}
+	return {"position": self.top_left, "size": self.size, "arrows": arrows}
 
