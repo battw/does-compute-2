@@ -22,6 +22,7 @@ func add_arrow(arrow):
 func _on_Copy_pressed():
 	# copy the box and attach the copy to the cursor
 	var cursor = get_viewport().find_node("BoxCursor", true, false)
+	print(cursor.get_parent().name)
 	if cursor == null:
 		print("can't find BoxCursor (Box._on_Copy_pressed)")
 		return

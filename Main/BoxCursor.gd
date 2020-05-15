@@ -1,17 +1,17 @@
 extends Node2D
 
-var main
+var play_area
 
 func _enter_tree():
-	self.main = find_parent("Main")
+	self.play_area = find_parent("PlayArea")
 
-#func _process(delta):
-#	if self.main == null:
-#		print("variable main not set in BoxCursor._process()")
-#		self.position = get_parent().get_local_mouse_position()
-#	else:
-#		var global_mouse_snap = self.main.snap_to_grid(get_parent().get_global_mouse_position())
-#		self.position = get_parent().to_local(global_mouse_snap)
+func _process(delta):
+	if self.play_area == null:
+		print("variable self.play_area not set in BoxCursor._process()")
+		self.position = get_parent().get_local_mouse_position()
+	else:
+		var global_mouse_snap = self.play_area.snap_to_grid(get_parent().get_global_mouse_position())
+		self.position = get_parent().to_local(global_mouse_snap)
 
 
 func kill_box():
