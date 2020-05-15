@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Main/Arrows.gd" type="Script" id=1]
+[ext_resource path="res://Main/BoxCursor.gd" type="Script" id=2]
+[ext_resource path="res://Main/Dots.gd" type="Script" id=3]
+[ext_resource path="res://Main/PlayArea.gd" type="Script" id=4]
+
+[node name="PlayArea" type="Area2D"]
+collision_layer = 0
+script = ExtResource( 4 )
+size = Vector2( 7000, 5000 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+show_behind_parent = true
+position = Vector2( 1000, 1000 )
+
+[node name="Arrows" type="Node2D" parent="." groups=[
+"Savers",
+]]
+script = ExtResource( 1 )
+
+[node name="BoxCursor" type="Node2D" parent="Arrows"]
+script = ExtResource( 2 )
+
+[node name="Dots" type="Node2D" parent="."]
+script = ExtResource( 3 )
+
+[node name="Background" type="Sprite" parent="."]
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 0, 1000, 1000 )
+[connection signal="area_exited" from="." to="." method="exited"]
