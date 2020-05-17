@@ -4,6 +4,7 @@ export var size = Vector2(3000, 3000)
 export var grid_size = 50
 export var cross_scale = 1
 export var background_color = Color(.16, .16, .16)
+export var dot_color = Color(1, 1, 1)
 export var marker_color = Color(.5, .5, .5)
 var main
 
@@ -16,31 +17,11 @@ func exited(area2d):
 
 
 func _ready():
-#	_add_crosses()
 	self.main = find_parent("Main")
 	$CollisionShape2D.shape = RectangleShape2D.new()
 	$CollisionShape2D.shape.extents = self.size / 2
 	$CollisionShape2D.position = self.size / 2
-	_create_background()
-
-
-func _create_background():
-	var image = Image.new()
-	image.create(self.grid_size, self.grid_size, false, Image.FORMAT_RGB8)
-	image.fill(self.background_color)
-	image.lock()
-
-	image.set_pixel(0, 0, Color(1, 1, 1))
-	image.set_pixel(0, self.grid_size - 1 , Color(1, 1, 1))
-	image.set_pixel(self.grid_size - 1, 0, Color(1, 1, 1))
-	image.set_pixel(self.grid_size - 1, self.grid_size - 1 , Color(1, 1, 1))
-#		image.set_pixel(12, i , Color(1, 1, 1))
-
-	#image.fill(Color(1,1,1))
-	var texture = ImageTexture.new()
-	texture.create_from_image(image)
-	$Background.texture = texture
-	$Background.region_rect.size = self.size
+	$Background.create(self.size, self.grid_size, self.dot_color, self.background_color)
 
 
 

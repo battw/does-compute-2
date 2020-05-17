@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Main/Arrows.gd" type="Script" id=1]
 [ext_resource path="res://Main/BoxCursor.gd" type="Script" id=2]
 [ext_resource path="res://Main/Dots.gd" type="Script" id=3]
 [ext_resource path="res://Main/PlayArea.gd" type="Script" id=4]
+[ext_resource path="res://Background.gd" type="Script" id=5]
 
 [node name="PlayArea" type="Area2D"]
 collision_layer = 0
@@ -29,4 +30,5 @@ script = ExtResource( 3 )
 centered = false
 region_enabled = true
 region_rect = Rect2( 0, 0, 1000, 1000 )
+script = ExtResource( 5 )
 [connection signal="area_exited" from="." to="." method="exited"]
